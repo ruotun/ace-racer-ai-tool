@@ -1,0 +1,267 @@
+﻿<!doctype html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>王牌竞速资料搭配助手</title>
+    <link rel="stylesheet" href="./styles.css?v=20260712-github-pages-static" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <aside class="sidebar">
+        <div class="brand">
+          <div class="brand-mark">A</div>
+          <div>
+            <h1>王牌竞速资料搭配助手</h1>
+            <p>资料识别 + 能力归类 + 搭配推荐</p>
+          </div>
+        </div>
+        <nav class="nav">
+          <button class="nav-button active" data-view="library">资料库</button>
+          <button class="nav-button" data-view="builder">搭配推荐</button>
+          <button class="nav-button" data-view="creators">博主识别</button>
+          <button class="nav-button" data-view="desktop-pet">桌宠</button>
+          <button class="nav-button" data-view="ai">AI 设置</button>
+        </nav>
+        <section class="panel compact">
+          <h2>资料概况</h2>
+          <dl class="stats">
+            <div><dt>条目</dt><dd id="statItems">0</dd></div>
+            <div><dt>车辆</dt><dd id="statCars">0</dd></div>
+            <div><dt>赛道</dt><dd id="statTracks">0</dd></div>
+          </dl>
+        </section>
+      </aside>
+
+      <main class="main">
+        <section class="view active" id="view-library">
+          <div class="toolbar">
+            <div>
+              <h2>资料库</h2>
+            </div>
+            <button id="toggleVehicleImport" type="button">车辆导入</button>
+            <div class="actions">
+              <label class="file-button hidden"><input id="fileInput" type="file" accept=".json,.csv,.txt" />导入文件</label>
+              <button id="loadSample" class="hidden">载入示例</button>
+              <button id="exportData">导出资料</button>
+            </div>
+          </div>
+
+          <section id="vehicleImportPanel" class="panel url-panel hidden">
+            <div class="url-row">
+              <input id="gamekeeUrl" value="https://www.gamekee.com/aceracer/694116.html" placeholder="粘贴 GameKee 或 RECA 车辆详情页地址" />
+              <select id="importRarity" aria-label="导入车辆稀有度">
+                <option value="">导入稀有度</option>
+                <option value="耀世珍藏">耀世珍藏</option>
+                <option value="传说">传说</option>
+                <option value="史诗">史诗</option>
+                <option value="稀有">稀有</option>
+                <option value="普通">普通</option>
+              </select>
+              <button id="supplementVehicleUrl" type="button">补充资料</button>
+              <button id="importGamekeeUrl">识别车辆信息</button>
+              <button id="addBlankVehicle" type="button">增加空白</button>
+              <button id="buildPerformanceStats" type="button" class="performance-stats-button">计算性能排名</button>
+              <span id="urlStatus" class="status-text"> </span>
+            </div>
+          </section>
+
+          <div class="import-grid hidden">
+            <section class="panel">
+              <h3>粘贴资料</h3>
+              <textarea id="rawInput" placeholder="可以粘贴 JSON、CSV，或从网页复制的纯文本资料。"></textarea>
+              <div class="row">
+                <select id="importType">
+                  <option value="auto">自动识别</option>
+                  <option value="json">JSON</option>
+                  <option value="csv">CSV</option>
+                  <option value="text">纯文本</option>
+                </select>
+                <button id="parseInput">识别并入库</button>
+              </div>
+            </section>
+            <section class="panel">
+              <h3>新增单条资料</h3>
+              <div class="form-grid">
+                <label>名称<input id="itemName" placeholder="如：法拉利 LaFerrari" /></label>
+                <label>类型<select id="itemType"><option value="car">车辆</option><option value="part">芯片/装备</option><option value="track">赛道/模式</option><option value="skill">技能/特性</option></select></label>
+                <label>定位<input id="itemRole" placeholder="竞速 / 干扰 / 辅助" /></label>
+                <label>标签<input id="itemTags" placeholder="逗号分隔：加速,氮气,城市" /></label>
+                <label class="wide">描述<textarea id="itemDesc" placeholder="技能效果、适用场景、数值等"></textarea></label>
+              </div>
+              <button id="addItem">加入资料库</button>
+            </section>
+          </div>
+          <div class="library-controls">
+            <div class="library-branch-tabs" role="tablist" aria-label="资料库分支">
+              <button class="library-branch-button active" data-library-branch="cars" type="button">全部车辆</button>
+              <button class="library-branch-button" data-library-branch="mixedBattle" type="button">赛道模式 · 混乱激斗</button>
+              <button class="library-branch-button" data-library-branch="support" type="button">辅助</button>
+              <button class="library-branch-button" data-library-branch="groups" type="button">组合</button>
+            </div>
+
+            <div class="filter-bar">
+              <input id="search" placeholder="搜索赛车名称、定位、稀有度、赛季" />
+              <select id="positionFilter" class="vehicle-only-filter"><option value="all">全部位置</option><option value="竞速">竞速</option><option value="干扰">干扰</option><option value="辅助">辅助</option><option value="天平">天平</option></select>
+              <select id="rarityFilter" class="vehicle-only-filter"><option value="all">全部稀有度</option></select>
+              <select id="seasonFilter" class="vehicle-only-filter"><option value="all">全部赛季</option></select>
+              <select id="sortMode"><option value="position">位置排序</option><option value="seasonAsc">赛季升序</option><option value="seasonDesc">赛季降序</option><option value="alpha">字母排序</option></select>
+            </div>
+            <div class="performance-sort-bar vehicle-only-filter">
+              <select id="performanceSortMetric" aria-label="性能排序指标">
+                <option value="">性能排序指标</option>
+                <option value="overallScore">综合分</option>
+                <option value="topSpeed">极速（km/h）</option>
+                <option value="power">动力</option>
+                <option value="durability">耐久</option>
+                <option value="nitroCharge">氮气充能（%）</option>
+                <option value="startCharge">起步充能（%）</option>
+                <option value="nitroDuration">氮气时长（秒）</option>
+                <option value="blueNitroTopSpeed">蓝色氮气极速（km/h）</option>
+                <option value="purpleNitroTopSpeed">紫色氮气极速（km/h）</option>
+                <option value="blueTurboDuration">蓝色涡轮时长（秒）</option>
+                <option value="purpleTurboDuration">紫色涡轮时长（秒）</option>
+                <option value="blueTurboTopSpeed">蓝色涡轮极速（km/h）</option>
+                <option value="purpleTurboTopSpeed">紫色涡轮极速（km/h）</option>
+                <option value="openTopSpeed">开大极速（km/h）</option>
+                <option value="ultimateDuration">大招持续时间（秒）</option>
+              </select>
+              <select id="performanceSortDirection" aria-label="性能排序方向">
+                <option value="desc">性能降序</option>
+                <option value="asc">性能升序</option>
+              </select>
+            </div>
+          </div>
+          <div id="libraryList" class="vehicle-library"></div>
+        </section>
+
+        <section class="view" id="view-builder">
+          <div class="toolbar"><div><h2>搭配推荐</h2><p>先用本地规则给出可解释推荐，再可选调用 AI 做进阶分析。</p></div><button id="runRecommend">生成推荐</button></div>
+          <section class="panel"><div class="builder-grid"><label>目标<select id="goal"><option value="speed">竞速冲线</option><option value="control">干扰压制</option><option value="support">团队辅助</option><option value="balanced">综合稳定</option></select></label><label>赛道/模式<input id="trackNeed" placeholder="如：多弯、直线、团队赛、排位" /></label><label>偏好车辆<input id="preferredCar" placeholder="可留空" /></label><label>排除内容<input id="excludeTerms" placeholder="逗号分隔" /></label></div></section>
+          <div id="recommendations" class="recommendations"></div>
+        </section>
+
+
+        <section class="view" id="view-creators">
+          <div class="toolbar">
+            <div>
+              <h2>博主识别</h2>
+              <p>粘贴快手或抖音主页链接，可一次导入多个，默认以列表展示。</p>
+            </div>
+            <button id="importCreators">识别博主</button>
+          </div>
+          <section class="panel creator-import-panel">
+            <h3>批量导入主页链接</h3>
+            <textarea id="creatorUrls" placeholder="每行一个快手或抖音主页链接"></textarea>
+            <p id="creatorStatus" class="status-text">支持快手、抖音主页或分享链接。粉丝数会尽力识别，平台未公开时显示未识别。</p>
+          </section>
+          <div class="filter-bar">
+            <input id="creatorSearch" placeholder="搜索昵称、平台、ID、链接" />
+            <select id="creatorPlatformFilter"><option value="all">全部平台</option><option value="快手">快手</option><option value="抖音">抖音</option></select>
+            <select id="creatorSortRule"><option value="all">按全部平台粉丝</option><option value="抖音">按抖音粉丝</option><option value="快手">按快手粉丝</option></select>
+            <button id="clearCreators">清空博主库</button>
+          </div>
+          <div id="creatorList" class="creator-list"></div>
+        </section>
+
+        <section class="view" id="view-desktop-pet">
+          <div class="toolbar">
+            <div>
+              <h2>桌宠</h2>
+              <p>创建一个可拖动的资料库助手。按 hatch-pet 的 9 个动作行上传素材，组装后点击桌宠即可基于当前资料库提问。</p>
+            </div>
+            <div class="actions">
+              <button id="openDesktopPet">召唤桌宠</button>
+              <button id="assembleDesktopPet">组装桌宠</button>
+              <button id="createDesktopPet">新建桌宠</button>
+            </div>
+          </div>
+
+          <section class="panel desktop-pet-editor">
+            <div class="desktop-pet-form">
+              <label>桌宠名称<input id="desktopPetName" placeholder="例如：小王牌" /></label>
+              <label class="wide">性格与回答风格<textarea id="desktopPetPersona" placeholder="例如：温柔、简洁，会优先引用资料库里的车辆、技能、赛道信息。"></textarea></label>
+              <label>桌宠大小<span id="desktopPetScaleValue" class="desktop-pet-setting-value">100%</span><input id="desktopPetScale" type="range" min="60" max="180" step="5" value="100" /></label>
+              <label>清晰度<span id="desktopPetSharpnessValue" class="desktop-pet-setting-value">高清</span><input id="desktopPetSharpness" type="range" min="1" max="3" step="1" value="2" /></label>
+              <label>序列帧速率<span id="desktopPetSpeedValue" class="desktop-pet-setting-value">100%</span><input id="desktopPetSpeed" type="range" min="50" max="200" step="10" value="100" /></label>
+              <label>赛车大小<span id="desktopPetVehicleScaleValue" class="desktop-pet-setting-value">100%</span><input id="desktopPetVehicleScale" type="range" min="40" max="500" step="5" value="100" /></label>
+            </div>
+            <p id="desktopPetStatus" class="status-text">选择一个桌宠，或新建后拖入状态图片。</p>
+            <div id="desktopPetAssembly" class="desktop-pet-assembly hidden" aria-live="polite">
+              <div class="desktop-pet-progress"><span id="desktopPetProgressBar"></span></div>
+              <ol id="desktopPetProgressSteps"></ol>
+            </div>
+          </section>
+
+          <section class="desktop-pet-layout">
+            <div id="desktopPetList" class="desktop-pet-list"></div>
+            <section class="panel desktop-pet-actions-panel">
+              <div class="desktop-pet-actions-head">
+                <div>
+                  <h3>状态与动作</h3>
+                  <p class="desc">每一行是一种动作状态。可上传多张序列帧，按住缩略图拖动即可调整播放顺序。</p>
+                </div>
+                <button id="addDesktopPetAction">加入新动作</button>
+              </div>
+              <div id="desktopPetActions" class="desktop-pet-actions"></div>
+              <input id="desktopPetImageInput" class="hidden" type="file" accept="image/*" multiple />
+            </section>
+          </section>
+        </section>
+
+        <section class="view" id="view-ai">
+          <div class="toolbar"><div><h2>AI 设置</h2><p>默认不上传任何资料。填入兼容 OpenAI 的接口后，可让 AI 基于本地资料生成搭配说明。</p></div><button id="saveAi">保存设置</button></div>
+          <section class="panel ai-panel"><label>API 地址<input id="apiBase" placeholder="https://api.openai.com/v1/chat/completions" /></label><label>模型<input id="modelName" placeholder="gpt-4.1-mini 或你的兼容模型" /></label><label>API Key<input id="apiKey" type="password" placeholder="只保存在当前浏览器本地" /></label><label class="wide">系统要求<textarea id="systemPrompt"></textarea></label><button id="testAi">用当前资料生成一段分析</button></section>
+          <section class="panel"><h3>AI 输出</h3><pre id="aiOutput">还没有生成内容。</pre></section>
+        </section>
+      </main>
+    </div>
+
+    <div id="detailModal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="detailTitle">
+      <div class="modal-backdrop" data-close-detail="true"></div>
+      <section class="modal-panel">
+        <header class="modal-head">
+          <div class="detail-title-wrap">
+            <button id="detailBackBtn" class="hidden">返回</button>
+            <div>
+              <h2 id="detailTitle">车辆详情</h2>
+              <p id="detailSubtitle">导入信息明细</p>
+            </div>
+          </div>
+          <div class="modal-actions">
+            <button id="editSheetBtn">编辑资料</button>
+            <button id="resetUiEdit" class="hidden">一键重置</button>
+            <button id="saveUiEdit" class="hidden">保存</button>
+            <button id="cancelUiEdit" class="hidden">不保存</button>
+            <button id="cancelSheetEdit" class="hidden">不保存资料</button>
+            <button id="saveSheetEdit" class="hidden">保存资料</button>
+            <button id="closeDetail" aria-label="关闭详情">关闭</button>
+          </div>
+        </header>
+        <div id="detailBody" class="detail-body"></div>
+        <input id="uiImageInput" class="hidden" type="file" accept="image/*" />
+      </section>
+    </div>
+
+
+    <div id="creatorDetailModal" class="modal hidden" role="dialog" aria-modal="true" aria-labelledby="creatorDetailTitle">
+      <div class="modal-backdrop" data-close-creator="true"></div>
+      <section class="modal-panel compact-modal">
+        <header class="modal-head">
+          <div>
+            <h2 id="creatorDetailTitle">博主详情</h2>
+            <p id="creatorDetailSubtitle">主页识别信息</p>
+          </div>
+          <button id="closeCreatorDetail" aria-label="关闭博主详情">关闭</button>
+        </header>
+        <div id="creatorDetailBody" class="detail-body"></div>
+      </section>
+    </div>
+
+    <script src="./speed-car-sheet-data.js?v=20260619-speed-sheet"></script>
+    <script src="./interference-car-sheet-data.js?v=20260620-interference-sheet"></script>
+    <script src="./support-car-sheet-data.js?v=20260620-support-sheet"></script>
+    <script src="./pinyin-map.js?v=20260620-alias-pinyin-search-2"></script>
+    <script src="./app.js?v=20260712-github-pages-static"></script>
+  </body>
+</html>

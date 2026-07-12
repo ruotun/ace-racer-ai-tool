@@ -1,0 +1,2836 @@
+{
+  "updatedAt": "2026-07-02T09:52:55.403Z",
+  "activePetId": "7a46fa1f-2222-433c-8154-1c1edd035521",
+  "pets": [
+    {
+      "id": "7a46fa1f-2222-433c-8154-1c1edd035521",
+      "name": "资料库桌宠",
+      "persona": "温柔、简洁、只根据当前资料库回答。",
+      "assembledAt": "2026-07-02T08:18:01.193Z",
+      "activeStateId": "random",
+      "states": [
+        {
+          "id": "8a33957d-3514-48ee-b091-855c318265e0",
+          "row": 0,
+          "name": "待机",
+          "trigger": "idle",
+          "image": "./data/user-images/desktop-pet-228b233860c05a06.png",
+          "message": "我在这里。点我可以问资料库。",
+          "transparentImage": "./data/user-images/desktop-pet-228b233860c05a06.png",
+          "assembledImage": "./data/user-images/desktop-pet-228b233860c05a06.png",
+          "frames": [
+            "./data/user-images/desktop-pet-228b233860c05a06.png",
+            "./data/user-images/desktop-pet-be8819a0d13eceb7.png",
+            "./data/user-images/desktop-pet-73a05338944d5bb3.png",
+            "./data/user-images/desktop-pet-33a6021a28e63a4d.png",
+            "./data/user-images/desktop-pet-5376bbec91493103.png",
+            "./data/user-images/desktop-pet-a3db1f1526c79c76.png",
+            "./data/user-images/desktop-pet-b87c06c430c2d8bf.png"
+          ],
+          "manualFrames": [
+            "./data/user-images/desktop-pet-228b233860c05a06.png",
+            "./data/user-images/desktop-pet-be8819a0d13eceb7.png",
+            "./data/user-images/desktop-pet-73a05338944d5bb3.png",
+            "./data/user-images/desktop-pet-33a6021a28e63a4d.png",
+            "./data/user-images/desktop-pet-5376bbec91493103.png",
+            "./data/user-images/desktop-pet-a3db1f1526c79c76.png",
+            "./data/user-images/desktop-pet-b87c06c430c2d8bf.png"
+          ],
+          "frameTarget": 7,
+          "durations": [
+            280,
+            110,
+            110,
+            140,
+            140,
+            320,
+            320
+          ],
+          "frameCount": 7,
+          "duration": 1420,
+          "assembledAt": "2026-07-02T08:17:50.182Z",
+          "sourceKind": "manual-sequence",
+          "chromaKey": {
+            "enabled": false,
+            "color": "#ffffff",
+            "tolerance": 42
+          },
+          "speedPercent": 100,
+          "randomRate": 0,
+          "driveAnchors": [
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            }
+          ]
+        },
+        {
+          "id": "running-right",
+          "row": 1,
+          "name": "向右拖动",
+          "trigger": "running-right",
+          "image": "./data/user-images/desktop-pet-228b233860c05a06.png",
+          "message": "我跟着你走。",
+          "transparentImage": "./data/user-images/desktop-pet-228b233860c05a06.png",
+          "assembledImage": "./data/user-images/desktop-pet-228b233860c05a06.png",
+          "frames": [
+            "./data/user-images/desktop-pet-228b233860c05a06.png",
+            "./data/user-images/desktop-pet-be8819a0d13eceb7.png",
+            "./data/user-images/desktop-pet-73a05338944d5bb3.png",
+            "./data/user-images/desktop-pet-33a6021a28e63a4d.png",
+            "./data/user-images/desktop-pet-5376bbec91493103.png",
+            "./data/user-images/desktop-pet-a3db1f1526c79c76.png",
+            "./data/user-images/desktop-pet-b87c06c430c2d8bf.png"
+          ],
+          "manualFrames": [
+            "./data/user-images/desktop-pet-228b233860c05a06.png",
+            "./data/user-images/desktop-pet-be8819a0d13eceb7.png",
+            "./data/user-images/desktop-pet-73a05338944d5bb3.png",
+            "./data/user-images/desktop-pet-33a6021a28e63a4d.png",
+            "./data/user-images/desktop-pet-5376bbec91493103.png",
+            "./data/user-images/desktop-pet-a3db1f1526c79c76.png",
+            "./data/user-images/desktop-pet-b87c06c430c2d8bf.png"
+          ],
+          "frameTarget": 7,
+          "durations": [
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120
+          ],
+          "frameCount": 7,
+          "duration": 840,
+          "assembledAt": "2026-07-02T08:17:50.183Z",
+          "sourceKind": "manual-sequence",
+          "chromaKey": {
+            "enabled": false,
+            "color": "#ffffff",
+            "tolerance": 42
+          },
+          "speedPercent": 100,
+          "randomRate": 0,
+          "driveAnchors": [
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            }
+          ]
+        },
+        {
+          "id": "running-left",
+          "row": 2,
+          "name": "向左拖动",
+          "trigger": "running-left",
+          "image": "./data/user-images/desktop-pet-228b233860c05a06.png",
+          "message": "往这边也可以。",
+          "transparentImage": "./data/user-images/desktop-pet-228b233860c05a06.png",
+          "assembledImage": "./data/user-images/desktop-pet-228b233860c05a06.png",
+          "frames": [
+            "./data/user-images/desktop-pet-228b233860c05a06.png",
+            "./data/user-images/desktop-pet-be8819a0d13eceb7.png",
+            "./data/user-images/desktop-pet-73a05338944d5bb3.png",
+            "./data/user-images/desktop-pet-33a6021a28e63a4d.png",
+            "./data/user-images/desktop-pet-5376bbec91493103.png",
+            "./data/user-images/desktop-pet-a3db1f1526c79c76.png",
+            "./data/user-images/desktop-pet-b87c06c430c2d8bf.png"
+          ],
+          "manualFrames": [
+            "./data/user-images/desktop-pet-228b233860c05a06.png",
+            "./data/user-images/desktop-pet-be8819a0d13eceb7.png",
+            "./data/user-images/desktop-pet-73a05338944d5bb3.png",
+            "./data/user-images/desktop-pet-33a6021a28e63a4d.png",
+            "./data/user-images/desktop-pet-5376bbec91493103.png",
+            "./data/user-images/desktop-pet-a3db1f1526c79c76.png",
+            "./data/user-images/desktop-pet-b87c06c430c2d8bf.png"
+          ],
+          "frameTarget": 7,
+          "durations": [
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120
+          ],
+          "frameCount": 7,
+          "duration": 840,
+          "assembledAt": "2026-07-02T08:17:50.183Z",
+          "sourceKind": "manual-sequence",
+          "chromaKey": {
+            "enabled": false,
+            "color": "#ffffff",
+            "tolerance": 42
+          },
+          "speedPercent": 100,
+          "randomRate": 0,
+          "driveAnchors": [
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            }
+          ]
+        },
+        {
+          "id": "9cedaed1-b7e4-4d9c-ab3d-2572227f287f",
+          "row": 3,
+          "name": "开心",
+          "trigger": "waving",
+          "image": "./data/user-images/desktop-pet-228b233860c05a06.png",
+          "message": "找到资料啦。",
+          "transparentImage": "./data/user-images/desktop-pet-228b233860c05a06.png",
+          "assembledImage": "./data/user-images/desktop-pet-228b233860c05a06.png",
+          "frames": [
+            "./data/user-images/desktop-pet-228b233860c05a06.png",
+            "./data/user-images/desktop-pet-be8819a0d13eceb7.png",
+            "./data/user-images/desktop-pet-73a05338944d5bb3.png",
+            "./data/user-images/desktop-pet-33a6021a28e63a4d.png",
+            "./data/user-images/desktop-pet-5376bbec91493103.png",
+            "./data/user-images/desktop-pet-a3db1f1526c79c76.png",
+            "./data/user-images/desktop-pet-b87c06c430c2d8bf.png"
+          ],
+          "manualFrames": [
+            "./data/user-images/desktop-pet-228b233860c05a06.png",
+            "./data/user-images/desktop-pet-be8819a0d13eceb7.png",
+            "./data/user-images/desktop-pet-73a05338944d5bb3.png",
+            "./data/user-images/desktop-pet-33a6021a28e63a4d.png",
+            "./data/user-images/desktop-pet-5376bbec91493103.png",
+            "./data/user-images/desktop-pet-a3db1f1526c79c76.png",
+            "./data/user-images/desktop-pet-b87c06c430c2d8bf.png"
+          ],
+          "frameTarget": 7,
+          "durations": [
+            140,
+            140,
+            140,
+            280,
+            280,
+            280,
+            280
+          ],
+          "frameCount": 7,
+          "duration": 1540,
+          "assembledAt": "2026-07-02T08:17:50.183Z",
+          "sourceKind": "manual-sequence",
+          "chromaKey": {
+            "enabled": false,
+            "color": "#ffffff",
+            "tolerance": 42
+          },
+          "speedPercent": 100,
+          "randomRate": 0,
+          "driveAnchors": [
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            }
+          ]
+        },
+        {
+          "id": "jumping",
+          "row": 4,
+          "name": "跳跃",
+          "trigger": "jumping",
+          "image": "./data/user-images/desktop-pet-228b233860c05a06.png",
+          "message": "收到。",
+          "transparentImage": "./data/user-images/desktop-pet-228b233860c05a06.png",
+          "assembledImage": "./data/user-images/desktop-pet-228b233860c05a06.png",
+          "frames": [
+            "./data/user-images/desktop-pet-228b233860c05a06.png",
+            "./data/user-images/desktop-pet-be8819a0d13eceb7.png",
+            "./data/user-images/desktop-pet-73a05338944d5bb3.png",
+            "./data/user-images/desktop-pet-33a6021a28e63a4d.png",
+            "./data/user-images/desktop-pet-5376bbec91493103.png",
+            "./data/user-images/desktop-pet-a3db1f1526c79c76.png",
+            "./data/user-images/desktop-pet-b87c06c430c2d8bf.png"
+          ],
+          "manualFrames": [
+            "./data/user-images/desktop-pet-228b233860c05a06.png",
+            "./data/user-images/desktop-pet-be8819a0d13eceb7.png",
+            "./data/user-images/desktop-pet-73a05338944d5bb3.png",
+            "./data/user-images/desktop-pet-33a6021a28e63a4d.png",
+            "./data/user-images/desktop-pet-5376bbec91493103.png",
+            "./data/user-images/desktop-pet-a3db1f1526c79c76.png",
+            "./data/user-images/desktop-pet-b87c06c430c2d8bf.png"
+          ],
+          "frameTarget": 7,
+          "durations": [
+            140,
+            140,
+            140,
+            140,
+            280,
+            280,
+            280
+          ],
+          "frameCount": 7,
+          "duration": 1400,
+          "assembledAt": "2026-07-02T08:17:50.184Z",
+          "sourceKind": "manual-sequence",
+          "chromaKey": {
+            "enabled": false,
+            "color": "#ffffff",
+            "tolerance": 42
+          },
+          "speedPercent": 100,
+          "randomRate": 0,
+          "driveAnchors": [
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            }
+          ]
+        },
+        {
+          "id": "failed",
+          "row": 5,
+          "name": "失败",
+          "trigger": "failed",
+          "image": "./data/user-images/desktop-pet-228b233860c05a06.png",
+          "message": "这次没找到合适结果。",
+          "transparentImage": "./data/user-images/desktop-pet-228b233860c05a06.png",
+          "assembledImage": "./data/user-images/desktop-pet-228b233860c05a06.png",
+          "frames": [
+            "./data/user-images/desktop-pet-228b233860c05a06.png",
+            "./data/user-images/desktop-pet-be8819a0d13eceb7.png",
+            "./data/user-images/desktop-pet-73a05338944d5bb3.png",
+            "./data/user-images/desktop-pet-33a6021a28e63a4d.png",
+            "./data/user-images/desktop-pet-5376bbec91493103.png",
+            "./data/user-images/desktop-pet-a3db1f1526c79c76.png",
+            "./data/user-images/desktop-pet-b87c06c430c2d8bf.png"
+          ],
+          "manualFrames": [
+            "./data/user-images/desktop-pet-228b233860c05a06.png",
+            "./data/user-images/desktop-pet-be8819a0d13eceb7.png",
+            "./data/user-images/desktop-pet-73a05338944d5bb3.png",
+            "./data/user-images/desktop-pet-33a6021a28e63a4d.png",
+            "./data/user-images/desktop-pet-5376bbec91493103.png",
+            "./data/user-images/desktop-pet-a3db1f1526c79c76.png",
+            "./data/user-images/desktop-pet-b87c06c430c2d8bf.png"
+          ],
+          "frameTarget": 7,
+          "durations": [
+            140,
+            140,
+            140,
+            140,
+            140,
+            140,
+            140
+          ],
+          "frameCount": 7,
+          "duration": 980,
+          "assembledAt": "2026-07-02T08:17:50.184Z",
+          "sourceKind": "manual-sequence",
+          "chromaKey": {
+            "enabled": false,
+            "color": "#ffffff",
+            "tolerance": 42
+          },
+          "speedPercent": 100,
+          "randomRate": 0,
+          "driveAnchors": [
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            }
+          ]
+        },
+        {
+          "id": "4107acc7-5965-4fdf-bc93-81d4575fefcf",
+          "row": 6,
+          "name": "睡觉",
+          "trigger": "waiting",
+          "image": "./data/user-images/desktop-pet-e224873501494714.png",
+          "message": "先休息一下。",
+          "transparentImage": "",
+          "assembledImage": "./data/user-images/desktop-pet-307eb1a4757dd986.png",
+          "frames": [
+            "./data/user-images/desktop-pet-307eb1a4757dd986.png",
+            "./data/user-images/desktop-pet-be57c7472f39d088.png",
+            "./data/user-images/desktop-pet-8116fb2e796b6857.png",
+            "./data/user-images/desktop-pet-e79e6ecdfb308aed.png"
+          ],
+          "manualFrames": [
+            "./data/user-images/desktop-pet-e224873501494714.png",
+            "./data/user-images/desktop-pet-7602e59648758a6f.png",
+            "./data/user-images/desktop-pet-a91bdb312d322451.png",
+            "./data/user-images/desktop-pet-15eba0348ab886a1.png"
+          ],
+          "frameTarget": 4,
+          "durations": [
+            150,
+            150,
+            150,
+            150
+          ],
+          "frameCount": 4,
+          "duration": 600,
+          "assembledAt": "2026-07-02T08:17:51.082Z",
+          "sourceKind": "manual-sequence",
+          "chromaKey": {
+            "enabled": true,
+            "color": "#f62828",
+            "tolerance": 155
+          },
+          "speedPercent": 100,
+          "randomRate": 0,
+          "driveAnchors": [
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            }
+          ]
+        },
+        {
+          "id": "04f78f5a-b47f-4a90-8c6c-e6be7f9addd3",
+          "row": 7,
+          "name": "思考",
+          "trigger": "running",
+          "image": "./data/user-images/desktop-pet-228b233860c05a06.png",
+          "message": "让我查一下资料库。",
+          "transparentImage": "./data/user-images/desktop-pet-228b233860c05a06.png",
+          "assembledImage": "./data/user-images/desktop-pet-228b233860c05a06.png",
+          "frames": [
+            "./data/user-images/desktop-pet-228b233860c05a06.png",
+            "./data/user-images/desktop-pet-be8819a0d13eceb7.png",
+            "./data/user-images/desktop-pet-73a05338944d5bb3.png",
+            "./data/user-images/desktop-pet-33a6021a28e63a4d.png",
+            "./data/user-images/desktop-pet-5376bbec91493103.png",
+            "./data/user-images/desktop-pet-a3db1f1526c79c76.png",
+            "./data/user-images/desktop-pet-b87c06c430c2d8bf.png"
+          ],
+          "manualFrames": [
+            "./data/user-images/desktop-pet-228b233860c05a06.png",
+            "./data/user-images/desktop-pet-be8819a0d13eceb7.png",
+            "./data/user-images/desktop-pet-73a05338944d5bb3.png",
+            "./data/user-images/desktop-pet-33a6021a28e63a4d.png",
+            "./data/user-images/desktop-pet-5376bbec91493103.png",
+            "./data/user-images/desktop-pet-a3db1f1526c79c76.png",
+            "./data/user-images/desktop-pet-b87c06c430c2d8bf.png"
+          ],
+          "frameTarget": 7,
+          "durations": [
+            120,
+            120,
+            120,
+            120,
+            120,
+            220,
+            220
+          ],
+          "frameCount": 7,
+          "duration": 1040,
+          "assembledAt": "2026-07-02T08:17:51.082Z",
+          "sourceKind": "manual-sequence",
+          "chromaKey": {
+            "enabled": false,
+            "color": "#ffffff",
+            "tolerance": 42
+          },
+          "speedPercent": 100,
+          "randomRate": 0,
+          "driveAnchors": [
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            }
+          ]
+        },
+        {
+          "id": "review",
+          "row": 8,
+          "name": "审阅",
+          "trigger": "review",
+          "image": "./data/user-images/desktop-pet-228b233860c05a06.png",
+          "message": "我来仔细看看。",
+          "transparentImage": "./data/user-images/desktop-pet-228b233860c05a06.png",
+          "assembledImage": "./data/user-images/desktop-pet-228b233860c05a06.png",
+          "frames": [
+            "./data/user-images/desktop-pet-228b233860c05a06.png",
+            "./data/user-images/desktop-pet-be8819a0d13eceb7.png",
+            "./data/user-images/desktop-pet-73a05338944d5bb3.png",
+            "./data/user-images/desktop-pet-33a6021a28e63a4d.png",
+            "./data/user-images/desktop-pet-5376bbec91493103.png",
+            "./data/user-images/desktop-pet-a3db1f1526c79c76.png",
+            "./data/user-images/desktop-pet-b87c06c430c2d8bf.png"
+          ],
+          "manualFrames": [
+            "./data/user-images/desktop-pet-228b233860c05a06.png",
+            "./data/user-images/desktop-pet-be8819a0d13eceb7.png",
+            "./data/user-images/desktop-pet-73a05338944d5bb3.png",
+            "./data/user-images/desktop-pet-33a6021a28e63a4d.png",
+            "./data/user-images/desktop-pet-5376bbec91493103.png",
+            "./data/user-images/desktop-pet-a3db1f1526c79c76.png",
+            "./data/user-images/desktop-pet-b87c06c430c2d8bf.png"
+          ],
+          "frameTarget": 7,
+          "durations": [
+            150,
+            150,
+            150,
+            150,
+            150,
+            280,
+            280
+          ],
+          "frameCount": 7,
+          "duration": 1310,
+          "assembledAt": "2026-07-02T08:17:51.082Z",
+          "sourceKind": "manual-sequence",
+          "chromaKey": {
+            "enabled": false,
+            "color": "#ffffff",
+            "tolerance": 42
+          },
+          "speedPercent": 100,
+          "randomRate": 0,
+          "driveAnchors": [
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            }
+          ]
+        },
+        {
+          "id": "drag-up",
+          "row": 9,
+          "name": "向上拖动",
+          "trigger": "drag-up",
+          "image": "./data/user-images/desktop-pet-228b233860c05a06.png",
+          "message": "往上走也可以。",
+          "transparentImage": "./data/user-images/desktop-pet-228b233860c05a06.png",
+          "assembledImage": "./data/user-images/desktop-pet-228b233860c05a06.png",
+          "frames": [
+            "./data/user-images/desktop-pet-228b233860c05a06.png",
+            "./data/user-images/desktop-pet-be8819a0d13eceb7.png",
+            "./data/user-images/desktop-pet-73a05338944d5bb3.png",
+            "./data/user-images/desktop-pet-33a6021a28e63a4d.png",
+            "./data/user-images/desktop-pet-5376bbec91493103.png",
+            "./data/user-images/desktop-pet-a3db1f1526c79c76.png",
+            "./data/user-images/desktop-pet-b87c06c430c2d8bf.png"
+          ],
+          "manualFrames": [
+            "./data/user-images/desktop-pet-228b233860c05a06.png",
+            "./data/user-images/desktop-pet-be8819a0d13eceb7.png",
+            "./data/user-images/desktop-pet-73a05338944d5bb3.png",
+            "./data/user-images/desktop-pet-33a6021a28e63a4d.png",
+            "./data/user-images/desktop-pet-5376bbec91493103.png",
+            "./data/user-images/desktop-pet-a3db1f1526c79c76.png",
+            "./data/user-images/desktop-pet-b87c06c430c2d8bf.png"
+          ],
+          "frameTarget": 7,
+          "durations": [
+            120,
+            120,
+            120,
+            120,
+            120,
+            220,
+            220
+          ],
+          "frameCount": 7,
+          "duration": 1040,
+          "assembledAt": "2026-07-02T08:17:51.083Z",
+          "sourceKind": "manual-sequence",
+          "chromaKey": {
+            "enabled": false,
+            "color": "#ffffff",
+            "tolerance": 42
+          },
+          "speedPercent": 100,
+          "randomRate": 0,
+          "driveAnchors": [
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            }
+          ]
+        },
+        {
+          "id": "drag-down",
+          "row": 10,
+          "name": "向下拖动",
+          "trigger": "drag-down",
+          "image": "./data/user-images/desktop-pet-228b233860c05a06.png",
+          "message": "我跟着下来了。",
+          "transparentImage": "./data/user-images/desktop-pet-228b233860c05a06.png",
+          "assembledImage": "./data/user-images/desktop-pet-228b233860c05a06.png",
+          "frames": [
+            "./data/user-images/desktop-pet-228b233860c05a06.png",
+            "./data/user-images/desktop-pet-be8819a0d13eceb7.png",
+            "./data/user-images/desktop-pet-73a05338944d5bb3.png",
+            "./data/user-images/desktop-pet-33a6021a28e63a4d.png",
+            "./data/user-images/desktop-pet-5376bbec91493103.png",
+            "./data/user-images/desktop-pet-a3db1f1526c79c76.png",
+            "./data/user-images/desktop-pet-b87c06c430c2d8bf.png"
+          ],
+          "manualFrames": [
+            "./data/user-images/desktop-pet-228b233860c05a06.png",
+            "./data/user-images/desktop-pet-be8819a0d13eceb7.png",
+            "./data/user-images/desktop-pet-73a05338944d5bb3.png",
+            "./data/user-images/desktop-pet-33a6021a28e63a4d.png",
+            "./data/user-images/desktop-pet-5376bbec91493103.png",
+            "./data/user-images/desktop-pet-a3db1f1526c79c76.png",
+            "./data/user-images/desktop-pet-b87c06c430c2d8bf.png"
+          ],
+          "frameTarget": 7,
+          "durations": [
+            120,
+            120,
+            120,
+            120,
+            120,
+            220,
+            220
+          ],
+          "frameCount": 7,
+          "duration": 1040,
+          "assembledAt": "2026-07-02T08:17:51.083Z",
+          "sourceKind": "manual-sequence",
+          "chromaKey": {
+            "enabled": false,
+            "color": "#ffffff",
+            "tolerance": 42
+          },
+          "speedPercent": 100,
+          "randomRate": 0,
+          "driveAnchors": [
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            }
+          ]
+        },
+        {
+          "id": "petting",
+          "row": 11,
+          "name": "摸摸",
+          "trigger": "petting",
+          "image": "./data/user-images/desktop-pet-b1455de0007d7977.png",
+          "message": "嗯，我在。",
+          "transparentImage": "./data/user-images/desktop-pet-b1455de0007d7977.png",
+          "assembledImage": "./data/user-images/desktop-pet-b1455de0007d7977.png",
+          "frames": [
+            "./data/user-images/desktop-pet-b1455de0007d7977.png",
+            "./data/user-images/desktop-pet-be665ab55543d988.png",
+            "./data/user-images/desktop-pet-14618f5b51ca8744.png",
+            "./data/user-images/desktop-pet-d964fef174e1193a.png",
+            "./data/user-images/desktop-pet-7aeb6a8d20dd935b.png",
+            "./data/user-images/desktop-pet-69bb23be96fa074f.png",
+            "./data/user-images/desktop-pet-44e0f111470e8731.png",
+            "./data/user-images/desktop-pet-7812c405b954294b.png",
+            "./data/user-images/desktop-pet-d616eb8067f5faeb.png"
+          ],
+          "manualFrames": [
+            "./data/user-images/desktop-pet-b1455de0007d7977.png",
+            "./data/user-images/desktop-pet-be665ab55543d988.png",
+            "./data/user-images/desktop-pet-14618f5b51ca8744.png",
+            "./data/user-images/desktop-pet-d964fef174e1193a.png",
+            "./data/user-images/desktop-pet-7aeb6a8d20dd935b.png",
+            "./data/user-images/desktop-pet-69bb23be96fa074f.png",
+            "./data/user-images/desktop-pet-44e0f111470e8731.png",
+            "./data/user-images/desktop-pet-7812c405b954294b.png",
+            "./data/user-images/desktop-pet-d616eb8067f5faeb.png"
+          ],
+          "frameTarget": 9,
+          "durations": [
+            120,
+            120,
+            150,
+            150,
+            260,
+            260,
+            260,
+            260,
+            260
+          ],
+          "frameCount": 9,
+          "duration": 1840,
+          "assembledAt": "2026-07-02T08:17:51.083Z",
+          "sourceKind": "manual-sequence",
+          "chromaKey": {
+            "enabled": false,
+            "color": "#ffffff",
+            "tolerance": 42
+          },
+          "speedPercent": 100,
+          "randomRate": 0,
+          "driveAnchors": [
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            }
+          ]
+        },
+        {
+          "id": "sleep-enter",
+          "row": -1,
+          "name": "进入睡眠",
+          "trigger": "sleep-enter",
+          "image": "./data/user-images/desktop-pet-1ee5597a4e061c9d.png",
+          "message": "我要睡啦。",
+          "transparentImage": "",
+          "assembledImage": "./data/user-images/desktop-pet-ed2fcc05b1c32256.png",
+          "frames": [
+            "./data/user-images/desktop-pet-ed2fcc05b1c32256.png",
+            "./data/user-images/desktop-pet-073198eea218a929.png",
+            "./data/user-images/desktop-pet-750d9302b55d356b.png",
+            "./data/user-images/desktop-pet-50f11abd06bb0d2c.png",
+            "./data/user-images/desktop-pet-95167e593c41050b.png",
+            "./data/user-images/desktop-pet-112fc1879ebb9a9e.png"
+          ],
+          "manualFrames": [
+            "./data/user-images/desktop-pet-1ee5597a4e061c9d.png",
+            "./data/user-images/desktop-pet-15be0817cb0d9942.png",
+            "./data/user-images/desktop-pet-e0ecfec0004f6c65.png",
+            "./data/user-images/desktop-pet-cfffe6599af12265.png",
+            "./data/user-images/desktop-pet-0e1751b953a7de50.png",
+            "./data/user-images/desktop-pet-99881ce81a1d3d2f.png"
+          ],
+          "frameTarget": 6,
+          "durations": [
+            180,
+            180,
+            220,
+            360,
+            360,
+            360
+          ],
+          "frameCount": 6,
+          "duration": 1660,
+          "assembledAt": "2026-07-02T08:17:52.337Z",
+          "sourceKind": "manual-sequence",
+          "chromaKey": {
+            "enabled": true,
+            "color": "#ff4d4d",
+            "tolerance": 148
+          },
+          "speedPercent": 100,
+          "randomRate": 0,
+          "driveAnchors": [
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            }
+          ]
+        },
+        {
+          "id": "sleep-loop",
+          "row": -1,
+          "name": "睡觉循环",
+          "trigger": "sleep-loop",
+          "image": "./data/user-images/desktop-pet-e224873501494714.png",
+          "message": "Zzz...",
+          "transparentImage": "",
+          "assembledImage": "./data/user-images/desktop-pet-3571720a3933b624.png",
+          "frames": [
+            "./data/user-images/desktop-pet-3571720a3933b624.png",
+            "./data/user-images/desktop-pet-eeea20d621c271a1.png",
+            "./data/user-images/desktop-pet-6792ac95ec0e3cec.png",
+            "./data/user-images/desktop-pet-cf1388f20df47d27.png"
+          ],
+          "manualFrames": [
+            "./data/user-images/desktop-pet-e224873501494714.png",
+            "./data/user-images/desktop-pet-7602e59648758a6f.png",
+            "./data/user-images/desktop-pet-a91bdb312d322451.png",
+            "./data/user-images/desktop-pet-15eba0348ab886a1.png"
+          ],
+          "frameTarget": 4,
+          "durations": [
+            260,
+            260,
+            300,
+            300
+          ],
+          "frameCount": 4,
+          "duration": 1120,
+          "assembledAt": "2026-07-02T08:17:53.115Z",
+          "sourceKind": "manual-sequence",
+          "chromaKey": {
+            "enabled": true,
+            "color": "#ff3d3d",
+            "tolerance": 148
+          },
+          "speedPercent": 100,
+          "randomRate": 0,
+          "driveAnchors": [
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            }
+          ]
+        },
+        {
+          "id": "sleep-wake",
+          "row": -1,
+          "name": "睡醒",
+          "trigger": "sleep-wake",
+          "image": "./data/user-images/desktop-pet-6d305e5565900358.png",
+          "message": "醒啦。",
+          "transparentImage": "",
+          "assembledImage": "./data/user-images/desktop-pet-04eabf6488a88726.png",
+          "frames": [
+            "./data/user-images/desktop-pet-04eabf6488a88726.png",
+            "./data/user-images/desktop-pet-91c493e624fc0e81.png",
+            "./data/user-images/desktop-pet-6a6c2d8a182eb2f5.png",
+            "./data/user-images/desktop-pet-810dd2735709e0a2.png",
+            "./data/user-images/desktop-pet-76becb0eec57e12a.png",
+            "./data/user-images/desktop-pet-21d80af8052e8c05.png",
+            "./data/user-images/desktop-pet-249e867dbc6e402f.png",
+            "./data/user-images/desktop-pet-8fcfcd0f3ce8bc50.png",
+            "./data/user-images/desktop-pet-0de232457b754c42.png",
+            "./data/user-images/desktop-pet-dfea2cfcc2629d1e.png"
+          ],
+          "manualFrames": [
+            "./data/user-images/desktop-pet-6d305e5565900358.png",
+            "./data/user-images/desktop-pet-648bf98432ce69c8.png",
+            "./data/user-images/desktop-pet-9f12b4eca0b8e4a0.png",
+            "./data/user-images/desktop-pet-53bc89bc98b6ef32.png",
+            "./data/user-images/desktop-pet-a7fd3ed0699642fa.png",
+            "./data/user-images/desktop-pet-ca727b5c70a2f8af.png",
+            "./data/user-images/desktop-pet-764557ad8428cd4b.png",
+            "./data/user-images/desktop-pet-bcd98b58c36bf1ff.png",
+            "./data/user-images/desktop-pet-709573b4d8ea64ab.png",
+            "./data/user-images/desktop-pet-1181bf4e3ba17be5.png"
+          ],
+          "frameTarget": 10,
+          "durations": [
+            180,
+            160,
+            160,
+            260,
+            260,
+            260,
+            260,
+            260,
+            260,
+            260
+          ],
+          "frameCount": 10,
+          "duration": 2320,
+          "assembledAt": "2026-07-02T08:17:55.217Z",
+          "sourceKind": "manual-sequence",
+          "chromaKey": {
+            "enabled": true,
+            "color": "#ff1414",
+            "tolerance": 147
+          },
+          "speedPercent": 100,
+          "randomRate": 0,
+          "driveAnchors": [
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            }
+          ]
+        },
+        {
+          "id": "drive-enter",
+          "row": -1,
+          "name": "进入驾驶",
+          "trigger": "drive-enter",
+          "image": "./data/user-images/desktop-pet-32d76db37bf505ce.png",
+          "message": "准备开车。",
+          "transparentImage": "",
+          "assembledImage": "./data/user-images/desktop-pet-d80e383bd5b4a36c.png",
+          "frames": [
+            "./data/user-images/desktop-pet-d80e383bd5b4a36c.png",
+            "./data/user-images/desktop-pet-a5161fc3a3754829.png",
+            "./data/user-images/desktop-pet-608c09cafa260af8.png",
+            "./data/user-images/desktop-pet-559390b32b080e71.png",
+            "./data/user-images/desktop-pet-44ee0cdbb3383d82.png",
+            "./data/user-images/desktop-pet-6d902b25bdbdce2e.png",
+            "./data/user-images/desktop-pet-c0f9d99128c90550.png",
+            "./data/user-images/desktop-pet-bb04becdebe1fd83.png",
+            "./data/user-images/desktop-pet-01377b82d8de8a41.png",
+            "./data/user-images/desktop-pet-7d812166facd82ec.png"
+          ],
+          "manualFrames": [
+            "./data/user-images/desktop-pet-32d76db37bf505ce.png",
+            "./data/user-images/desktop-pet-e8ccb26c281c49c2.png",
+            "./data/user-images/desktop-pet-96c44a22c85a34e8.png",
+            "./data/user-images/desktop-pet-c2e6dcb7fc20174f.png",
+            "./data/user-images/desktop-pet-837b28750e7344f8.png",
+            "./data/user-images/desktop-pet-09010f08e71a48ef.png",
+            "./data/user-images/desktop-pet-19345ef8cb3fc96a.png",
+            "./data/user-images/desktop-pet-f386c239555a37f6.png",
+            "./data/user-images/desktop-pet-40a5f48d2f500c60.png",
+            "./data/user-images/desktop-pet-9739f8399300c0c5.png"
+          ],
+          "frameTarget": 10,
+          "durations": [
+            150,
+            150,
+            180,
+            260,
+            260,
+            260,
+            260,
+            260,
+            260,
+            260
+          ],
+          "frameCount": 10,
+          "duration": 2300,
+          "assembledAt": "2026-07-02T08:17:57.360Z",
+          "sourceKind": "manual-sequence",
+          "chromaKey": {
+            "enabled": true,
+            "color": "#f63c3c",
+            "tolerance": 140
+          },
+          "speedPercent": 100,
+          "randomRate": 0,
+          "driveAnchors": [
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            }
+          ]
+        },
+        {
+          "id": "drive-loop",
+          "row": -1,
+          "name": "开车",
+          "trigger": "drive-loop",
+          "image": "./data/user-images/desktop-pet-86ff9a9212bd8402.png",
+          "message": "出发。",
+          "transparentImage": "",
+          "assembledImage": "./data/user-images/desktop-pet-4e07b4056262a92f.png",
+          "frames": [
+            "./data/user-images/desktop-pet-4e07b4056262a92f.png",
+            "./data/user-images/desktop-pet-f1e892db371b4017.png",
+            "./data/user-images/desktop-pet-24c3d142ea35a9d3.png",
+            "./data/user-images/desktop-pet-728daaa79de9d67c.png",
+            "./data/user-images/desktop-pet-c75f7362f72c115a.png"
+          ],
+          "manualFrames": [
+            "./data/user-images/desktop-pet-86ff9a9212bd8402.png",
+            "./data/user-images/desktop-pet-f35c5577504ca396.png",
+            "./data/user-images/desktop-pet-bbdbfd479c17701a.png",
+            "./data/user-images/desktop-pet-d7c2709f89f3a971.png",
+            "./data/user-images/desktop-pet-fae42c38cc9cee4f.png"
+          ],
+          "frameTarget": 5,
+          "durations": [
+            120,
+            120,
+            120,
+            120,
+            120
+          ],
+          "frameCount": 5,
+          "duration": 600,
+          "assembledAt": "2026-07-02T08:17:58.524Z",
+          "sourceKind": "manual-sequence",
+          "chromaKey": {
+            "enabled": true,
+            "color": "#ff2e2e",
+            "tolerance": 151
+          },
+          "speedPercent": 100,
+          "randomRate": 0,
+          "driveAnchors": [
+            {
+              "x": 40.64516129032258,
+              "y": 71.61458333333334
+            },
+            {
+              "x": 41.612903225806456,
+              "y": 68.55902777777779
+            },
+            {
+              "x": 40.96774193548387,
+              "y": 62.44791666666667
+            },
+            {
+              "x": 41.29032258064516,
+              "y": 73.83680555555556
+            },
+            {
+              "x": 38.064516129032256,
+              "y": 72.17013888888889
+            }
+          ]
+        },
+        {
+          "id": "drive-loop-right",
+          "row": -1,
+          "name": "向右开车",
+          "trigger": "drive-loop-right",
+          "image": "",
+          "message": "向右出发。",
+          "transparentImage": "./data/user-images/desktop-pet-fe8de619875af870.png",
+          "assembledImage": "./data/user-images/desktop-pet-fe8de619875af870.png",
+          "frames": [
+            "./data/user-images/desktop-pet-fe8de619875af870.png",
+            "./data/user-images/desktop-pet-78919d2a17e2494a.png",
+            "./data/user-images/desktop-pet-2818343df6575075.png",
+            "./data/user-images/desktop-pet-4f5246c4e54da045.png",
+            "./data/user-images/desktop-pet-084dce52b2e9fbf0.png"
+          ],
+          "manualFrames": [],
+          "frameTarget": 6,
+          "durations": [
+            120,
+            120,
+            120,
+            120,
+            120,
+            120
+          ],
+          "frameCount": 6,
+          "duration": 720,
+          "assembledAt": "2026-07-02T08:17:59.739Z",
+          "sourceKind": "mirrored-sequence",
+          "chromaKey": {
+            "enabled": false,
+            "color": "#ffffff",
+            "tolerance": 42
+          },
+          "speedPercent": 100,
+          "randomRate": 0,
+          "driveAnchors": [
+            {
+              "x": 59.35483870967742,
+              "y": 71.61458333333334
+            },
+            {
+              "x": 58.387096774193544,
+              "y": 68.55902777777779
+            },
+            {
+              "x": 59.03225806451613,
+              "y": 62.44791666666667
+            },
+            {
+              "x": 58.70967741935484,
+              "y": 73.83680555555556
+            },
+            {
+              "x": 61.935483870967744,
+              "y": 72.17013888888889
+            },
+            {
+              "x": 50,
+              "y": 58
+            }
+          ]
+        },
+        {
+          "id": "random",
+          "row": -1,
+          "name": "待机随机",
+          "trigger": "random",
+          "image": "./data/user-images/desktop-pet-228b233860c05a06.png",
+          "message": "",
+          "transparentImage": "./data/user-images/desktop-pet-228b233860c05a06.png",
+          "assembledImage": "./data/user-images/desktop-pet-228b233860c05a06.png",
+          "frames": [
+            "./data/user-images/desktop-pet-228b233860c05a06.png",
+            "./data/user-images/desktop-pet-be8819a0d13eceb7.png",
+            "./data/user-images/desktop-pet-73a05338944d5bb3.png",
+            "./data/user-images/desktop-pet-33a6021a28e63a4d.png",
+            "./data/user-images/desktop-pet-5376bbec91493103.png",
+            "./data/user-images/desktop-pet-a3db1f1526c79c76.png",
+            "./data/user-images/desktop-pet-b87c06c430c2d8bf.png"
+          ],
+          "manualFrames": [
+            "./data/user-images/desktop-pet-228b233860c05a06.png",
+            "./data/user-images/desktop-pet-be8819a0d13eceb7.png",
+            "./data/user-images/desktop-pet-73a05338944d5bb3.png",
+            "./data/user-images/desktop-pet-33a6021a28e63a4d.png",
+            "./data/user-images/desktop-pet-5376bbec91493103.png",
+            "./data/user-images/desktop-pet-a3db1f1526c79c76.png",
+            "./data/user-images/desktop-pet-b87c06c430c2d8bf.png"
+          ],
+          "frameTarget": 7,
+          "durations": [
+            140,
+            140,
+            160,
+            160,
+            260,
+            260,
+            260
+          ],
+          "frameCount": 7,
+          "duration": 1380,
+          "assembledAt": "2026-07-02T08:17:58.769Z",
+          "sourceKind": "manual-sequence",
+          "chromaKey": {
+            "enabled": false,
+            "color": "#ffffff",
+            "tolerance": 42
+          },
+          "speedPercent": 100,
+          "randomRate": 0,
+          "driveAnchors": [
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            }
+          ]
+        },
+        {
+          "id": "petting-hand",
+          "row": -1,
+          "name": "????",
+          "trigger": "petting-hand",
+          "image": "./data/user-images/desktop-pet-ba8e005d3a5b0587.png",
+          "message": "",
+          "transparentImage": "./data/user-images/desktop-pet-ba8e005d3a5b0587.png",
+          "assembledImage": "./data/user-images/desktop-pet-ba8e005d3a5b0587.png",
+          "frames": [
+            "./data/user-images/desktop-pet-ba8e005d3a5b0587.png"
+          ],
+          "manualFrames": [
+            "./data/user-images/desktop-pet-ba8e005d3a5b0587.png"
+          ],
+          "frameTarget": 1,
+          "durations": [
+            90
+          ],
+          "frameCount": 1,
+          "duration": 240,
+          "assembledAt": "2026-07-02T08:17:58.769Z",
+          "sourceKind": "manual-sequence",
+          "chromaKey": {
+            "enabled": false,
+            "color": "#ffffff",
+            "tolerance": 42
+          },
+          "speedPercent": 100,
+          "randomRate": 0,
+          "driveAnchors": [
+            {
+              "x": 50,
+              "y": 58
+            }
+          ]
+        }
+      ],
+      "settings": {
+        "scale": 60,
+        "sharpness": 3,
+        "speed": 50,
+        "vehicleScale": 460
+      },
+      "hatchPet": {
+        "version": "hatch-pet-contract-v1",
+        "cellWidth": 192,
+        "cellHeight": 208,
+        "columns": 8,
+        "rows": 9,
+        "atlasWidth": 1536,
+        "atlasHeight": 1872,
+        "states": [
+          {
+            "row": 0,
+            "trigger": "idle",
+            "name": "待机",
+            "frames": 6,
+            "durations": [
+              280,
+              110,
+              110,
+              140,
+              140,
+              320
+            ],
+            "message": "我在这里。点我可以问资料库。"
+          },
+          {
+            "row": 1,
+            "trigger": "running-right",
+            "name": "向右拖动",
+            "frames": 8,
+            "durations": [
+              120,
+              120,
+              120,
+              120,
+              120,
+              120,
+              120,
+              220
+            ],
+            "message": "我跟着你走。"
+          },
+          {
+            "row": 2,
+            "trigger": "running-left",
+            "name": "向左拖动",
+            "frames": 8,
+            "durations": [
+              120,
+              120,
+              120,
+              120,
+              120,
+              120,
+              120,
+              220
+            ],
+            "message": "往这边也可以。"
+          },
+          {
+            "row": 3,
+            "trigger": "waving",
+            "name": "挥手",
+            "frames": 4,
+            "durations": [
+              140,
+              140,
+              140,
+              280
+            ],
+            "message": "你好呀。"
+          },
+          {
+            "row": 4,
+            "trigger": "jumping",
+            "name": "跳跃",
+            "frames": 5,
+            "durations": [
+              140,
+              140,
+              140,
+              140,
+              280
+            ],
+            "message": "收到。"
+          },
+          {
+            "row": 5,
+            "trigger": "failed",
+            "name": "失败",
+            "frames": 8,
+            "durations": [
+              140,
+              140,
+              140,
+              140,
+              140,
+              140,
+              140,
+              240
+            ],
+            "message": "这次没找到合适结果。"
+          },
+          {
+            "row": 6,
+            "trigger": "waiting",
+            "name": "等待",
+            "frames": 6,
+            "durations": [
+              150,
+              150,
+              150,
+              150,
+              150,
+              260
+            ],
+            "message": "我在等你的下一步。"
+          },
+          {
+            "row": 7,
+            "trigger": "running",
+            "name": "处理中",
+            "frames": 6,
+            "durations": [
+              120,
+              120,
+              120,
+              120,
+              120,
+              220
+            ],
+            "message": "我正在处理资料。"
+          },
+          {
+            "row": 8,
+            "trigger": "review",
+            "name": "审阅",
+            "frames": 6,
+            "durations": [
+              150,
+              150,
+              150,
+              150,
+              150,
+              280
+            ],
+            "message": "我来仔细看看。"
+          }
+        ]
+      },
+      "spritesheetImage": "./data/user-images/desktop-pet-72c041b1c3a93c10.webp",
+      "petJson": {
+        "id": "资料库桌宠",
+        "displayName": "资料库桌宠",
+        "description": "温柔、简洁、只根据当前资料库回答。",
+        "spritesheetPath": "./data/user-images/desktop-pet-72c041b1c3a93c10.webp"
+      }
+    },
+    {
+      "id": "b031bed1-ede7-4c68-82e2-6e0fe3cf3e44",
+      "name": "资料库桌宠",
+      "persona": "温柔、简洁，只根据当前资料库回答。",
+      "assembledAt": "",
+      "activeStateId": "idle",
+      "states": [
+        {
+          "id": "idle",
+          "row": 0,
+          "name": "待机",
+          "trigger": "idle",
+          "image": "",
+          "message": "我在这里。点我可以问资料库。",
+          "transparentImage": "",
+          "assembledImage": "",
+          "frames": [],
+          "manualFrames": [],
+          "frameTarget": 6,
+          "durations": [
+            280,
+            110,
+            110,
+            140,
+            140,
+            320
+          ],
+          "frameCount": 6,
+          "duration": 1100,
+          "assembledAt": "",
+          "sourceKind": "material",
+          "chromaKey": {
+            "enabled": false,
+            "color": "#ffffff",
+            "tolerance": 42
+          },
+          "speedPercent": 100,
+          "randomRate": 0,
+          "driveAnchors": [
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            }
+          ]
+        },
+        {
+          "id": "running-right",
+          "row": 1,
+          "name": "向右拖动",
+          "trigger": "running-right",
+          "image": "",
+          "message": "我跟着你走。",
+          "transparentImage": "",
+          "assembledImage": "",
+          "frames": [],
+          "manualFrames": [],
+          "frameTarget": 8,
+          "durations": [
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            220
+          ],
+          "frameCount": 8,
+          "duration": 1060,
+          "assembledAt": "",
+          "sourceKind": "material",
+          "chromaKey": {
+            "enabled": false,
+            "color": "#ffffff",
+            "tolerance": 42
+          },
+          "speedPercent": 100,
+          "randomRate": 0,
+          "driveAnchors": [
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            }
+          ]
+        },
+        {
+          "id": "running-left",
+          "row": 2,
+          "name": "向左拖动",
+          "trigger": "running-left",
+          "image": "",
+          "message": "往这边也可以。",
+          "transparentImage": "",
+          "assembledImage": "",
+          "frames": [],
+          "manualFrames": [],
+          "frameTarget": 8,
+          "durations": [
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            120,
+            220
+          ],
+          "frameCount": 8,
+          "duration": 1060,
+          "assembledAt": "",
+          "sourceKind": "material",
+          "chromaKey": {
+            "enabled": false,
+            "color": "#ffffff",
+            "tolerance": 42
+          },
+          "speedPercent": 100,
+          "randomRate": 0,
+          "driveAnchors": [
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            }
+          ]
+        },
+        {
+          "id": "waving",
+          "row": 3,
+          "name": "挥手",
+          "trigger": "waving",
+          "image": "",
+          "message": "你好呀。",
+          "transparentImage": "",
+          "assembledImage": "",
+          "frames": [],
+          "manualFrames": [],
+          "frameTarget": 4,
+          "durations": [
+            140,
+            140,
+            140,
+            280
+          ],
+          "frameCount": 4,
+          "duration": 700,
+          "assembledAt": "",
+          "sourceKind": "material",
+          "chromaKey": {
+            "enabled": false,
+            "color": "#ffffff",
+            "tolerance": 42
+          },
+          "speedPercent": 100,
+          "randomRate": 0,
+          "driveAnchors": [
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            }
+          ]
+        },
+        {
+          "id": "jumping",
+          "row": 4,
+          "name": "跳跃",
+          "trigger": "jumping",
+          "image": "",
+          "message": "收到。",
+          "transparentImage": "",
+          "assembledImage": "",
+          "frames": [],
+          "manualFrames": [],
+          "frameTarget": 5,
+          "durations": [
+            140,
+            140,
+            140,
+            140,
+            280
+          ],
+          "frameCount": 5,
+          "duration": 840,
+          "assembledAt": "",
+          "sourceKind": "material",
+          "chromaKey": {
+            "enabled": false,
+            "color": "#ffffff",
+            "tolerance": 42
+          },
+          "speedPercent": 100,
+          "randomRate": 0,
+          "driveAnchors": [
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            }
+          ]
+        },
+        {
+          "id": "failed",
+          "row": 5,
+          "name": "失败",
+          "trigger": "failed",
+          "image": "",
+          "message": "这次没找到合适结果。",
+          "transparentImage": "",
+          "assembledImage": "",
+          "frames": [],
+          "manualFrames": [],
+          "frameTarget": 8,
+          "durations": [
+            140,
+            140,
+            140,
+            140,
+            140,
+            140,
+            140,
+            240
+          ],
+          "frameCount": 8,
+          "duration": 1220,
+          "assembledAt": "",
+          "sourceKind": "material",
+          "chromaKey": {
+            "enabled": false,
+            "color": "#ffffff",
+            "tolerance": 42
+          },
+          "speedPercent": 100,
+          "randomRate": 0,
+          "driveAnchors": [
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            }
+          ]
+        },
+        {
+          "id": "waiting",
+          "row": 6,
+          "name": "等待",
+          "trigger": "waiting",
+          "image": "",
+          "message": "我在等你的下一步。",
+          "transparentImage": "",
+          "assembledImage": "",
+          "frames": [],
+          "manualFrames": [],
+          "frameTarget": 6,
+          "durations": [
+            150,
+            150,
+            150,
+            150,
+            150,
+            260
+          ],
+          "frameCount": 6,
+          "duration": 1010,
+          "assembledAt": "",
+          "sourceKind": "material",
+          "chromaKey": {
+            "enabled": false,
+            "color": "#ffffff",
+            "tolerance": 42
+          },
+          "speedPercent": 100,
+          "randomRate": 0,
+          "driveAnchors": [
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            }
+          ]
+        },
+        {
+          "id": "running",
+          "row": 7,
+          "name": "处理中",
+          "trigger": "running",
+          "image": "",
+          "message": "我正在处理资料。",
+          "transparentImage": "",
+          "assembledImage": "",
+          "frames": [],
+          "manualFrames": [],
+          "frameTarget": 6,
+          "durations": [
+            120,
+            120,
+            120,
+            120,
+            120,
+            220
+          ],
+          "frameCount": 6,
+          "duration": 820,
+          "assembledAt": "",
+          "sourceKind": "material",
+          "chromaKey": {
+            "enabled": false,
+            "color": "#ffffff",
+            "tolerance": 42
+          },
+          "speedPercent": 100,
+          "randomRate": 0,
+          "driveAnchors": [
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            }
+          ]
+        },
+        {
+          "id": "review",
+          "row": 8,
+          "name": "审阅",
+          "trigger": "review",
+          "image": "",
+          "message": "我来仔细看看。",
+          "transparentImage": "",
+          "assembledImage": "",
+          "frames": [],
+          "manualFrames": [],
+          "frameTarget": 6,
+          "durations": [
+            150,
+            150,
+            150,
+            150,
+            150,
+            280
+          ],
+          "frameCount": 6,
+          "duration": 1030,
+          "assembledAt": "",
+          "sourceKind": "material",
+          "chromaKey": {
+            "enabled": false,
+            "color": "#ffffff",
+            "tolerance": 42
+          },
+          "speedPercent": 100,
+          "randomRate": 0,
+          "driveAnchors": [
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            }
+          ]
+        },
+        {
+          "id": "drag-up",
+          "row": 9,
+          "name": "向上拖动",
+          "trigger": "drag-up",
+          "image": "",
+          "message": "往上走也可以。",
+          "transparentImage": "",
+          "assembledImage": "",
+          "frames": [],
+          "manualFrames": [],
+          "frameTarget": 6,
+          "durations": [
+            120,
+            120,
+            120,
+            120,
+            120,
+            220
+          ],
+          "frameCount": 6,
+          "duration": 820,
+          "assembledAt": "",
+          "sourceKind": "material",
+          "chromaKey": {
+            "enabled": false,
+            "color": "#ffffff",
+            "tolerance": 42
+          },
+          "speedPercent": 100,
+          "randomRate": 0,
+          "driveAnchors": [
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            }
+          ]
+        },
+        {
+          "id": "drag-down",
+          "row": 10,
+          "name": "向下拖动",
+          "trigger": "drag-down",
+          "image": "",
+          "message": "我跟着下来了。",
+          "transparentImage": "",
+          "assembledImage": "",
+          "frames": [],
+          "manualFrames": [],
+          "frameTarget": 6,
+          "durations": [
+            120,
+            120,
+            120,
+            120,
+            120,
+            220
+          ],
+          "frameCount": 6,
+          "duration": 820,
+          "assembledAt": "",
+          "sourceKind": "material",
+          "chromaKey": {
+            "enabled": false,
+            "color": "#ffffff",
+            "tolerance": 42
+          },
+          "speedPercent": 100,
+          "randomRate": 0,
+          "driveAnchors": [
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            }
+          ]
+        },
+        {
+          "id": "petting",
+          "row": 11,
+          "name": "摸摸",
+          "trigger": "petting",
+          "image": "",
+          "message": "嗯，我在。",
+          "transparentImage": "",
+          "assembledImage": "",
+          "frames": [],
+          "manualFrames": [],
+          "frameTarget": 5,
+          "durations": [
+            120,
+            120,
+            150,
+            150,
+            260
+          ],
+          "frameCount": 5,
+          "duration": 800,
+          "assembledAt": "",
+          "sourceKind": "material",
+          "chromaKey": {
+            "enabled": false,
+            "color": "#ffffff",
+            "tolerance": 42
+          },
+          "speedPercent": 100,
+          "randomRate": 0,
+          "driveAnchors": [
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            }
+          ]
+        },
+        {
+          "id": "sleep-enter",
+          "row": -1,
+          "name": "进入睡眠",
+          "trigger": "sleep-enter",
+          "image": "",
+          "message": "我要睡啦。",
+          "transparentImage": "",
+          "assembledImage": "",
+          "frames": [],
+          "manualFrames": [],
+          "frameTarget": 4,
+          "durations": [
+            180,
+            180,
+            220,
+            360
+          ],
+          "frameCount": 4,
+          "duration": 940,
+          "assembledAt": "",
+          "sourceKind": "material",
+          "chromaKey": {
+            "enabled": false,
+            "color": "#ffffff",
+            "tolerance": 42
+          },
+          "speedPercent": 100,
+          "randomRate": 0,
+          "driveAnchors": [
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            }
+          ]
+        },
+        {
+          "id": "sleep-loop",
+          "row": -1,
+          "name": "睡觉循环",
+          "trigger": "sleep-loop",
+          "image": "",
+          "message": "Zzz...",
+          "transparentImage": "",
+          "assembledImage": "",
+          "frames": [],
+          "manualFrames": [],
+          "frameTarget": 6,
+          "durations": [
+            260,
+            260,
+            300,
+            300,
+            340,
+            420
+          ],
+          "frameCount": 6,
+          "duration": 1880,
+          "assembledAt": "",
+          "sourceKind": "material",
+          "chromaKey": {
+            "enabled": false,
+            "color": "#ffffff",
+            "tolerance": 42
+          },
+          "speedPercent": 100,
+          "randomRate": 0,
+          "driveAnchors": [
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            }
+          ]
+        },
+        {
+          "id": "sleep-wake",
+          "row": -1,
+          "name": "睡醒",
+          "trigger": "sleep-wake",
+          "image": "",
+          "message": "醒啦。",
+          "transparentImage": "",
+          "assembledImage": "",
+          "frames": [],
+          "manualFrames": [],
+          "frameTarget": 4,
+          "durations": [
+            180,
+            160,
+            160,
+            260
+          ],
+          "frameCount": 4,
+          "duration": 760,
+          "assembledAt": "",
+          "sourceKind": "material",
+          "chromaKey": {
+            "enabled": false,
+            "color": "#ffffff",
+            "tolerance": 42
+          },
+          "speedPercent": 100,
+          "randomRate": 0,
+          "driveAnchors": [
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            }
+          ]
+        },
+        {
+          "id": "drive-enter",
+          "row": -1,
+          "name": "进入驾驶",
+          "trigger": "drive-enter",
+          "image": "",
+          "message": "准备开车。",
+          "transparentImage": "",
+          "assembledImage": "",
+          "frames": [],
+          "manualFrames": [],
+          "frameTarget": 4,
+          "durations": [
+            150,
+            150,
+            180,
+            260
+          ],
+          "frameCount": 4,
+          "duration": 740,
+          "assembledAt": "",
+          "sourceKind": "material",
+          "chromaKey": {
+            "enabled": false,
+            "color": "#ffffff",
+            "tolerance": 42
+          },
+          "speedPercent": 100,
+          "randomRate": 0,
+          "driveAnchors": [
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            }
+          ]
+        },
+        {
+          "id": "drive-loop",
+          "row": -1,
+          "name": "开车",
+          "trigger": "drive-loop",
+          "image": "",
+          "message": "出发。",
+          "transparentImage": "",
+          "assembledImage": "",
+          "frames": [],
+          "manualFrames": [],
+          "frameTarget": 6,
+          "durations": [
+            120,
+            120,
+            120,
+            120,
+            120,
+            160
+          ],
+          "frameCount": 6,
+          "duration": 760,
+          "assembledAt": "",
+          "sourceKind": "material",
+          "chromaKey": {
+            "enabled": false,
+            "color": "#ffffff",
+            "tolerance": 42
+          },
+          "speedPercent": 100,
+          "randomRate": 0,
+          "driveAnchors": [
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            }
+          ]
+        },
+        {
+          "id": "drive-loop-right",
+          "row": -1,
+          "name": "向右开车",
+          "trigger": "drive-loop-right",
+          "image": "",
+          "message": "向右出发。",
+          "transparentImage": "",
+          "assembledImage": "",
+          "frames": [],
+          "manualFrames": [],
+          "frameTarget": 6,
+          "durations": [
+            120,
+            120,
+            120,
+            120,
+            120,
+            160
+          ],
+          "frameCount": 6,
+          "duration": 760,
+          "assembledAt": "",
+          "sourceKind": "material",
+          "chromaKey": {
+            "enabled": false,
+            "color": "#ffffff",
+            "tolerance": 42
+          },
+          "speedPercent": 100,
+          "randomRate": 0,
+          "driveAnchors": [
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            }
+          ]
+        },
+        {
+          "id": "random",
+          "row": -1,
+          "name": "待机随机",
+          "trigger": "random",
+          "image": "",
+          "message": "",
+          "transparentImage": "",
+          "assembledImage": "",
+          "frames": [],
+          "manualFrames": [],
+          "frameTarget": 5,
+          "durations": [
+            140,
+            140,
+            160,
+            160,
+            260
+          ],
+          "frameCount": 5,
+          "duration": 860,
+          "assembledAt": "",
+          "sourceKind": "material",
+          "chromaKey": {
+            "enabled": false,
+            "color": "#ffffff",
+            "tolerance": 42
+          },
+          "speedPercent": 100,
+          "randomRate": 0,
+          "driveAnchors": [
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            }
+          ]
+        },
+        {
+          "id": "petting-hand",
+          "row": -1,
+          "name": "????",
+          "trigger": "petting-hand",
+          "image": "",
+          "message": "",
+          "transparentImage": "",
+          "assembledImage": "",
+          "frames": [],
+          "manualFrames": [],
+          "frameTarget": 4,
+          "durations": [
+            90,
+            90,
+            90,
+            180
+          ],
+          "frameCount": 4,
+          "duration": 450,
+          "assembledAt": "",
+          "sourceKind": "manual-sequence",
+          "chromaKey": {
+            "enabled": false,
+            "color": "#ffffff",
+            "tolerance": 42
+          },
+          "speedPercent": 100,
+          "randomRate": 0,
+          "driveAnchors": [
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            },
+            {
+              "x": 50,
+              "y": 58
+            }
+          ]
+        }
+      ],
+      "settings": {
+        "scale": 100,
+        "sharpness": 2,
+        "speed": 100,
+        "vehicleScale": 100
+      },
+      "hatchPet": null,
+      "spritesheetImage": "",
+      "petJson": null
+    }
+  ]
+}
