@@ -9,6 +9,16 @@ const USE_PROJECT_BACKUP = window.location.protocol.startsWith("http");
 let allowProjectLibraryWrite = !USE_PROJECT_BACKUP;
 let READ_ONLY_MODE = false;
 let STATIC_HOSTING_MODE = false;
+const GITHUB_PAGES_CDN_BASE = "https://cdn.jsdelivr.net/gh/ruotun/ace-racer-ai-tool@main/";
+const STATIC_ASSET_BASE = window.location.hostname.endsWith("github.io") ? GITHUB_PAGES_CDN_BASE : "";
+
+function staticAssetUrl(value) {
+  const src = String(value || "").trim();
+  if (!src || /^(data:|blob:|https?:\/\/|\/\/)/i.test(src)) return src;
+  const clean = src.replace(/^\.\//, "");
+  if (STATIC_ASSET_BASE && (/^(data|assets)\//.test(clean) || /\.(js|css|json)$/i.test(clean))) return STATIC_ASSET_BASE + clean;
+  return src;
+}
 
 function clearProjectBrowserCache(key) {
   if (!USE_PROJECT_BACKUP) return;
@@ -38,7 +48,7 @@ async function fetchProjectJson(apiPath, staticPath) {
       STATIC_HOSTING_MODE = true;
     }
   }
-  const response = await fetch(staticPath, { cache: "no-store" });
+  const response = await fetch(staticAssetUrl(staticPath), { cache: "no-store" });
   if (!response.ok) throw new Error("static data unavailable: " + staticPath);
   return response.json();
 }
@@ -704,6 +714,7 @@ function scheduleDesktopPetBackup(delay = 250) {
   }, delay);
 }
 async function restoreDesktopPetsFromBackup() {
+  if (isReadOnlyMode() || STATIC_HOSTING_MODE) return;
   try {
     const payload = await fetchProjectJson("/api/desktop-pets", "./data/desktop-pets.json");
     const backupPets = Array.isArray(payload.pets) ? payload.pets.map(normalizeDesktopPet) : [];
@@ -763,6 +774,7 @@ function desktopPetImagePreview(state) {
   return '<img src="' + escapeHtml(state.image) + '" alt="' + escapeHtml(state.name) + '" />';
 }
 function renderDesktopPetManager() {
+  if (isReadOnlyMode()) return;
   const list = $("desktopPetList");
   const actions = $("desktopPetActions");
   if (!list || !actions) return;
@@ -924,6 +936,7 @@ function desktopPetImagePreview(state) {
   return '<img src="' + escapeHtml(src) + '" alt="' + escapeHtml(state?.name || "桌宠动作") + '" />';
 }
 function renderDesktopPetManager() {
+  if (isReadOnlyMode()) return;
   const list = $("desktopPetList");
   const actions = $("desktopPetActions");
   if (!list || !actions) return;
@@ -1353,6 +1366,7 @@ function desktopPetImagePreview(state) {
   return '<img src="' + escapeHtml(src) + '" alt="' + escapeHtml(state?.name || "桌宠动作") + '" />';
 }
 function renderDesktopPetManager() {
+  if (isReadOnlyMode()) return;
   const list = $("desktopPetList");
   const actions = $("desktopPetActions");
   if (!list || !actions) return;
@@ -1850,7 +1864,10 @@ function loadAiConfig() { try { return JSON.parse(localStorage.getItem(AI_KEY) |
 function saveAiConfig(config) { localStorage.setItem(AI_KEY, JSON.stringify(config)); }
 function setStatus(message, type = "") { const node = $("urlStatus"); node.textContent = message; node.className = "status-text" + (type ? " " + type : ""); }
 function proxyImage(src) {
+  const staticSrc = staticAssetUrl(src);
+  if (staticSrc !== src) return staticSrc;
   if (!src || !/^https?:\/\//i.test(src)) return src;
+  if (STATIC_HOSTING_MODE) return src;
   try {
     const url = new URL(src);
     if (/reca\.seimu\.cn$/i.test(url.hostname)) return src;
@@ -1874,7 +1891,7 @@ function renderImageWithFallback(candidates, className = "", alt = "", fallbackT
   if (!sources.length) return '<div class="image-fallback">' + escapeHtml(fallbackText) + '</div>';
   const classAttr = className ? ' class="' + escapeHtml(className) + '"' : "";
   const dataAttrs = Object.entries(dataset).map(([key, value]) => value == null || value === "" ? "" : ' data-' + key + '="' + escapeHtml(value) + '"').join("");
-  return '<img' + classAttr + ' src="' + escapeHtml(sources[0]) + '" alt="' + escapeHtml(alt) + '" data-image-index="0" data-image-candidates="' + escapeHtml(JSON.stringify(sources)) + '" data-image-originals="' + escapeHtml(JSON.stringify(originals)) + '"' + dataAttrs + ' />';
+  return '<img' + classAttr + ' src="' + escapeHtml(sources[0]) + '" alt="' + escapeHtml(alt) + '" loading="lazy" decoding="async" referrerpolicy="no-referrer" data-image-index="0" data-image-candidates="' + escapeHtml(JSON.stringify(sources)) + '" data-image-originals="' + escapeHtml(JSON.stringify(originals)) + '"' + dataAttrs + ' />';
 }
 function handleImageLoadError(img) {
   if (!img?.dataset?.imageCandidates) return;
@@ -5207,6 +5224,7 @@ function desktopPetDriveAnchorPanelHtml(state) {
     '</div>';
 }
 function renderDesktopPetManager() {
+  if (isReadOnlyMode()) return;
   const list = $("desktopPetList");
   const actions = $("desktopPetActions");
   if (!list || !actions) return;
@@ -5890,12 +5908,14 @@ if ($("libraryList")) $("libraryList").addEventListener("input", function(ev) { 
 (async () => {
   await loadAppConfig();
   if (!USE_PROJECT_BACKUP && !isReadOnlyMode()) initializeSpeedSheetData();
-  await Promise.all([restoreItemsFromBackup(), restoreCreatorsFromBackup(), restoreDesktopPetsFromBackup()]);
+  const restoreTasks = [restoreItemsFromBackup(), restoreCreatorsFromBackup()];
+  if (!isReadOnlyMode()) restoreTasks.push(restoreDesktopPetsFromBackup());
+  await Promise.all(restoreTasks);
 })().finally(() => {
   items = migrateVehicleRecords(items);
   if (!USE_PROJECT_BACKUP && !isReadOnlyMode()) saveItems();
   ensurePerformanceStatsCache();
   renderCreators();
-  renderDesktopPetManager();
+  if (!isReadOnlyMode()) renderDesktopPetManager();
   const aiConfig = loadAiConfig(); $("apiBase").value = aiConfig.apiBase || "https://api.openai.com/v1/chat/completions"; $("modelName").value = aiConfig.modelName || "gpt-4.1-mini"; $("apiKey").value = aiConfig.apiKey || ""; $("systemPrompt").value = defaultPrompt(); render(); openVehicleFromUrlParam();
 });
