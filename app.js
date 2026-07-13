@@ -24,11 +24,24 @@ function staticAssetCandidates(value) {
 function staticAssetUrl(value) {
   return staticAssetCandidates(value)[0] || String(value || "").trim();
 }
+function inlineStaticJson(staticPath) {
+  const clean = String(staticPath || "").replace(/^\.\//, "");
+  const id = clean.includes("library-data") ? "acePublicLibraryData"
+    : clean.includes("creator-data") ? "acePublicCreatorData"
+      : clean.includes("desktop-pets") ? "acePublicDesktopPetData"
+        : "";
+  if (!id) return null;
+  const node = document.getElementById(id);
+  if (!node) return null;
+  try { return JSON.parse(node.textContent || ""); } catch { return null; }
+}
 function withCacheBuster(url, value) {
   if (value === undefined || value === null || value === "") return url;
   return url + (url.includes("?") ? "&" : "?") + "v=" + encodeURIComponent(String(value));
 }
 async function fetchStaticJson(staticPath, cacheBuster = "") {
+  const inlinePayload = inlineStaticJson(staticPath);
+  if (IS_GITHUB_PAGES_HOST && inlinePayload) return inlinePayload;
   let lastError = null;
   for (const url of staticAssetCandidates(staticPath)) {
     try {
@@ -39,6 +52,7 @@ async function fetchStaticJson(staticPath, cacheBuster = "") {
       lastError = error;
     }
   }
+  if (inlinePayload) return inlinePayload;
   throw lastError || new Error("static data unavailable: " + staticPath);
 }
 
