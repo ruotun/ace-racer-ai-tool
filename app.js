@@ -2045,7 +2045,31 @@ function renderImageWithFallback(candidates, className = "", alt = "", fallbackT
   if (!sources.length) return '<div class="image-fallback">' + escapeHtml(fallbackText) + '</div>';
   const classAttr = className ? ' class="' + escapeHtml(className) + '"' : "";
   const dataAttrs = Object.entries(dataset).map(([key, value]) => value == null || value === "" ? "" : ' data-' + key + '="' + escapeHtml(value) + '"').join("");
-  return '<img' + classAttr + ' src="' + escapeHtml(sources[0]) + '" alt="' + escapeHtml(alt) + '" loading="lazy" decoding="async" referrerpolicy="no-referrer" data-image-index="0" data-image-candidates="' + escapeHtml(JSON.stringify(sources)) + '" data-image-originals="' + escapeHtml(JSON.stringify(originals)) + '"' + dataAttrs + ' />';
+  return '<img' + classAttr + ' src="data:image/gif;base64,R0lGODlhAQABAIAAAAAAAP///ywAAAAAAQABAAACAUwAOw==" alt="' + escapeHtml(alt) + '" loading="lazy" decoding="async" referrerpolicy="no-referrer" data-lazy-src="' + escapeHtml(sources[0]) + '" data-image-index="0" data-image-candidates="' + escapeHtml(JSON.stringify(sources)) + '" data-image-originals="' + escapeHtml(JSON.stringify(originals)) + '"' + dataAttrs + ' />';
+}
+let lazyImageObserver = null;
+function activateLazyImages(scope = document) {
+  const images = Array.from(scope.querySelectorAll ? scope.querySelectorAll("img[data-lazy-src]") : []);
+  const loadImage = (img) => {
+    const src = img.dataset.lazySrc;
+    if (!src) return;
+    delete img.dataset.lazySrc;
+    img.src = src;
+  };
+  if (!("IntersectionObserver" in window)) {
+    images.forEach(loadImage);
+    return;
+  }
+  if (!lazyImageObserver) {
+    lazyImageObserver = new IntersectionObserver((entries) => {
+      entries.forEach((entry) => {
+        if (!entry.isIntersecting) return;
+        lazyImageObserver.unobserve(entry.target);
+        loadImage(entry.target);
+      });
+    }, { rootMargin: "180px 0px" });
+  }
+  images.forEach((img) => lazyImageObserver.observe(img));
 }
 function handleImageLoadError(img) {
   if (!img?.dataset?.imageCandidates) return;
@@ -2931,6 +2955,7 @@ function render() {
     ? '<div class="vehicle-load-more"><button type="button" id="loadMoreVehicles">显示更多赛车（剩余 ' + remainingCars + ' 辆）</button></div>'
     : "";
   $("libraryList").innerHTML = activeLibraryBranch === "groups" ? renderGroupsBranch() : activeLibraryBranch === "support" ? renderSupportBranch(cars, sortMode, query) : activeLibraryBranch === "mixedBattle" ? renderMixedBattleBranch(cars, sortMode, query) : renderVehicleGroups(visibleCars, sortMode, position, sortOptions) + moreButton;
+  activateLazyImages($("libraryList"));
 }
 function renderItemCard(item) {
   const tags = item.tags.slice(0, 14).map((tag) => '<span class="tag">' + escapeHtml(tag) + '</span>').join("");
@@ -2951,6 +2976,7 @@ function openDetail(itemId, options = {}) {
   $("detailTitle").textContent = displayItem.type === "car" ? displayVehicleName(displayItem) : displayItem.name;
   $("detailSubtitle").textContent = [displayItem.role, sheetEditItemId === itemId ? "正在编辑资料" : (uiEditItemId === itemId ? "正在编辑 UI" : "")].filter(Boolean).join(" · ");
   $("detailBody").innerHTML = renderDetail(displayItem);
+  activateLazyImages($("detailBody"));
   syncDetailHeader();
   $("detailModal").classList.remove("hidden");
 }
