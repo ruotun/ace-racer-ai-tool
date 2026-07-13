@@ -245,7 +245,7 @@ let activeDesktopPetDriveAnchorEditor = null;
 let desktopPetDriveAnchorDrag = null;
 let activeCreatorId = null;
 let activeLibraryBranch = "cars";
-let vehicleListLimit = 36;
+let vehicleListLimit = Number.POSITIVE_INFINITY;
 let activeSupportCategoryFilter = "";
 let detailHistory = [];
 
@@ -2949,8 +2949,8 @@ function render() {
   $("statItems").textContent = items.length;
   $("statCars").textContent = cars.length;
   $("statTracks").textContent = items.filter((item) => item.type === "track").length;
-  const visibleCars = filtered.slice(0, vehicleListLimit);
-  const remainingCars = Math.max(0, filtered.length - visibleCars.length);
+  const visibleCars = filtered;
+  const remainingCars = 0;
   const moreButton = activeLibraryBranch === "cars" && remainingCars
     ? '<div class="vehicle-load-more"><button type="button" id="loadMoreVehicles">显示更多赛车（剩余 ' + remainingCars + ' 辆）</button></div>'
     : "";
@@ -6140,8 +6140,8 @@ if ($("desktopPetScale")) $("desktopPetScale").addEventListener("input", updateD
 if ($("desktopPetSharpness")) $("desktopPetSharpness").addEventListener("input", updateDesktopPetSettings);
 if ($("desktopPetSpeed")) $("desktopPetSpeed").addEventListener("input", updateDesktopPetSettings);
 if ($("desktopPetVehicleScale")) $("desktopPetVehicleScale").addEventListener("input", updateDesktopPetSettings);
-$("search").addEventListener("input", () => { vehicleListLimit = 36; render(); });
-["positionFilter", "rarityFilter", "seasonFilter", "sortMode", "performanceSortMetric", "performanceSortDirection"].forEach((id) => { if ($(id)) $(id).addEventListener("change", () => { vehicleListLimit = 36; render(); }); });
+$("search").addEventListener("input", () => { vehicleListLimit = Number.POSITIVE_INFINITY; render(); });
+["positionFilter", "rarityFilter", "seasonFilter", "sortMode", "performanceSortMetric", "performanceSortDirection"].forEach((id) => { if ($(id)) $(id).addEventListener("change", () => { vehicleListLimit = Number.POSITIVE_INFINITY; render(); }); });
 $("runRecommend").addEventListener("click", recommend);
 $("saveAi").addEventListener("click", () => { saveAiConfig({ apiBase: $("apiBase").value.trim(), modelName: $("modelName").value.trim(), apiKey: $("apiKey").value.trim() }); alert("AI 设置已保存到当前浏览器本地。"); });
 $("testAi").addEventListener("click", runAi);
