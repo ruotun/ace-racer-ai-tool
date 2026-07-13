@@ -45,7 +45,7 @@ async function fetchStaticJson(staticPath, cacheBuster = "") {
   let lastError = null;
   for (const url of staticAssetCandidates(staticPath)) {
     try {
-      const response = await fetch(withCacheBuster(url, cacheBuster), { cache: "no-store" });
+      const response = await fetch(withCacheBuster(url, cacheBuster), { cache: cacheBuster ? "no-store" : "force-cache" });
       if (response.ok) return response.json();
       lastError = new Error("static data unavailable: " + staticPath + " (" + response.status + ")");
     } catch (error) {
@@ -61,6 +61,14 @@ function clearProjectBrowserCache(key) {
   try { localStorage.removeItem(key); } catch {}
 }
 async function loadAppConfig() {
+  // GitHub Pages turns unknown API paths into index.html. Skip that costly
+  // round trip and enter the public read-only mode immediately.
+  if (IS_GITHUB_PAGES_HOST) {
+    STATIC_HOSTING_MODE = true;
+    READ_ONLY_MODE = true;
+    document.body?.classList.add("read-only-mode", "static-hosting-mode");
+    return;
+  }
   if (!window.location.protocol.startsWith("http")) return;
   try {
     const response = await fetch(API_BASE + "/api/config", { cache: "no-store" });
@@ -237,6 +245,7 @@ let activeDesktopPetDriveAnchorEditor = null;
 let desktopPetDriveAnchorDrag = null;
 let activeCreatorId = null;
 let activeLibraryBranch = "cars";
+let vehicleListLimit = 36;
 let activeSupportCategoryFilter = "";
 let detailHistory = [];
 
@@ -2916,7 +2925,12 @@ function render() {
   $("statItems").textContent = items.length;
   $("statCars").textContent = cars.length;
   $("statTracks").textContent = items.filter((item) => item.type === "track").length;
-  $("libraryList").innerHTML = activeLibraryBranch === "groups" ? renderGroupsBranch() : activeLibraryBranch === "support" ? renderSupportBranch(cars, sortMode, query) : activeLibraryBranch === "mixedBattle" ? renderMixedBattleBranch(cars, sortMode, query) : renderVehicleGroups(filtered, sortMode, position, sortOptions);
+  const visibleCars = filtered.slice(0, vehicleListLimit);
+  const remainingCars = Math.max(0, filtered.length - visibleCars.length);
+  const moreButton = activeLibraryBranch === "cars" && remainingCars
+    ? '<div class="vehicle-load-more"><button type="button" id="loadMoreVehicles">显示更多赛车（剩余 ' + remainingCars + ' 辆）</button></div>'
+    : "";
+  $("libraryList").innerHTML = activeLibraryBranch === "groups" ? renderGroupsBranch() : activeLibraryBranch === "support" ? renderSupportBranch(cars, sortMode, query) : activeLibraryBranch === "mixedBattle" ? renderMixedBattleBranch(cars, sortMode, query) : renderVehicleGroups(visibleCars, sortMode, position, sortOptions) + moreButton;
 }
 function renderItemCard(item) {
   const tags = item.tags.slice(0, 14).map((tag) => '<span class="tag">' + escapeHtml(tag) + '</span>').join("");
@@ -4833,6 +4847,8 @@ $("libraryList").addEventListener("change", (event) => {
   }
 });
 $("libraryList").addEventListener("click", (event) => {
+  const loadMoreVehicles = event.target.closest("#loadMoreVehicles");
+  if (loadMoreVehicles) { vehicleListLimit += 36; render(); return; }
   const createBtn = event.target.closest("#createGroupBtn");
   if (createBtn) { const nm = $("newGroupName")?.value.trim(); if (!nm) { alert("请输入组合名称"); return; } groups.push({ id: crypto.randomUUID(), name: nm, carIds: [], type: ($('newGroupType')?.value||'name') }); saveGroups(); if ($("newGroupName")) $("newGroupName").value = ""; render(); return; }
   const editGrp = event.target.closest(".edit-group-btn");
@@ -6098,8 +6114,8 @@ if ($("desktopPetScale")) $("desktopPetScale").addEventListener("input", updateD
 if ($("desktopPetSharpness")) $("desktopPetSharpness").addEventListener("input", updateDesktopPetSettings);
 if ($("desktopPetSpeed")) $("desktopPetSpeed").addEventListener("input", updateDesktopPetSettings);
 if ($("desktopPetVehicleScale")) $("desktopPetVehicleScale").addEventListener("input", updateDesktopPetSettings);
-$("search").addEventListener("input", render);
-["positionFilter", "rarityFilter", "seasonFilter", "sortMode", "performanceSortMetric", "performanceSortDirection"].forEach((id) => { if ($(id)) $(id).addEventListener("change", render); });
+$("search").addEventListener("input", () => { vehicleListLimit = 36; render(); });
+["positionFilter", "rarityFilter", "seasonFilter", "sortMode", "performanceSortMetric", "performanceSortDirection"].forEach((id) => { if ($(id)) $(id).addEventListener("change", () => { vehicleListLimit = 36; render(); }); });
 $("runRecommend").addEventListener("click", recommend);
 $("saveAi").addEventListener("click", () => { saveAiConfig({ apiBase: $("apiBase").value.trim(), modelName: $("modelName").value.trim(), apiKey: $("apiKey").value.trim() }); alert("AI 设置已保存到当前浏览器本地。"); });
 $("testAi").addEventListener("click", runAi);
