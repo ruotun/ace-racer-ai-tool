@@ -10,14 +10,36 @@ let allowProjectLibraryWrite = !USE_PROJECT_BACKUP;
 let READ_ONLY_MODE = false;
 let STATIC_HOSTING_MODE = false;
 const GITHUB_PAGES_CDN_BASE = "https://cdn.jsdelivr.net/gh/ruotun/ace-racer-ai-tool@main/";
-const STATIC_ASSET_BASE = window.location.hostname.endsWith("github.io") ? GITHUB_PAGES_CDN_BASE : "";
+const IS_GITHUB_PAGES_HOST = window.location.hostname.endsWith("github.io");
 
-function staticAssetUrl(value) {
+function staticAssetCandidates(value) {
   const src = String(value || "").trim();
-  if (!src || /^(data:|blob:|https?:\/\/|\/\/)/i.test(src)) return src;
+  if (!src || /^(data:|blob:|https?:\/\/|\/\/)/i.test(src)) return src ? [src] : [];
   const clean = src.replace(/^\.\//, "");
-  if (STATIC_ASSET_BASE && (/^(data|assets)\//.test(clean) || /\.(js|css|json)$/i.test(clean))) return STATIC_ASSET_BASE + clean;
-  return src;
+  const local = src.startsWith("/") || src.startsWith("./") ? src : "./" + clean;
+  const out = [local];
+  if (IS_GITHUB_PAGES_HOST && (/^(data|assets)\//.test(clean) || /\.(js|css|json)$/i.test(clean))) out.push(GITHUB_PAGES_CDN_BASE + clean);
+  return [...new Set(out)];
+}
+function staticAssetUrl(value) {
+  return staticAssetCandidates(value)[0] || String(value || "").trim();
+}
+function withCacheBuster(url, value) {
+  if (value === undefined || value === null || value === "") return url;
+  return url + (url.includes("?") ? "&" : "?") + "v=" + encodeURIComponent(String(value));
+}
+async function fetchStaticJson(staticPath, cacheBuster = "") {
+  let lastError = null;
+  for (const url of staticAssetCandidates(staticPath)) {
+    try {
+      const response = await fetch(withCacheBuster(url, cacheBuster), { cache: "no-store" });
+      if (response.ok) return response.json();
+      lastError = new Error("static data unavailable: " + staticPath + " (" + response.status + ")");
+    } catch (error) {
+      lastError = error;
+    }
+  }
+  throw lastError || new Error("static data unavailable: " + staticPath);
 }
 
 function clearProjectBrowserCache(key) {
@@ -48,9 +70,7 @@ async function fetchProjectJson(apiPath, staticPath) {
       STATIC_HOSTING_MODE = true;
     }
   }
-  const response = await fetch(staticAssetUrl(staticPath), { cache: "no-store" });
-  if (!response.ok) throw new Error("static data unavailable: " + staticPath);
-  const payload = await response.json();
+  const payload = await fetchStaticJson(staticPath);
   return applyStaticChangeOverlay(staticPath, payload);
 }
 async function applyStaticChangeOverlay(staticPath, payload) {
@@ -58,16 +78,13 @@ async function applyStaticChangeOverlay(staticPath, payload) {
   const dataset = staticPath.includes("library-data") ? "library" : staticPath.includes("creator-data") ? "creators" : staticPath.includes("desktop-pets") ? "desktop-pets" : "";
   if (!dataset) return payload;
   try {
-    const response = await fetch(staticAssetUrl("./data/change-manifest.json") + "?v=" + Date.now(), { cache: "no-store" });
-    if (!response.ok) return payload;
-    const manifest = await response.json();
+    const manifest = await fetchStaticJson("./data/change-manifest.json", Date.now());
     const entries = (Array.isArray(manifest.entries) ? manifest.entries : []).filter((entry) => entry.dataset === dataset && entry.path);
     if (!entries.length) return payload;
     const patches = [];
     for (const entry of entries) {
       try {
-        const patchResponse = await fetch(staticAssetUrl("./" + entry.path.replace(/^\.\//, "")) + "?v=" + encodeURIComponent(entry.updatedAt || ""), { cache: "no-store" });
-        if (patchResponse.ok) patches.push(await patchResponse.json());
+        patches.push(await fetchStaticJson("./" + entry.path.replace(/^\.\//, ""), entry.updatedAt || ""));
       } catch {}
     }
     return mergeStaticPatches(dataset, payload, patches);
