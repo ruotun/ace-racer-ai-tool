@@ -4,7 +4,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>王牌竞速资料搭配助手</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ruotun/ace-racer-ai-tool@main/styles.css?v=20260712-fast-cdn" />
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/ruotun/ace-racer-ai-tool@main/styles.css?v=20260712-local-editor" />
   </head>
   <body>
     <div class="app-shell">
@@ -34,6 +34,12 @@
       </aside>
 
       <main class="main">
+        <div class="local-project-actions local-only">
+          <button id="syncGithubBtn" type="button">同步到 GitHub</button>
+          <button id="packageDesktopPetBtn" type="button">打包桌宠</button>
+          <span id="projectActionStatus" class="status-text"></span>
+          <span id="projectSyncProgress" class="project-sync-progress hidden"><span></span></span>
+        </div>
         <section class="view active" id="view-library">
           <div class="toolbar">
             <div>
@@ -258,10 +264,10 @@
       </section>
     </div>
 
-    <script src="https://cdn.jsdelivr.net/gh/ruotun/ace-racer-ai-tool@main/speed-car-sheet-data.js?v=20260712-fast-cdn"></script>
-    <script src="https://cdn.jsdelivr.net/gh/ruotun/ace-racer-ai-tool@main/interference-car-sheet-data.js?v=20260712-fast-cdn"></script>
-    <script src="https://cdn.jsdelivr.net/gh/ruotun/ace-racer-ai-tool@main/support-car-sheet-data.js?v=20260712-fast-cdn"></script>
-    <script src="https://cdn.jsdelivr.net/gh/ruotun/ace-racer-ai-tool@main/pinyin-map.js?v=20260712-fast-cdn"></script>
-    <script src="https://cdn.jsdelivr.net/gh/ruotun/ace-racer-ai-tool@main/app.js?v=20260712-fast-cdn"></script>
+    <script src="https://cdn.jsdelivr.net/gh/ruotun/ace-racer-ai-tool@main/speed-car-sheet-data.js?v=20260712-local-editor"></script>
+    <script src="https://cdn.jsdelivr.net/gh/ruotun/ace-racer-ai-tool@main/interference-car-sheet-data.js?v=20260712-local-editor"></script>
+    <script src="https://cdn.jsdelivr.net/gh/ruotun/ace-racer-ai-tool@main/support-car-sheet-data.js?v=20260712-local-editor"></script>
+    <script src="https://cdn.jsdelivr.net/gh/ruotun/ace-racer-ai-tool@main/pinyin-map.js?v=20260712-local-editor"></script>
+    <script src="https://cdn.jsdelivr.net/gh/ruotun/ace-racer-ai-tool@main/app.js?v=20260712-local-editor"></script>
   </body>
 </html>

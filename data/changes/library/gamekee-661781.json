@@ -1,0 +1,214 @@
+{
+  "dataset": "library",
+  "action": "modify",
+  "key": "gamekee-661781",
+  "label": "迈凯伦 Senna",
+  "updatedAt": "2026-07-13T07:20:38.999Z",
+  "payload": {
+    "id": "gamekee-661781",
+    "name": "迈凯伦 Senna",
+    "type": "car",
+    "role": "竞速位",
+    "tags": [
+      "竞速",
+      "T1",
+      "竞速位",
+      "真实阵营",
+      "迈凯伦",
+      "山路",
+      "汽油",
+      "不朽传奇",
+      "动力源泉",
+      "竞速级氮气支架",
+      "空气动力学套件",
+      "赛道专精 (LV3解锁)",
+      "RECU限制解除(LV8解锁)",
+      "极速",
+      "动力",
+      "耐久",
+      "氮气充能",
+      "氮气时长",
+      "氮气极速",
+      "涡轮时长",
+      "涡轮极速"
+    ],
+    "description": "迈凯伦 Senna，以传奇车手埃尔顿·塞纳命名，是极致性能与赛道精神的化身。搭载4.0T V8引擎，800马力，百公里加速仅需2.8秒，极速超340公里/时。轻量化碳纤维车身，空气动力学设计卓越，下压力达800公斤。Senna,赛道上的王者，每一秒都是对速度的极致追求。\n基础信息：车辆类型=真实阵营；厂商=迈凯伦；定位=竞速位；赛道专精=山路；能源类型=汽油；驱动方式=中置四驱；车重=1198kg；扩展芯片类型=○○◇◇◣V\n性能：极速=211+2km/h；动力=8.0；耐久=110；氮气充能=28.0%；起步充能=28.0%；氮气时长=5.0秒；氮气极速=24.00/36.00km/h；涡轮时长=0.7/2.1秒；涡轮极速=6.00/9.90km/h\n技能：不朽传奇 - 加速推进，8秒内极速#desc[数值]，加速期间进入隐身状态且在每次漂移结束时立即到达当前速度上限。被动：开启大招后首次进入漂移前极速+30km/h。；动力源泉 - 漂移无法获得集气量，每秒自动获得2400集气量和2%大招能量；竞速级氮气支架 - 解锁1×5磅，2×2.5磅，1x6磅，3x2磅，2x3磅氮气；空气动力学套件 - 跟随在车辆后方将获得尾流，产生持续的氮气充能效果；赛道专精 (LV3解锁) - 在山路赛道，使用氮气时获得额外大招充能并在落后第一名超过一定距离时获得速度提升效果；RECU限制解除(LV8解锁) - 不朽传奇可以充能两次\n资料说明：扩展芯片类型：\"○\"为圆形、\"△\"为三角形、\"◇\"为菱形、\"◣\"为六边形、\"V\"为V形芯片",
+    "source": "https://www.gamekee.com/aceracer/661781.html",
+    "image": "./data/vehicle-images/vehicle-gamekee-661781-0-5bd0297093.png",
+    "images": [
+      "./data/vehicle-images/vehicle-gamekee-661781-0-5bd0297093.png",
+      "./data/vehicle-images/vehicle-gamekee-661781-1-2cd84d33b5.png",
+      "./data/vehicle-images/vehicle-gamekee-661781-2-381280b903.png"
+    ],
+    "details": {
+      "speedSheet": {
+        "出场赛季": "S27",
+        "位置": "竞速",
+        "场地适用": "-",
+        "稀有度": "-",
+        "梯度排行": "T1",
+        "干扰距离": "-",
+        "辅助距离": "-",
+        "特殊备注": "-",
+        "特殊备注（被动对于自身增益）": "-",
+        "RECU": "-",
+        "技能简介": "-",
+        "技能对于自身": "-",
+        "推荐队友车辆": "-",
+        "推荐队友车辆原因": "-",
+        "推荐队友车辆原因（技能或者被动或者SP对于队友增益）": "-",
+        "不推荐队友车辆": "-",
+        "不推荐队友车辆原因": "-",
+        "克制对手车辆": "-",
+        "克制对手车辆原因": "-",
+        "被对手车辆克制": "扰流/保时捷Taycan Turbo S",
+        "被对手车辆克制原因": "完全克制，这四辆车可以让塞纳开局直接完全坐牢，无法获取任何氮气",
+        "推荐使用地图": "-",
+        "赋能推荐": "-",
+        "芯片推荐": "-",
+        "基础极速": "-",
+        "基础动力": "-",
+        "基础耐久": "-",
+        "基础氮气充能": "-",
+        "基础起步充能": "-",
+        "基础氮气时长": "-",
+        "基础蓝氮极速": "-",
+        "基础紫氮极速": "-",
+        "蓝喷涡轮时长": "-",
+        "紫喷涡轮时长": "-",
+        "蓝喷涡轮极速": "-",
+        "紫喷涡轮极速": "-",
+        "技能极速提升": "45km/h",
+        "大招持续时间": "8秒"
+      },
+      "speedSheetSourceName": "迈凯伦Senna/迈凯伦塞纳/塞纳",
+      "skills": [
+        {
+          "name": "不朽传奇",
+          "desc": "加速推进，8秒内极速#desc[数值]，加速期间进入隐身状态且在每次漂移结束时立即到达当前速度上限。被动：开启大招后首次进入漂移前极速+30km/h。",
+          "values": "极速提升:30/33/36/40/45km/h(LV1/ LV5/ LV7/ LV9/LV10)加速时长:8秒漂移前额外极速:30km/h",
+          "icon": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/71178/2025/4/17/733346.png",
+          "images": [
+            "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/71178/2025/4/17/733346.png"
+          ]
+        },
+        {
+          "name": "动力源泉",
+          "desc": "漂移无法获得集气量，每秒自动获得2400集气量和2%大招能量",
+          "values": "",
+          "icon": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/71178/2025/4/17/613811.png",
+          "images": [
+            "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/71178/2025/4/17/613811.png"
+          ]
+        },
+        {
+          "name": "竞速级氮气支架",
+          "desc": "解锁1×5磅，2×2.5磅，1x6磅，3x2磅，2x3磅氮气",
+          "values": "LV2：解锁1x5磅氮气配置LV3：解锁2×2.5磅氮气配置LV4：解锁1x6磅氮气配置LV5：解锁3×2磅氮气配置LV6：解锁2x3磅氮气配置",
+          "icon": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/71178/2025/4/16/725575.png",
+          "images": [
+            "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/71178/2025/4/16/725575.png"
+          ]
+        },
+        {
+          "name": "空气动力学套件",
+          "desc": "跟随在车辆后方将获得尾流，产生持续的氮气充能效果",
+          "values": "",
+          "icon": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/71178/2025/4/16/521180.png",
+          "images": [
+            "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/71178/2025/4/16/521180.png"
+          ]
+        },
+        {
+          "name": "赛道专精 (LV3解锁)",
+          "desc": "在山路赛道，使用氮气时获得额外大招充能并在落后第一名超过一定距离时获得速度提升效果",
+          "values": "",
+          "icon": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/71178/2025/4/19/286980.png",
+          "images": [
+            "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/71178/2025/4/19/286980.png"
+          ]
+        },
+        {
+          "name": "RECU限制解除(LV8解锁)",
+          "desc": "不朽传奇可以充能两次",
+          "values": "",
+          "icon": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/71178/2025/4/17/328807.png",
+          "images": [
+            "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/71178/2025/4/17/328807.png"
+          ]
+        }
+      ],
+      "attrs": {
+        "车辆类型": "真实阵营",
+        "厂商": "迈凯伦",
+        "定位": "竞速位",
+        "赛道专精": "山路",
+        "能源类型": "汽油",
+        "驱动方式": "中置四驱",
+        "车重": "1198kg",
+        "扩展芯片类型": "○○◇◇◣V"
+      },
+      "stats": {
+        "极速": "211+2km/h",
+        "动力": "8.0",
+        "耐久": "110",
+        "氮气充能": "28.0%",
+        "起步充能": "28.0%",
+        "氮气时长": "5.0秒",
+        "氮气极速": "24.00/36.00km/h",
+        "涡轮时长": "0.7/2.1秒",
+        "涡轮极速": "6.00/9.90km/h"
+      },
+      "coreAbilityNames": [
+        "不朽传奇",
+        "动力源泉"
+      ],
+      "abilityLabels": {
+        "不朽传奇": "技能",
+        "动力源泉": "被动"
+      },
+      "carMeta": {
+        "rarity": "传说",
+        "category": "竞速",
+        "trackSpecialty": "山路",
+        "mainPosition": "",
+        "includedPositions": []
+      },
+      "coreAbilities": [
+        {
+          "name": "不朽传奇",
+          "category": "技能"
+        },
+        {
+          "name": "动力源泉",
+          "category": "被动"
+        }
+      ],
+      "content_id": 661781,
+      "entry_id": 186626,
+      "updated_at": 1751638086,
+      "imageCandidates": 3,
+      "speedSheetManual": false,
+      "supportCategories": [],
+      "vehicleRelations": {
+        "recommendedTeammates": [],
+        "notRecommendedTeammates": [],
+        "counteredOpponents": [],
+        "countersByOpponents": [
+          {
+            "type": "car",
+            "id": "gamekee-662307",
+            "reason": "",
+            "syncKey": "gamekee-661781::relation-sync::gamekee-662307::countersByOpponents::counteredOpponents",
+            "detached": false
+          }
+        ],
+        "mixedBattleSp": []
+      },
+      "driveAnchor": {
+        "x": 50,
+        "y": 50
+      }
+    }
+  }
+}

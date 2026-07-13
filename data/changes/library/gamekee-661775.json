@@ -1,0 +1,226 @@
+{
+  "dataset": "library",
+  "action": "modify",
+  "key": "gamekee-661775",
+  "label": "日产 GT-R NISMO",
+  "updatedAt": "2026-07-13T07:20:39.044Z",
+  "payload": {
+    "id": "gamekee-661775",
+    "name": "日产 GT-R NISMO",
+    "type": "car",
+    "role": "竞速位",
+    "tags": [
+      "竞速",
+      "山路",
+      "传说盲盒",
+      "T1",
+      "竞速位",
+      "真实阵营",
+      "梅赛德斯-AMG",
+      "汽油",
+      "能量结界",
+      "超凡出世",
+      "竞速级氮气支架",
+      "空气动力学套件",
+      "赛道专精 (LV3解锁)",
+      "RECU限制解除(LV8解锁)",
+      "极速",
+      "动力",
+      "耐久",
+      "氮气充能",
+      "氮气时长",
+      "氮气极速",
+      "涡轮时长",
+      "涡轮极速",
+      "T2",
+      "日产",
+      "无尽冲锋",
+      "披荆斩棘"
+    ],
+    "description": "有着“战神”之称的日产 GT-R不仅是日产的全球标志，也是日本的国民神车。速度节上亮相的这台GT-R NISMO，搭载独家开发的代号VR38DETT的3.8升双涡轮增压V6引擎，能够输出600匹马力的澎湃动力，配合智能四轮驱动系统，实现了速度和驾控的完美平衡。在2013年，它以7分08秒67的成绩打破了当时的纽北量产车圈速记录。\n基础信息：车辆类型=真实阵营；厂商=日产；定位=竞速位；赛道专精=山路；能源类型=汽油；驱动方式=前置四驱；无尽模式=已启动；扩展芯片类型=○◇◇◣◣V\n性能：极速=232+2km/h；动力=7.8；耐久=100；氮气充能=29%；起步充能=28%；氮气时长=6.00秒；氮气极速=28.0/42.0km/h；涡轮时长=0.62/1.86秒；涡轮极速=7.00/10.50km/h\n技能：无尽冲锋 - #tips[·获得沿车头方向的加速效果·有助于退出漂移状态加速推进]并获得5000集气量，并进入持续7.5秒的无尽冲锋状态：·期间极速提升#desc[数值]·每次使用氮气将立即获得一个氮气·每次使用涡轮也将立即获得个涡轮·若开启大招时已处于氮气加速状态，则额外获得持续7.5秒的22km/h加速和#tips[·车辆透明化·无视车辆间的碰撞·不会被“锁定类” “触碰类”干扰命中隐身]效果；披荆斩棘 - QTE起步时获得2秒额外的加速时间。每3秒清空一次100米范围内可见的放置物。；竞速级氮气支架 - 解锁1×5磅，2×2.5磅，1x6磅，3x2磅，2x3磅氮气；空气动力学套件 - 跟随在车辆后方将获得尾流，产生持续的氮气充能效果；赛道专精 (LV3解锁) - 在山路赛道，使用氮气时获得额外大招充能并在落后第一名超过一定距离时获得速度提升效果；RECU限制解除(LV8解锁) - 无尽冲锋可以充能两次。解锁大招被动：大招期间每次使用氮气或涡轮时恢复5点耐久值。\n资料说明：扩展芯片类型：\"○\"为圆形、\"△\"为三角形、\"◇\"为菱形、\"◣\"为六边形、\"V\"为V形芯片",
+    "source": "https://www.gamekee.com/aceracer/661775.html",
+    "image": "./data/vehicle-images/vehicle-gamekee-661775-0-a721b539c1.png",
+    "images": [
+      "./data/vehicle-images/vehicle-gamekee-661775-0-a721b539c1.png",
+      "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/759975/2025/4/17/784368.png?x-image-process=image/format",
+      "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/759975/2025/4/17/811139.png?x-image-process=image/format",
+      "./data/vehicle-images/vehicle-gamekee-661775-3-706d5349cd.png",
+      "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_660/h_298/50553/71178/2025/4/16/817068.png?x-image-process=image/format",
+      "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/71178/2025/4/16/296958.png?x-image-process=image/format",
+      "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/71178/2025/4/16/689539.png?x-image-process=image/format"
+    ],
+    "details": {
+      "speedSheet": {
+        "出场赛季": "S12",
+        "位置": "竞速",
+        "场地适用": "山路",
+        "稀有度": "-",
+        "梯度排行": "T2",
+        "干扰距离": "-",
+        "辅助距离": "-",
+        "特殊备注": "三幻神之一",
+        "特殊备注（被动对于自身增益）": "-",
+        "RECU": "-",
+        "技能简介": "-",
+        "技能对于自身": "-",
+        "推荐队友车辆": "催化剂",
+        "推荐队友车辆原因": "单刷，队友给加速就行了",
+        "推荐队友车辆原因（技能或者被动或者SP对于队友增益）": "-",
+        "不推荐队友车辆": "-",
+        "不推荐队友车辆原因": "-",
+        "克制对手车辆": "-",
+        "克制对手车辆原因": "-",
+        "被对手车辆克制": "-",
+        "被对手车辆克制原因": "-",
+        "推荐使用地图": "-",
+        "赋能推荐": "-",
+        "芯片推荐": "-",
+        "基础极速": "-",
+        "基础动力": "-",
+        "基础耐久": "-",
+        "基础氮气充能": "-",
+        "基础起步充能": "-",
+        "基础氮气时长": "-",
+        "基础蓝氮极速": "-",
+        "基础紫氮极速": "-",
+        "蓝喷涡轮时长": "-",
+        "紫喷涡轮时长": "-",
+        "蓝喷涡轮极速": "-",
+        "紫喷涡轮极速": "-",
+        "技能极速提升": "36km/h",
+        "大招持续时间": "7.5秒"
+      },
+      "speedSheetSourceName": "日产GT-R NISMO/日产/GTR/三幻神",
+      "skills": [
+        {
+          "name": "无尽冲锋",
+          "desc": "#tips[·获得沿车头方向的加速效果·有助于退出漂移状态加速推进]并获得5000集气量，并进入持续7.5秒的无尽冲锋状态：·期间极速提升#desc[数值]·每次使用氮气将立即获得一个氮气·每次使用涡轮也将立即获得个涡轮·若开启大招时已处于氮气加速状态，则额外获得持续7.5秒的22km/h加速和#tips[·车辆透明化·无视车辆间的碰撞·不会被“锁定类” “触碰类”干扰命中隐身]效果",
+          "values": "极速提升：25/27/30/33/36km/h（LV1/LV5/LV7/LV9/LV10）持续时间：7.5秒获得集气：5000氮气开启额外极速：22km/h",
+          "icon": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/759975/2025/4/17/784368.png",
+          "images": [
+            "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/759975/2025/4/17/784368.png"
+          ]
+        },
+        {
+          "name": "披荆斩棘",
+          "desc": "QTE起步时获得2秒额外的加速时间。每3秒清空一次100米范围内可见的放置物。",
+          "values": "",
+          "icon": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/759975/2025/4/17/811139.png",
+          "images": [
+            "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/759975/2025/4/17/811139.png"
+          ]
+        },
+        {
+          "name": "竞速级氮气支架",
+          "desc": "解锁1×5磅，2×2.5磅，1x6磅，3x2磅，2x3磅氮气",
+          "values": "LV2：解锁1x5磅氮气配置LV3：解锁2×2.5磅氮气配置LV4：解锁1x6磅氮气配置LV5：解锁3×2磅氮气配置LV6：解锁2x3磅氮气配置",
+          "icon": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/71178/2025/4/16/725575.png",
+          "images": [
+            "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/71178/2025/4/16/725575.png"
+          ]
+        },
+        {
+          "name": "空气动力学套件",
+          "desc": "跟随在车辆后方将获得尾流，产生持续的氮气充能效果",
+          "values": "",
+          "icon": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/71178/2025/4/16/521180.png",
+          "images": [
+            "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/71178/2025/4/16/521180.png"
+          ]
+        },
+        {
+          "name": "赛道专精 (LV3解锁)",
+          "desc": "在山路赛道，使用氮气时获得额外大招充能并在落后第一名超过一定距离时获得速度提升效果",
+          "values": "",
+          "icon": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/71178/2025/4/16/946572.png",
+          "images": [
+            "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/71178/2025/4/16/946572.png"
+          ]
+        },
+        {
+          "name": "RECU限制解除(LV8解锁)",
+          "desc": "无尽冲锋可以充能两次。解锁大招被动：大招期间每次使用氮气或涡轮时恢复5点耐久值。",
+          "values": "",
+          "icon": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/759975/2025/4/17/654867.png",
+          "images": [
+            "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/759975/2025/4/17/654867.png"
+          ]
+        }
+      ],
+      "attrs": {
+        "车辆类型": "真实阵营",
+        "厂商": "日产",
+        "定位": "竞速位",
+        "赛道专精": "山路",
+        "能源类型": "汽油",
+        "驱动方式": "前置四驱",
+        "重量": "1615kg",
+        "扩展芯片类型": "○◇◇◣◣V",
+        "无尽模式": "已启动"
+      },
+      "stats": {
+        "极速": "232+2km/h",
+        "动力": "7.8",
+        "耐久": "100",
+        "氮气充能": "29%",
+        "起步充能": "28%",
+        "氮气时长": "6.00秒",
+        "氮气极速": "28.0/42.0km/h",
+        "涡轮时长": "0.62/1.86秒",
+        "涡轮极速": "7.00/10.50km/h"
+      },
+      "coreAbilityNames": [
+        "无尽冲锋",
+        "披荆斩棘"
+      ],
+      "abilityLabels": {
+        "无尽冲锋": "技能",
+        "披荆斩棘": "被动",
+        "能量结界": "技能",
+        "超凡出世": "被动"
+      },
+      "carMeta": {
+        "rarity": "传说",
+        "category": "竞速",
+        "trackSpecialty": "山路",
+        "mainPosition": "",
+        "includedPositions": []
+      },
+      "coreAbilities": [
+        {
+          "name": "无尽冲锋",
+          "category": "技能"
+        },
+        {
+          "name": "披荆斩棘",
+          "category": "被动"
+        }
+      ],
+      "content_id": 661775,
+      "entry_id": 186624,
+      "updated_at": 1779075361,
+      "imageCandidates": 4,
+      "speedSheetManual": true,
+      "supportCategories": [],
+      "vehicleRelations": {
+        "recommendedTeammates": [],
+        "notRecommendedTeammates": [
+          {
+            "type": "car",
+            "id": "speed-sheet-梅赛德斯amggtblackseries",
+            "reason": "直接清理掉AMG的洞，没法玩了",
+            "syncKey": "gamekee-661775::relation-sync::speed-sheet-梅赛德斯amggtblackseries::notRecommendedTeammates::notRecommendedTeammates",
+            "detached": false
+          }
+        ],
+        "counteredOpponents": [],
+        "countersByOpponents": [],
+        "mixedBattleSp": []
+      },
+      "driveAnchor": {
+        "x": 50,
+        "y": 50
+      }
+    }
+  }
+}

@@ -1,0 +1,319 @@
+{
+  "dataset": "creators",
+  "action": "add",
+  "key": "creator-douyin-MS4wLjABAAAA5kD7jae0YLlv4yUIsSj-e6J592Q15bmMd9WhF8bBKT6G3xWQDeF8vdBNXbsSj2bs",
+  "label": "小熊🐻（小诗诗诗）",
+  "updatedAt": "2026-07-13T07:20:39.720Z",
+  "payload": {
+    "id": "creator-douyin-MS4wLjABAAAA5kD7jae0YLlv4yUIsSj-e6J592Q15bmMd9WhF8bBKT6G3xWQDeF8vdBNXbsSj2bs",
+    "name": "小熊🐻（小诗诗诗）",
+    "profileName": "小熊🐻（小诗诗诗）",
+    "platform": "抖音",
+    "avatar": "https://p3-pc.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-i-0813c000-ce_osDHAcCfIKfHUEES9f2dD8zT3epudAjQAjAAFm.jpeg?from=2956013662",
+    "followerText": "355",
+    "followerCount": 355,
+    "followerApproximate": false,
+    "followerManualNumber": "",
+    "followerManualUnit": "none",
+    "manualUserId": "",
+    "gender": "未知",
+    "displayNamePlatform": "",
+    "displayAvatarPlatform": "",
+    "forceProfileName": false,
+    "userId": "Ajkon2580",
+    "handle": "MS4wLjABAAAA5kD7jae0YLlv4yUIsSj-e6J592Q15bmMd9WhF8bBKT6G3xWQDeF8vdBNXbsSj2bs",
+    "source": "https://v.douyin.com/tbW8eCdyd80/",
+    "resolvedUrl": "https://www.iesdouyin.com/share/user/MS4wLjABAAAA5kD7jae0YLlv4yUIsSj-e6J592Q15bmMd9WhF8bBKT6G3xWQDeF8vdBNXbsSj2bs?iid=MS4wLjABAAAA5jHEHCconx7Fd6101dRLNRkoRS8gGRexKuIz29C7qBjM-7LVSkNl6WJPUXl_efQm&with_sec_did=1&sec_uid=MS4wLjABAAAA5kD7jae0YLlv4yUIsSj-e6J592Q15bmMd9WhF8bBKT6G3xWQDeF8vdBNXbsSj2bs&from_ssr=1&from_aid=1128&u_code=47d4f94b838g&did=MS4wLjABAAAAQqv3QznXHmqofhpMyF82U8yTjkt2KnMCyf3E4akWXtjTjXNX4PdlxVJ61tvCLswJ&timestamp=1783850208&utm_source=copy&utm_campaign=client_share&utm_medium=android&app=aweme&ug_share_id=c196539b046dc_1783850209500&activity_info=%7B%22social_author_id%22%3A%224125005272318846%22%2C%22social_share_id%22%3A%224125005272318846_1783850155942%22%2C%22social_share_time%22%3A%221783850208%22%2C%22social_share_user_id%22%3A%224125005272318846%22%7D",
+    "importedAt": "2026-07-12T15:36:18.190Z",
+    "raw": {
+      "title": "小熊🐻（小诗诗诗）",
+      "description": "上班期间勿扰\n我不介意荆棘，倘若你是玫瑰🌹，88 Boy二队招人，q考核群:745167190",
+      "apiUserInfo": {
+        "account_cert_info": "{}",
+        "apple_account": 0,
+        "avatar_168x168": {
+          "height": 720,
+          "uri": "aweme-avatar/tos-cn-i-0813c000-ce_osDHAcCfIKfHUEES9f2dD8zT3epudAjQAjAAFm",
+          "url_list": [
+            "https://p3-pc.douyinpic.com/img/aweme-avatar/tos-cn-i-0813c000-ce_osDHAcCfIKfHUEES9f2dD8zT3epudAjQAjAAFm~c5_168x168.jpeg?from=2956013662"
+          ],
+          "width": 720
+        },
+        "avatar_300x300": {
+          "height": 720,
+          "uri": "aweme-avatar/tos-cn-i-0813c000-ce_osDHAcCfIKfHUEES9f2dD8zT3epudAjQAjAAFm",
+          "url_list": [
+            "https://p3-pc.douyinpic.com/img/aweme-avatar/tos-cn-i-0813c000-ce_osDHAcCfIKfHUEES9f2dD8zT3epudAjQAjAAFm~c5_300x300.jpeg?from=2956013662"
+          ],
+          "width": 720
+        },
+        "avatar_larger": {
+          "height": 720,
+          "uri": "aweme-avatar/tos-cn-i-0813c000-ce_osDHAcCfIKfHUEES9f2dD8zT3epudAjQAjAAFm",
+          "url_list": [
+            "https://p3-pc.douyinpic.com/aweme/1080x1080/aweme-avatar/tos-cn-i-0813c000-ce_osDHAcCfIKfHUEES9f2dD8zT3epudAjQAjAAFm.jpeg?from=2956013662"
+          ],
+          "width": 720
+        },
+        "avatar_medium": {
+          "height": 720,
+          "uri": "aweme-avatar/tos-cn-i-0813c000-ce_osDHAcCfIKfHUEES9f2dD8zT3epudAjQAjAAFm",
+          "url_list": [
+            "https://p3-pc.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-i-0813c000-ce_osDHAcCfIKfHUEES9f2dD8zT3epudAjQAjAAFm.jpeg?from=2956013662"
+          ],
+          "width": 720
+        },
+        "avatar_thumb": {
+          "height": 720,
+          "uri": "aweme-avatar/tos-cn-i-0813c000-ce_osDHAcCfIKfHUEES9f2dD8zT3epudAjQAjAAFm",
+          "url_list": [
+            "https://p3-pc.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-i-0813c000-ce_osDHAcCfIKfHUEES9f2dD8zT3epudAjQAjAAFm.jpeg?from=2956013662"
+          ],
+          "width": 720
+        },
+        "aweme_count": 5,
+        "aweme_count_correction_threshold": -1,
+        "birthday_hide_level": 0,
+        "can_set_item_cover": false,
+        "can_show_group_card": 0,
+        "city": "",
+        "close_friend_type": 0,
+        "commerce_user_info": {
+          "ad_revenue_rits": null,
+          "has_ads_entry": true
+        },
+        "commerce_user_level": 0,
+        "country": "",
+        "cover_and_head_image_info": {
+          "cover_list": null,
+          "profile_cover_list": [
+            {
+              "cover_url": {
+                "uri": "tos-cn-i-0813c000-ce/oUQ9BeqAmze4zmEMDEIgLRFCuAAENwfjEwAAmM",
+                "url_list": [
+                  "https://p3-pc-sign.douyinpic.com/obj/tos-cn-i-0813c000-ce/oUQ9BeqAmze4zmEMDEIgLRFCuAAENwfjEwAAmM?lk3s=93de098e&x-expires=1784041200&x-signature=dFF6A9oFA6WjLEvcCzfmrvzeaiY%3D&from=2480802190",
+                  "https://p9-pc-sign.douyinpic.com/obj/tos-cn-i-0813c000-ce/oUQ9BeqAmze4zmEMDEIgLRFCuAAENwfjEwAAmM?lk3s=93de098e&x-expires=1784041200&x-signature=O1CP8DO%2FeUBC7oa%2B8Z5SLz72W9c%3D&from=2480802190"
+                ]
+              },
+              "dark_cover_color": "#FF1d2643",
+              "light_cover_color": "#FF1d2643"
+            }
+          ]
+        },
+        "cover_colour": "#03373EE5",
+        "cover_url": [
+          {
+            "uri": "tos-cn-i-0813c000-ce/oUQ9BeqAmze4zmEMDEIgLRFCuAAENwfjEwAAmM",
+            "url_list": [
+              "https://p3-pc-sign.douyinpic.com/obj/tos-cn-i-0813c000-ce/oUQ9BeqAmze4zmEMDEIgLRFCuAAENwfjEwAAmM?lk3s=93de098e&x-expires=1784041200&x-signature=dFF6A9oFA6WjLEvcCzfmrvzeaiY%3D&from=2480802190",
+              "https://p9-pc-sign.douyinpic.com/obj/tos-cn-i-0813c000-ce/oUQ9BeqAmze4zmEMDEIgLRFCuAAENwfjEwAAmM?lk3s=93de098e&x-expires=1784041200&x-signature=O1CP8DO%2FeUBC7oa%2B8Z5SLz72W9c%3D&from=2480802190"
+            ]
+          },
+          {
+            "uri": "c8510002be9a3a61aad2",
+            "url_list": [
+              "https://p3-pc-sign.douyinpic.com/obj/c8510002be9a3a61aad2?lk3s=93de098e&x-expires=1784041200&x-signature=qJGsp46ps%2Be5dOTL2sPNhTUgBy0%3D&from=2480802190",
+              "https://p9-pc-sign.douyinpic.com/obj/c8510002be9a3a61aad2?lk3s=93de098e&x-expires=1784041200&x-signature=CT6NR7uYX7W%2B3p%2FxXuyuW9Z0bXg%3D&from=2480802190"
+            ]
+          }
+        ],
+        "custom_verify": "",
+        "disable_manual_refresh": 0,
+        "district": "",
+        "dongtai_count": 0,
+        "dynamic_cover": {},
+        "elfemoji_status": -1,
+        "enable_ai_double": 0,
+        "enable_wish": false,
+        "enterprise_user_info": "",
+        "enterprise_verify_reason": "",
+        "evaluation_count": 0,
+        "familiar_confidence": 0,
+        "favorite_permission": 1,
+        "favoriting_count": 0,
+        "follow_guide": true,
+        "follow_status": 0,
+        "follower_count": 355,
+        "follower_request_status": 0,
+        "follower_status": 0,
+        "following_count": 502,
+        "forward_count": 0,
+        "gender": null,
+        "general_permission": {
+          "fans_page_toast": 0,
+          "following_follower_list_toast": 1,
+          "is_hit_active_fans_grayed": false
+        },
+        "has_e_account_role": false,
+        "has_subscription": false,
+        "hide_request_update": 0,
+        "im_primary_role_id": 9,
+        "im_role_ids": [
+          9
+        ],
+        "image_send_exempt": false,
+        "ins_id": "",
+        "is_activity_user": false,
+        "is_ban": false,
+        "is_block": false,
+        "is_blocked": false,
+        "is_effect_artist": false,
+        "is_gov_media_vip": false,
+        "is_im_oversea_user": 0,
+        "is_mix_user": false,
+        "is_not_show": false,
+        "is_series_user": false,
+        "is_sharing_profile_user": 0,
+        "is_star": false,
+        "life_story_block": {
+          "life_story_block": false
+        },
+        "live_commerce": false,
+        "live_status": 0,
+        "mate_add_permission": 0,
+        "mate_relation": {
+          "mate_apply_forward": 0,
+          "mate_apply_reverse": 0,
+          "mate_status": 0
+        },
+        "max_follower_count": 355,
+        "message_chat_entry": true,
+        "mix_count": 0,
+        "mplatform_followers_count": 355,
+        "nickname": "小熊🐻（小诗诗诗）",
+        "original_musician": {
+          "digg_count": 0,
+          "music_count": 0,
+          "music_used_count": 0
+        },
+        "pigeon_daren_status": "",
+        "pigeon_daren_warn_tag": "",
+        "profile_component_disabled": [
+          "banner_vs"
+        ],
+        "profile_mob_params": [
+          {
+            "event_key": "enter_personal_tab",
+            "mob_params": "{\"landing_reason\":\"Landing_Default_Post\"}"
+          }
+        ],
+        "profile_show": {
+          "identify_auth_infos": null
+        },
+        "profile_tab_info": {
+          "profile_landing_tab": 0,
+          "profile_tab_list": null,
+          "profile_tab_list_v2": null
+        },
+        "profile_tab_type": 0,
+        "province": "",
+        "public_collects_count": 0,
+        "publish_landing_tab": 1,
+        "r_fans_group_info": {},
+        "recommend_reason_relation": "",
+        "recommend_user_reason_source": 0,
+        "risk_notice_text": "",
+        "room_id": 0,
+        "room_id_str": "0",
+        "school_name": null,
+        "sec_uid": "MS4wLjABAAAA5kD7jae0YLlv4yUIsSj-e6J592Q15bmMd9WhF8bBKT6G3xWQDeF8vdBNXbsSj2bs",
+        "secret": 0,
+        "series_count": 0,
+        "share_info": {
+          "bool_persist": 1,
+          "life_share_ext": "{\"life_share_id\":\"f521dd342bcc42599403545e7c0576b7\"}",
+          "share_desc": "长按复制此条消息，打开抖音搜索，查看TA的更多作品。",
+          "share_image_url": {
+            "uri": "tos-cn-p-0015c000-ce/owQnpBiM1tEVloQDB0iiweBIAIAes4cIIovsnc",
+            "url_list": [
+              "https://p3-pc-sign.douyinpic.com/obj/tos-cn-p-0015c000-ce/owQnpBiM1tEVloQDB0iiweBIAIAes4cIIovsnc?lk3s=93de098e&x-expires=1784041200&x-signature=VQtAQvVMtsHoTLKYtjEdEebziss%3D&from=2480802190",
+              "https://p9-pc-sign.douyinpic.com/obj/tos-cn-p-0015c000-ce/owQnpBiM1tEVloQDB0iiweBIAIAes4cIIovsnc?lk3s=93de098e&x-expires=1784041200&x-signature=8TBXug%2FEUIahQDZ%2BKJHUVmU3sfQ%3D&from=2480802190"
+            ]
+          },
+          "share_qrcode_url": {
+            "uri": "31573000c34f7fc0e93a6",
+            "url_list": [
+              "https://p3.douyinpic.com/obj/31573000c34f7fc0e93a6",
+              "https://p26.douyinpic.com/obj/31573000c34f7fc0e93a6",
+              "https://p11.douyinpic.com/obj/31573000c34f7fc0e93a6"
+            ]
+          },
+          "share_title": "快来加入抖音，让你发现最有趣的我！",
+          "share_url": "www.iesdouyin.com/share/user/MS4wLjABAAAA5kD7jae0YLlv4yUIsSj-e6J592Q15bmMd9WhF8bBKT6G3xWQDeF8vdBNXbsSj2bs?did=MS4wLjABAAAAh5ofHrEg37OJvQxEkPQ9ywfLtZX0t64jPNpLG0Cx_3HJYZdlXbPa-0bJxAexTEm0&iid=MS4wLjABAAAANwkJuWIRFOzg5uCpDRpMj4OX-QryoDgn-yYlXQnRwQQ&with_sec_did=1&sec_uid=MS4wLjABAAAA5kD7jae0YLlv4yUIsSj-e6J592Q15bmMd9WhF8bBKT6G3xWQDeF8vdBNXbsSj2bs&from_ssr=1&from_aid=6383",
+          "share_weibo_desc": "长按复制此条消息，打开抖音搜索，查看TA的更多作品。"
+        },
+        "short_id": "0",
+        "show_favorite_list": false,
+        "show_subscription": false,
+        "signature": "上班期间勿扰\n我不介意荆棘，倘若你是玫瑰🌹，88 Boy二队招人，q考核群:745167190",
+        "signature_display_lines": 0,
+        "signature_language": "zh",
+        "social_real_relation_type": 0,
+        "special_follow_status": 0,
+        "store_region": "cn-sh",
+        "story_tab_empty": false,
+        "sync_to_toutiao": 0,
+        "tab_settings": {
+          "private_tab": {
+            "private_tab_style": 1,
+            "show_private_tab": false
+          }
+        },
+        "total_favorited": 274,
+        "total_favorited_correction_threshold": -1,
+        "twitter_id": "",
+        "twitter_name": "",
+        "uid": "4125005272318846",
+        "unique_id": "Ajkon2580",
+        "urge_detail": {
+          "ctl_map": "{\"toast\":\"✅作者已收到“求更新”提醒～\",\"button_background_url\":\"https://p11-webcast.douyinpic.com/img/webcast/urge_update.png~tplv-obj.image\",\"urge_type\":\"\",\"dispose_to_moment\":\"0\",\"next_urge_type\":\"default\",\"button_text\":\"求更新\"}",
+          "user_urged": 0
+        },
+        "use_diverse_digg_style": false,
+        "user_age": 22,
+        "user_not_see": 0,
+        "user_not_show": 1,
+        "verification_type": 0,
+        "video_cover": {},
+        "video_icon": {
+          "height": 720,
+          "uri": "",
+          "url_list": [],
+          "width": 720
+        },
+        "watch_status": false,
+        "white_cover_url": [
+          {
+            "uri": "tos-cn-i-0813c000-ce/oUQ9BeqAmze4zmEMDEIgLRFCuAAENwfjEwAAmM",
+            "url_list": [
+              "https://p3-pc-sign.douyinpic.com/obj/tos-cn-i-0813c000-ce/oUQ9BeqAmze4zmEMDEIgLRFCuAAENwfjEwAAmM?lk3s=93de098e&x-expires=1784041200&x-signature=dFF6A9oFA6WjLEvcCzfmrvzeaiY%3D&from=2480802190",
+              "https://p9-pc-sign.douyinpic.com/obj/tos-cn-i-0813c000-ce/oUQ9BeqAmze4zmEMDEIgLRFCuAAENwfjEwAAmM?lk3s=93de098e&x-expires=1784041200&x-signature=O1CP8DO%2FeUBC7oa%2B8Z5SLz72W9c%3D&from=2480802190"
+            ]
+          },
+          {
+            "uri": "318f1000413827e122102",
+            "url_list": [
+              "https://p3-pc-sign.douyinpic.com/obj/318f1000413827e122102?lk3s=93de098e&x-expires=1784041200&x-signature=qghwoOyBleS3Js0TkKNd8QaHmcY%3D&from=2480802190",
+              "https://p9-pc-sign.douyinpic.com/obj/318f1000413827e122102?lk3s=93de098e&x-expires=1784041200&x-signature=DG0HdAnzjPNg8v8wQD4jyKi%2BS%2B8%3D&from=2480802190"
+            ]
+          }
+        ],
+        "with_commerce_enterprise_tab_entry": false,
+        "with_commerce_entry": false,
+        "with_fusion_shop_entry": false,
+        "with_new_goods": false,
+        "youtube_channel_id": "",
+        "youtube_channel_title": "",
+        "followers_detail": null,
+        "platform_sync_info": null,
+        "geofencing": null,
+        "policy_version": null,
+        "type_label": null,
+        "card_entries": [],
+        "mix_info": null
+      },
+      "apiSource": "profile-other",
+      "followerApproximate": false
+    }
+  }
+}

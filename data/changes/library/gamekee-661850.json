@@ -1,0 +1,267 @@
+{
+  "dataset": "library",
+  "action": "modify",
+  "key": "gamekee-661850",
+  "label": "福特 GT",
+  "updatedAt": "2026-07-13T07:20:39.008Z",
+  "payload": {
+    "id": "gamekee-661850",
+    "name": "福特 GT",
+    "type": "car",
+    "role": "竞速位",
+    "tags": [
+      "竞速",
+      "场地",
+      "T1",
+      "竞速位",
+      "真实阵营",
+      "福特",
+      "汽油",
+      "乘胜追击",
+      "奋起直追",
+      "碰撞补偿",
+      "竞速级氮气支架",
+      "空气动力学套件",
+      "赛道专精 (LV3解锁)",
+      "RECU限制解除(LV8解锁)",
+      "极速",
+      "动力",
+      "耐久",
+      "氮气充能",
+      "氮气时长",
+      "氮气极速",
+      "涡轮时长",
+      "涡轮极速"
+    ],
+    "description": "福特 GT的名号要追溯到上个世纪60年代，彼时的福特 GT40在1966至1969年间连夺得四届勒芒24小时耐力赛冠军，成为了一代神话。如今这台福特 GT是对曾经的神车GT40的复刻，在外形复原GT40的同时，它搭载了一台3.5升V6双涡轮增压引擎，使得这台怪物从静止到每小时160公里只需要6.2秒，展现了美国赛车的暴力美学。\n基础信息：车辆类型=真实阵营；厂商=福特；定位=竞速位；赛道专精=场地；能源类型=汽油；驱动方式=中置后驱；最大功率输出=600+马力；扩展芯片类型=○○△◇◇V\n性能：极速=227+2km/h；动力=7.4；耐久=125；氮气充能=33%；起步充能=33%；氮气时长=5.60秒；氮气极速=24.0/36.0km/h；涡轮时长=0.73/2.19秒；涡轮极速=8.00/12.00km/h\n技能：乘胜追击 - 冷却时间：15秒#tips[净化]自身负面效果且3秒内极速+55km/h。；奋起直追 - 加速推进，极速提升50km/h，持续#desc[数值]。大招期间：首次超车前获得双倍加速效果50米范围内存在其它车辆时立即消除SP技能冷却时间。大招被动：可在更大范围内获得尾流。；碰撞补偿 - 碰撞不损失集气，每次发生碰撞后6秒内极速+6km/h并提升动力；竞速级氮气支架 - 解锁1×5磅，2×2.5磅，1x6磅，3x2磅，2x3磅氮气；空气动力学套件 - 跟随在车辆后方将获得尾流，产生持续的氮气充能效果；赛道专精 (LV3解锁) - 在场地赛道，使用氮气时获得额外大招充能并在落后第一名超过一定距离时获得速度提升效果；RECU限制解除(LV8解锁) - 奋起直追可以充能两次\n资料说明：扩展芯片类型：\"○\"为圆形、\"△\"为三角形、\"◇\"为菱形、\"◣\"为六边形、\"V\"为V形芯片",
+    "source": "https://www.gamekee.com/aceracer/661850.html",
+    "image": "./data/vehicle-images/vehicle-gamekee-661850-0-5ef6b634f1.png",
+    "images": [
+      "./data/vehicle-images/vehicle-gamekee-661850-0-5ef6b634f1.png",
+      "./data/vehicle-images/vehicle-gamekee-661850-1-fbf47e4199.png",
+      "./data/vehicle-images/vehicle-gamekee-661850-2-378743da78.png"
+    ],
+    "details": {
+      "speedSheet": {
+        "出场赛季": "S1",
+        "位置": "竞速",
+        "场地适用": "场地",
+        "稀有度": "-",
+        "梯度排行": "T1",
+        "干扰距离": "-",
+        "辅助距离": "-",
+        "特殊备注": "-",
+        "特殊备注（被动对于自身增益）": "-",
+        "RECU": "-",
+        "技能简介": "-",
+        "技能对于自身": "-",
+        "推荐队友车辆": "-",
+        "推荐队友车辆原因": "-",
+        "推荐队友车辆原因（技能或者被动或者SP对于队友增益）": "-",
+        "不推荐队友车辆": "-",
+        "不推荐队友车辆原因": "-",
+        "克制对手车辆": "-",
+        "克制对手车辆原因": "-",
+        "被对手车辆克制": "-",
+        "被对手车辆克制原因": "-",
+        "推荐使用地图": "-",
+        "赋能推荐": "-",
+        "芯片推荐": "-",
+        "基础极速": "-",
+        "基础动力": "-",
+        "基础耐久": "-",
+        "基础氮气充能": "-",
+        "基础起步充能": "-",
+        "基础氮气时长": "-",
+        "基础蓝氮极速": "-",
+        "基础紫氮极速": "-",
+        "蓝喷涡轮时长": "-",
+        "紫喷涡轮时长": "-",
+        "蓝喷涡轮极速": "-",
+        "紫喷涡轮极速": "-",
+        "技能极速提升": "50km/h",
+        "大招持续时间": "7秒"
+      },
+      "speedSheetSourceName": "福特GT",
+      "skills": [
+        {
+          "name": "乘胜追击",
+          "desc": "冷却时间：15秒#tips[净化]自身负面效果且3秒内极速+55km/h。",
+          "values": "",
+          "icon": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_180/h_180/50553/759975/2025/4/18/51278.png",
+          "images": [
+            "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_180/h_180/50553/759975/2025/4/18/51278.png"
+          ]
+        },
+        {
+          "name": "奋起直追",
+          "desc": "加速推进，极速提升50km/h，持续#desc[数值]。大招期间：首次超车前获得双倍加速效果50米范围内存在其它车辆时立即消除SP技能冷却时间。大招被动：可在更大范围内获得尾流。",
+          "values": "极速提升：50km/h加速时长：4/5/6/7秒（LV1/LV5/LV7/LV9）额外起步充能：15%（10级解锁）",
+          "icon": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/759975/2025/4/18/315420.png",
+          "images": [
+            "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/759975/2025/4/18/315420.png"
+          ]
+        },
+        {
+          "name": "碰撞补偿",
+          "desc": "碰撞不损失集气，每次发生碰撞后6秒内极速+6km/h并提升动力",
+          "values": "",
+          "icon": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/759975/2025/4/18/707060.png",
+          "images": [
+            "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/759975/2025/4/18/707060.png"
+          ]
+        },
+        {
+          "name": "竞速级氮气支架",
+          "desc": "解锁1×5磅，2×2.5磅，1x6磅，3x2磅，2x3磅氮气",
+          "values": "LV2：解锁1x5磅氮气配置LV3：解锁2×2.5磅氮气配置LV4：解锁1x6磅氮气配置LV5：解锁3×2磅氮气配置LV6：解锁2x3磅氮气配置",
+          "icon": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/71178/2025/4/16/725575.png",
+          "images": [
+            "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/71178/2025/4/16/725575.png"
+          ]
+        },
+        {
+          "name": "空气动力学套件",
+          "desc": "跟随在车辆后方将获得尾流，产生持续的氮气充能效果",
+          "values": "",
+          "icon": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/71178/2025/4/16/521180.png",
+          "images": [
+            "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/71178/2025/4/16/521180.png"
+          ]
+        },
+        {
+          "name": "赛道专精 (LV3解锁)",
+          "desc": "在场地赛道，使用氮气时获得额外大招充能并在落后第一名超过一定距离时获得速度提升效果",
+          "values": "",
+          "icon": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/759975/2025/4/18/503277.png",
+          "images": [
+            "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/759975/2025/4/18/503277.png"
+          ]
+        },
+        {
+          "name": "RECU限制解除(LV8解锁)",
+          "desc": "奋起直追可以充能两次",
+          "values": "",
+          "icon": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/759975/2025/4/18/918953.png",
+          "images": [
+            "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/759975/2025/4/18/918953.png"
+          ]
+        }
+      ],
+      "attrs": {
+        "车辆类型": "真实阵营",
+        "厂商": "福特",
+        "定位": "竞速位",
+        "赛道专精": "场地",
+        "能源类型": "汽油",
+        "驱动方式": "中置后驱",
+        "最大功率输出": "600+马力",
+        "扩展芯片类型": "○○△◇◇V"
+      },
+      "stats": {
+        "极速": "227+2km/h",
+        "动力": "7.4",
+        "耐久": "125",
+        "氮气充能": "33%",
+        "起步充能": "33%",
+        "氮气时长": "5.60秒",
+        "氮气极速": "24.0/36.0km/h",
+        "涡轮时长": "0.73/2.19秒",
+        "涡轮极速": "8.00/12.00km/h"
+      },
+      "coreAbilityNames": [
+        "乘胜追击",
+        "奋起直追",
+        "碰撞补偿"
+      ],
+      "abilityLabels": {
+        "乘胜追击": "SP",
+        "奋起直追": "技能",
+        "碰撞补偿": "被动"
+      },
+      "carMeta": {
+        "rarity": "传说",
+        "category": "竞速",
+        "trackSpecialty": "场地",
+        "mainPosition": "",
+        "includedPositions": []
+      },
+      "coreAbilities": [
+        {
+          "name": "乘胜追击",
+          "category": "SP"
+        },
+        {
+          "name": "奋起直追",
+          "category": "技能"
+        },
+        {
+          "name": "碰撞补偿",
+          "category": "被动"
+        }
+      ],
+      "content_id": 661850,
+      "entry_id": 186695,
+      "updated_at": 1769915117,
+      "imageCandidates": 3,
+      "speedSheetManual": true,
+      "supportCategories": [],
+      "vehicleRelations": {
+        "recommendedTeammates": [
+          {
+            "type": "car",
+            "id": "gamekee-662121",
+            "reason": "",
+            "syncKey": "",
+            "detached": false
+          },
+          {
+            "type": "car",
+            "id": "gamekee-661786",
+            "reason": "",
+            "syncKey": "",
+            "detached": false
+          }
+        ],
+        "notRecommendedTeammates": [],
+        "counteredOpponents": [],
+        "countersByOpponents": [
+          {
+            "type": "car",
+            "id": "gamekee-664130",
+            "reason": "没解控直接控死",
+            "syncKey": "gamekee-661850::relation-sync::gamekee-664130::counteredOpponents::countersByOpponents",
+            "detached": false
+          }
+        ],
+        "mixedBattleSp": [
+          {
+            "type": "car",
+            "id": "gamekee-661652",
+            "reason": "依靠福特GT自身被动刷新SP，开局瞬间冰冻三次敌方全体人员，周围有车就有大招就可以无限闪现",
+            "syncKey": "",
+            "detached": false
+          },
+          {
+            "type": "car",
+            "id": "gamekee-661818",
+            "reason": "依靠福特GT自身被动刷新SP，周围有车就有大招就可以无限闪现",
+            "syncKey": "",
+            "detached": false
+          },
+          {
+            "type": "car",
+            "id": "gamekee-661760",
+            "reason": "依靠福特GT自身被动刷新SP，感受无限加时和我自身无限减时吧",
+            "syncKey": "",
+            "detached": false
+          }
+        ]
+      },
+      "driveAnchor": {
+        "x": 50,
+        "y": 50
+      }
+    }
+  }
+}

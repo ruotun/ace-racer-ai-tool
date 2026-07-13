@@ -1,0 +1,80 @@
+{
+  "dataset": "creators",
+  "action": "add",
+  "key": "creator-kuaishou-5104203252",
+  "label": "语缘（实战亡）",
+  "updatedAt": "2026-07-13T07:20:39.699Z",
+  "payload": {
+    "id": "creator-kuaishou-5104203252",
+    "name": "语缘（实战亡）",
+    "profileName": "语缘",
+    "platform": "快手",
+    "avatar": "https://p66-pro.a.yximgs.com/uhead/AB/2025/11/22/13/BMjAyNTExMjIxMzE2MTFfNTEwNDIwMzI1Ml8yX2hkOTMzXzUx_s.jpg",
+    "followerText": "306",
+    "followerCount": 306,
+    "followerApproximate": false,
+    "followerManualNumber": "",
+    "followerManualUnit": "none",
+    "manualUserId": "",
+    "gender": "未知",
+    "displayNamePlatform": "",
+    "displayAvatarPlatform": "",
+    "forceProfileName": true,
+    "userId": "5104203252",
+    "handle": "cywldw666",
+    "source": "https://v.kuaishou.com/JwfpxLjn",
+    "resolvedUrl": "https://kpfshanghai.m.chenzhongtech.com/fw/user/cywldw666?cc=share_copylink&followRefer=151&shareMethod=TOKEN&kpn=NEBULA&subBiz=PROFILE&shareId=19032301885831&shareToken=X34Jd7Biiz3E1Pi&shareResourceType=PROFILE_SELF&shareMode=APP&efid=3xaybh6g5jqvtf9&originShareId=19032301885831&appType=21&shareObjectId=5104203252&shareUrlOpened=0&timestamp=1783851780374",
+    "importedAt": "2026-07-12T15:34:13.529Z",
+    "raw": {
+      "userInfo": {},
+      "pageData": {
+        "name": "语缘（实战亡）",
+        "avatar": "https://p66-pro.a.yximgs.com/uhead/AB/2025/11/22/13/BMjAyNTExMjIxMzE2MTFfNTEwNDIwMzI1Ml8yX2hkOTMzXzUx_s.jpg",
+        "userId": "5104203252",
+        "handle": "cywldw666",
+        "follower": {
+          "text": "306",
+          "count": 306
+        },
+        "gender": "女"
+      },
+      "rawPageData": {
+        "name": "语缘（实战亡）",
+        "avatar": "https://p66-pro.a.yximgs.com/uhead/AB/2025/11/22/13/BMjAyNTExMjIxMzE2MTFfNTEwNDIwMzI1Ml8yX2hkOTMzXzUx_s.jpg",
+        "userId": "5104203252",
+        "handle": "cywldw666",
+        "follower": {
+          "text": "306",
+          "count": 306
+        },
+        "gender": "女"
+      },
+      "apiResult": 400002,
+      "targetIds": [
+        "5104203252"
+      ],
+      "targetHandles": [
+        "cywldw666"
+      ],
+      "sharerIds": [],
+      "rejectedUsers": [],
+      "pageWasSharer": false,
+      "pageNeedsRetry": false,
+      "pageAttempts": [
+        {
+          "name": "语缘（实战亡）",
+          "userId": "5104203252",
+          "handle": "cywldw666",
+          "hasAvatar": true,
+          "followerCount": 306,
+          "pageWasSharer": false,
+          "pageNeedsRetry": false
+        }
+      ],
+      "usedExistingCreator": null,
+      "sharedName": "语缘（实战亡）",
+      "sourceText": "https://v.kuaishou.com/JwfpxLjn 看了这么多快手，还是「语缘（实战亡）」最好玩了！ 复制此消息，打开【快手极速版】直接观看！",
+      "htmlTitle": "快手"
+    }
+  }
+}

@@ -50,7 +50,47 @@ async function fetchProjectJson(apiPath, staticPath) {
   }
   const response = await fetch(staticAssetUrl(staticPath), { cache: "no-store" });
   if (!response.ok) throw new Error("static data unavailable: " + staticPath);
-  return response.json();
+  const payload = await response.json();
+  return applyStaticChangeOverlay(staticPath, payload);
+}
+async function applyStaticChangeOverlay(staticPath, payload) {
+  if (!STATIC_HOSTING_MODE) return payload;
+  const dataset = staticPath.includes("library-data") ? "library" : staticPath.includes("creator-data") ? "creators" : staticPath.includes("desktop-pets") ? "desktop-pets" : "";
+  if (!dataset) return payload;
+  try {
+    const response = await fetch(staticAssetUrl("./data/change-manifest.json") + "?v=" + Date.now(), { cache: "no-store" });
+    if (!response.ok) return payload;
+    const manifest = await response.json();
+    const entries = (Array.isArray(manifest.entries) ? manifest.entries : []).filter((entry) => entry.dataset === dataset && entry.path);
+    if (!entries.length) return payload;
+    const patches = [];
+    for (const entry of entries) {
+      try {
+        const patchResponse = await fetch(staticAssetUrl("./" + entry.path.replace(/^\.\//, "")) + "?v=" + encodeURIComponent(entry.updatedAt || ""), { cache: "no-store" });
+        if (patchResponse.ok) patches.push(await patchResponse.json());
+      } catch {}
+    }
+    return mergeStaticPatches(dataset, payload, patches);
+  } catch {
+    return payload;
+  }
+}
+function mergeStaticPatches(dataset, payload, patches) {
+  const field = dataset === "library" ? "items" : dataset === "creators" ? "creators" : "pets";
+  const list = Array.isArray(payload?.[field]) ? payload[field].slice() : [];
+  const keyFor = (item) => dataset === "library"
+    ? (item?.id || ((item?.type || "item") + ":" + (item?.name || "")))
+    : dataset === "creators"
+      ? (item?.id || ((item?.platform || "creator") + ":" + (item?.userId || item?.handle || item?.source || item?.name || "")))
+      : (item?.id || item?.name || "");
+  const byKey = new Map(list.map((item) => [keyFor(item), item]).filter(([key]) => key));
+  patches.forEach((patch) => {
+    const key = patch?.key || keyFor(patch?.payload || {});
+    if (!key) return;
+    if (patch.action === "delete") byKey.delete(key);
+    else byKey.set(key, patch.payload);
+  });
+  return { ...payload, [field]: Array.from(byKey.values()), changeOverlayApplied: true };
 }
 function isReadOnlyMode() {
   return READ_ONLY_MODE;
@@ -1863,6 +1903,80 @@ async function restoreCreatorsFromBackup() {
 function loadAiConfig() { try { return JSON.parse(localStorage.getItem(AI_KEY) || "{}"); } catch { return {}; } }
 function saveAiConfig(config) { localStorage.setItem(AI_KEY, JSON.stringify(config)); }
 function setStatus(message, type = "") { const node = $("urlStatus"); node.textContent = message; node.className = "status-text" + (type ? " " + type : ""); }
+function setProjectActionStatus(message, type = "") {
+  const node = $("projectActionStatus");
+  if (!node) return;
+  node.textContent = message;
+  node.className = "status-text" + (type ? " " + type : "");
+}
+function setProjectSyncProgress(done = 0, total = 0, visible = false) {
+  const wrap = $("projectSyncProgress");
+  const bar = wrap?.querySelector("span");
+  if (!wrap || !bar) return;
+  wrap.classList.toggle("hidden", !visible);
+  const percent = total > 0 ? Math.max(0, Math.min(100, Math.round((done / total) * 100))) : 0;
+  bar.style.width = percent + "%";
+}
+async function saveProjectDataNow() {
+  if (isReadOnlyMode() || !location.protocol.startsWith("http")) return;
+  allowProjectLibraryWrite = true;
+  const requests = [
+    fetch(API_BASE + "/api/library-data", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ items, replace: true, force: true }) }),
+    fetch(API_BASE + "/api/creator-data", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify({ creators, replace: true }) }),
+    fetch(API_BASE + "/api/desktop-pets", { method: "POST", headers: { "Content-Type": "application/json" }, body: JSON.stringify(desktopPetPayload()) }),
+  ];
+  const responses = await Promise.all(requests);
+  const failed = responses.find((response) => !response.ok);
+  if (failed) {
+    let message = "本地数据保存失败";
+    try { message = (await failed.json()).error || message; } catch {}
+    throw new Error(message);
+  }
+}
+async function waitForSyncGithubJob(jobId) {
+  setProjectSyncProgress(0, 1, true);
+  for (;;) {
+    const response = await fetch(API_BASE + "/api/sync-github-progress?id=" + encodeURIComponent(jobId), { cache: "no-store" });
+    const payload = await response.json();
+    if (!response.ok || !payload.ok) throw new Error(payload.error || "同步进度读取失败");
+    const total = Number(payload.total || 0);
+    const done = Number(payload.done || 0);
+    setProjectSyncProgress(done, total || 1, true);
+    const countText = total ? "（" + done + " / " + total + " 个文件）" : "";
+    setProjectActionStatus((payload.message || "正在同步到 GitHub...") + countText);
+    if (payload.status === "done") {
+      setProjectSyncProgress(total || 1, total || 1, true);
+      return payload.result || { ok: true, fileCount: total };
+    }
+    if (payload.status === "error") throw new Error(payload.error || payload.message || "同步失败");
+    await new Promise((resolve) => setTimeout(resolve, 650));
+  }
+}
+async function postProjectAction(apiPath, label) {
+  if (isReadOnlyMode()) { showReadOnlyNotice(); return; }
+  setProjectActionStatus("正在保存本地数据...");
+  setProjectSyncProgress(0, 1, false);
+  try {
+    await saveProjectDataNow();
+    setProjectActionStatus("正在" + label + "，请稍等...");
+    const response = await fetch(API_BASE + apiPath, { method: "POST" });
+    const payload = await response.json();
+    if (!response.ok || !payload.ok) throw new Error(payload.error || (label + "失败"));
+    if (apiPath === "/api/sync-github") {
+      const result = payload.jobId ? await waitForSyncGithubJob(payload.jobId) : payload;
+      const fileCount = Number(result.fileCount || 0);
+      setProjectActionStatus("已同步到 GitHub。本次上传 " + fileCount + " 个文件。" + (result.imagesDownloaded ? " 新本地化图片 " + result.imagesDownloaded + " 张。" : ""), "success");
+      return;
+    }
+    if (apiPath === "/api/package-desktop-pet") {
+      setProjectActionStatus("桌宠已打包：" + payload.path, "success");
+      return;
+    }
+    setProjectActionStatus(label + "完成。", "success");
+  } catch (error) {
+    setProjectActionStatus(label + "失败：" + error.message, "error");
+  }
+}
 function proxyImage(src) {
   const staticSrc = staticAssetUrl(src);
   if (staticSrc !== src) return staticSrc;
@@ -2440,6 +2554,41 @@ async function supplementVehicleUrl() {
     setStatus("补充资料失败：" + error.message + "。请确认是支持的车辆详情页。", "error");
   }
 }
+function setDetailImportStatus(message, type = "") {
+  const node = $("detailVehicleImportStatus");
+  if (!node) return;
+  node.textContent = message;
+  node.className = "status-text" + (type ? " " + type : "");
+}
+async function importVehicleIntoCurrentDetail(itemId) {
+  if (isReadOnlyMode()) { showReadOnlyNotice(); return; }
+  const target = items.find((entry) => entry.id === itemId && entry.type === "car");
+  if (!target) { setDetailImportStatus("没有找到当前车辆。", "error"); return; }
+  const url = normalizeText($("detailVehicleImportUrl")?.value || "");
+  if (!url) { setDetailImportStatus("请先粘贴 GameKee 或 RECA 车辆链接。", "error"); return; }
+  const originalName = target.name;
+  const originalId = target.id;
+  setDetailImportStatus("正在导入到当前车辆...");
+  try {
+    const payload = await fetchVehicleImportPayload(url);
+    const fresh = normalizeRecord(payload.record);
+    const merged = mergeSupplementalRecordData(target, fresh);
+    merged.id = originalId;
+    merged.name = originalName;
+    merged.details = merged.details || {};
+    merged.details.speedSheetSourceName = target.details?.speedSheetSourceName || originalName;
+    merged.details.importedFromDetailUrl = url;
+    items = items.map((item) => item.id === originalId ? normalizeRecord(merged) : item);
+    sheetEditDraft = sheetEditItemId === originalId ? cloneData(merged) : sheetEditDraft;
+    uiEditDraft = uiEditItemId === originalId ? cloneData(merged) : uiEditDraft;
+    saveItems();
+    render();
+    openDetail(originalId);
+    setDetailImportStatus("已导入到当前车辆，赛车名字保持为“" + originalName + "”。", "success");
+  } catch (error) {
+    setDetailImportStatus("导入失败：" + error.message, "error");
+  }
+}
 async function importCurrentOrClipboardGamekeeUrl() {
   setStatus("正在读取当前页面或剪贴板里的车辆地址...", "");
   const currentUrl = extractVehicleImportUrl(window.location.href);
@@ -2786,6 +2935,16 @@ function backDetail() {
   const previous = detailHistory.pop();
   if (previous) openDetail(previous);
 }
+function renderDetailImportPanel(item, editing) {
+  if (!editing || item.type !== "car") return "";
+  return '<section class="panel detail-import-panel">' +
+    '<div class="detail-import-row">' +
+    '<input id="detailVehicleImportUrl" placeholder="粘贴 GameKee 或 RECA 链接，导入到当前车辆（保留当前车名）" />' +
+    '<button type="button" class="detail-vehicle-import-btn" data-item-id="' + escapeHtml(item.id) + '">导入到当前车</button>' +
+    '</div>' +
+    '<p id="detailVehicleImportStatus" class="status-text">只覆盖当前车辆的图片、性能、技能、分类等资料，不会改掉已经写好的赛车名字。</p>' +
+    '</section>';
+}
 function renderRelationDiagram(item, heroImage) {
   var cfgList = [{key:"recommendedTeammates",label:"推荐队友车辆",lineClass:"relation-line-green",cssClass:"corner-tl",labelClass:"corner-label-green"},{key:"notRecommendedTeammates",label:"不推荐队友车辆",lineClass:"relation-line-red",cssClass:"corner-tr",labelClass:"corner-label-red"},{key:"counteredOpponents",label:"克制对手车辆",lineClass:"relation-line-green",cssClass:"corner-bl",labelClass:"corner-label-green"},{key:"countersByOpponents",label:"被对手车辆克制",lineClass:"relation-line-red",cssClass:"corner-br",labelClass:"corner-label-red"}];
   var allRel = normalizeVehicleRelations(item.details&&item.details.vehicleRelations||{});
@@ -2806,7 +2965,7 @@ function renderDetail(item) {
   const heroImage = renderVehicleUi(item, gallery, item.name, editing, item.id);
   const editNotice = editing ? '<p class="edit-notice">编辑资料模式：点击车辆图片或任意技能图标可上传替换；保存资料后才会写入资料库。</p>' : '';
   const editStatus = editing ? '<p id="imageReloadStatus" class="status-text"></p>' : '';
-  return renderRelationDiagram(item, heroImage) + editNotice + editStatus + renderSpeedSheetSection(item) + renderMixedBattleSpSection(item) + renderCarClassSection(item) + renderAbilityClassifier(item, coreNames, skills) + renderKvSection("基础信息", attrs) + renderPerformanceSection(item, stats) + renderSkillsSection(skills, editing, item.id);
+  return renderRelationDiagram(item, heroImage) + renderDetailImportPanel(item, editing) + editNotice + editStatus + renderSpeedSheetSection(item) + renderMixedBattleSpSection(item) + renderCarClassSection(item) + renderAbilityClassifier(item, coreNames, skills) + renderKvSection("基础信息", attrs) + renderPerformanceSection(item, stats) + renderSkillsSection(skills, editing, item.id);
 }
 function renderVehicleUi(item, candidates, name, editing, itemId) {
   const image = renderImageWithFallback(candidates, "", name, "暂无图片", { "image-item-id": itemId, "image-kind": "vehicle" });
@@ -4614,6 +4773,8 @@ $("importGamekeeUrl").addEventListener("click", importGamekeeUrl);
 if ($("supplementVehicleUrl")) $("supplementVehicleUrl").addEventListener("click", supplementVehicleUrl);
 if ($("addBlankVehicle")) $("addBlankVehicle").addEventListener("click", addOrOpenBlankVehicle);
 if ($("buildPerformanceStats")) $("buildPerformanceStats").addEventListener("click", buildPerformanceStatsDatabase);
+if ($("syncGithubBtn")) $("syncGithubBtn").addEventListener("click", () => postProjectAction("/api/sync-github", "同步到 GitHub"));
+if ($("packageDesktopPetBtn")) $("packageDesktopPetBtn").addEventListener("click", () => postProjectAction("/api/package-desktop-pet", "打包桌宠"));
 $("gamekeeUrl").addEventListener("keydown", (event) => { if (event.key === "Enter") importGamekeeUrl(); });
 document.addEventListener("change", (event) => {
   if (event.target?.id === "performanceRadarMode") {
@@ -4690,6 +4851,11 @@ $("detailBody").addEventListener("click", (event) => {
     event.stopPropagation();
     return;
   }
+  const detailImport = event.target.closest(".detail-vehicle-import-btn");
+  if (detailImport) {
+    importVehicleIntoCurrentDetail(detailImport.dataset.itemId);
+    return;
+  }
   const uploadTarget = event.target.closest(".ui-upload-target");
   if (uploadTarget) { pickUiUploadTarget(uploadTarget); return; }
   const relationCard = event.target.closest(".relation-car-card");
@@ -4734,6 +4900,11 @@ $("detailBody").addEventListener("click", (event) => {
   }
 });
 $("detailBody").addEventListener("keydown", (event) => {
+  if (event.target?.id === "detailVehicleImportUrl" && event.key === "Enter") {
+    event.preventDefault();
+    importVehicleIntoCurrentDetail(activeDetailId);
+    return;
+  }
   if (event.key !== "Enter" && event.key !== " ") return;
   if (event.target.closest(".vehicle-drive-anchor-point, .vehicle-drive-anchor-editor")) return;
   const uploadTarget = event.target.closest(".ui-upload-target");

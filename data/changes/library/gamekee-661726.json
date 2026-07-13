@@ -1,0 +1,186 @@
+{
+  "dataset": "library",
+  "action": "modify",
+  "key": "gamekee-661726",
+  "label": "王牌方程式",
+  "updatedAt": "2026-07-13T07:20:39.672Z",
+  "payload": {
+    "id": "gamekee-661726",
+    "name": "王牌方程式",
+    "type": "car",
+    "role": "竞速位",
+    "tags": [
+      "天平",
+      "场地",
+      "传说",
+      "S28",
+      "干扰集气",
+      "锁定干扰",
+      "耐久损失",
+      "克制净化",
+      "友方充能",
+      "天平位主干扰",
+      "传说王牌补给",
+      "T2",
+      "竞速",
+      "传说盲盒",
+      "T1",
+      "S11",
+      "高极速",
+      "后追",
+      "隐身",
+      "自充能"
+    ],
+    "description": "使用氮气强化下一次大招\n使用氮气强化下一次大招\n将储存的电能释放，加速推进，极速提升#desc[1489]，持续8秒。加速开始时：\n·使随机一台敌方车辆进入感电状态8秒\n·感电状态中的车辆耐久损失+50%且集气量获取减少23%。\n#acacac被动：每次使用氮气后若（至少一个）大招已经就绪，将会对下一次大招进行一次强化：额外提供20km/h大招加速；额外命中一台敌方车辆。每个大招最多被强化两次。",
+    "source": "https://reca.seimu.cn/ace-racer/vehicles/10090",
+    "image": "./data/vehicle-images/vehicle-gamekee-661726-0-5c7ab7f10b.png",
+    "images": [
+      "./data/vehicle-images/vehicle-gamekee-661726-0-5c7ab7f10b.png",
+      "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_660/h_298/50553/760415/2025/4/17/447374.png?x-image-process=image/format",
+      "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/760415/2025/4/17/228863.png?x-image-process=image/format",
+      "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/760415/2025/4/17/172436.png?x-image-process=image/format",
+      "./data/vehicle-images/vehicle-gamekee-661726-4-cc6635664b.png",
+      "./data/vehicle-images/vehicle-gamekee-661726-5-4280b617a1.png",
+      "./data/vehicle-images/vehicle-gamekee-661726-6-5bc948a7d0.png",
+      "./data/vehicle-images/vehicle-gamekee-661726-7-0795052a91.png",
+      "https://reca.seimu.cn/ace-racer/rk-assets/12031_m.png",
+      "https://reca.seimu.cn/ace-racer/rk-assets/[object Object].png",
+      "https://reca.seimu.cn/ace-racer/rk-assets/10090_m.png"
+    ],
+    "details": {
+      "reca_id": 10090,
+      "attrs": {
+        "厂商": "平行世界",
+        "定位": "竞速位",
+        "赛道专精": "场地",
+        "稀有度": "传说",
+        "出场赛季": "S11",
+        "获取方式": {
+          "tag_img": "item_tag_icon_manghe",
+          "obtain_type_ids": [
+            54
+          ],
+          "obtain_types": [
+            {
+              "id": 54,
+              "label": "王牌补给",
+              "desc": "参与王牌补给获取",
+              "icon": "commonnew_acesupply"
+            }
+          ]
+        }
+      },
+      "stats": {
+        "极速": 193,
+        "动力系数": 1.08,
+        "大招充能": 2700,
+        "漂移充能系数": 600,
+        "耐久": 165
+      },
+      "skills": [
+        {
+          "name": "动能释放",
+          "desc": "将储存的动能释放，加速推进，极速提升#desc[272]，持续7秒。每次使用氮气后若（至少一个）大招已经就绪，将会对下一次大招进行一次强化：\n·延长10%大招时间\n·额外提供25km/h大招加速\n·每个大招最多被强化两次。",
+          "values": "",
+          "icon": "https://reca.seimu.cn/ace-racer/rk-assets/ui_skill67_04.png",
+          "images": [
+            "https://reca.seimu.cn/ace-racer/rk-assets/ui_skill67_04.png"
+          ]
+        },
+        {
+          "name": "DRS可调尾翼",
+          "desc": "未处于第一名时启用DRS可调尾翼，极速+10km/h且每秒自充能1.6%",
+          "values": "",
+          "icon": "https://reca.seimu.cn/ace-racer/rk-assets/new_carport_icon_10173.png",
+          "images": [
+            "https://reca.seimu.cn/ace-racer/rk-assets/new_carport_icon_10173.png"
+          ]
+        }
+      ],
+      "coreAbilityNames": [
+        "动能释放",
+        "DRS可调尾翼"
+      ],
+      "abilityLabels": {
+        "动能释放": "技能",
+        "DRS可调尾翼": "被动",
+        "电能释放": "技能",
+        "电能激荡": "被动"
+      },
+      "coreAbilities": [
+        {
+          "name": "动能释放",
+          "category": "技能"
+        },
+        {
+          "name": "DRS可调尾翼",
+          "category": "被动"
+        }
+      ],
+      "carMeta": {
+        "rarity": "传说",
+        "category": "竞速",
+        "trackSpecialty": "场地",
+        "mainPosition": "",
+        "includedPositions": []
+      },
+      "speedSheet": {
+        "出场赛季": "S11",
+        "位置": "竞速位",
+        "场地适用": "场地",
+        "稀有度": "传说",
+        "梯度排行": "T1",
+        "干扰距离": "-",
+        "辅助距离": "-",
+        "特殊备注": "-",
+        "特殊备注（被动对于自身增益）": "-",
+        "RECU": "-",
+        "技能简介": "-",
+        "技能对于自身": "-",
+        "推荐队友车辆": "比亚迪/奥迪Rs6",
+        "推荐队友车辆原因": "给大",
+        "推荐队友车辆原因（技能或者被动或者SP对于队友增益）": "-",
+        "不推荐队友车辆": "-",
+        "不推荐队友车辆原因": "-",
+        "克制对手车辆": "-",
+        "克制对手车辆原因": "-",
+        "被对手车辆克制": "扰流/女武神/柯尼塞格one1",
+        "被对手车辆克制原因": "-",
+        "推荐使用地图": "-",
+        "赋能推荐": "扭曲转换+缺一不可/花信风",
+        "芯片推荐": "32快出团魂，V型：效率",
+        "基础极速": "217",
+        "基础动力": "7.8",
+        "基础耐久": "165",
+        "基础氮气充能": "0.27",
+        "基础起步充能": "0.27",
+        "基础氮气时长": "6",
+        "基础蓝氮极速": "24.4",
+        "基础紫氮极速": "36.6",
+        "蓝喷涡轮时长": "0.64",
+        "紫喷涡轮时长": "1.92",
+        "蓝喷涡轮极速": "6",
+        "紫喷涡轮极速": "9",
+        "技能极速提升": "10km/h",
+        "大招持续时间": "0秒"
+      },
+      "updated_at": "2026-06-10T07:39:07.551Z",
+      "imageCandidates": 2,
+      "rawSource": "RECA",
+      "supportCategories": [],
+      "vehicleRelations": {
+        "recommendedTeammates": [],
+        "notRecommendedTeammates": [],
+        "counteredOpponents": [],
+        "countersByOpponents": [],
+        "mixedBattleSp": []
+      },
+      "speedSheetSourceName": "王牌方程式/王牌飞机/夕阳下的天才",
+      "speedSheetManual": false,
+      "driveAnchor": {
+        "x": 50,
+        "y": 50
+      }
+    }
+  }
+}

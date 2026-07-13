@@ -1,0 +1,237 @@
+{
+  "dataset": "library",
+  "action": "modify",
+  "key": "gamekee-662660",
+  "label": "侧翼刀锋",
+  "updatedAt": "2026-07-13T07:20:39.047Z",
+  "payload": {
+    "id": "gamekee-662660",
+    "name": "侧翼刀锋",
+    "type": "car",
+    "role": "竞速位",
+    "tags": [
+      "竞速位",
+      "幻想阵营",
+      "创世纪",
+      "城市",
+      "汽油",
+      "刀片跑法",
+      "起步氮气",
+      "竞速级氮气支架",
+      "空气动力学套件",
+      "赛道专精 (LV3解锁)",
+      "RECU限制解除(LV8解锁)",
+      "极速",
+      "动力",
+      "耐久",
+      "氮气充能",
+      "氮气时长",
+      "氮气极速",
+      "涡轮时长",
+      "涡轮极速",
+      "竞速",
+      "T4"
+    ],
+    "description": "凌晨三点，创世纪车厂第二开发部第一会议室的灯还亮着。站在屏幕旁的开发部主管对下面的同事们说道：“我知道你们已经很累了，但是我们的时间实在有限，一定要在速度节开幕前研究出能够真正征服弯道的赛车！”“可这是直道的照片。”倒在椅子上的研究员看着屏幕上的赛道照片说。“你怕不是困傻了……嗯？”大家跟着他歪倒的角度看去，发现的确如此，弯道横过来就不过是起伏的直道罢了。很快第二开发部的同事们就开发出了能够侧倾到竖直的车——侧翼刀锋。在它面前，确实是只有直道了。\n基础信息：车辆类型=幻想阵营；厂商=创世纪；定位=竞速位；赛道专精=城市；能源类型=汽油；驱动方式=前置后驱；过弯倾角=50°；扩展芯片类型=○○△◇◣V\n性能：极速=223.0+2km/h；动力=7.4；耐久=100；氮气充能=27%；起步充能=27%；氮气时长=5.40秒；氮气极速=24.0/36.0km/h；涡轮时长=0.53/1.59秒；涡轮极速=5.50/8.30km/h\n技能：刀片跑法 - 加速前进，极速提升#desc[数值]，持续7.5秒，期间：保持·沿预设路线自动行驶·通过弯道时会失速·不会脱离预设路线#tips[自动巡航]每次超过其他车辆会延长2.5秒持续时间首次点击方向键时，会倾斜车身若转向方向与倾斜方向一致，过弯时不会减速。“排水渠过弯是极限吗？“；起步氮气 - 起步时，立即获得10000集气量；竞速级氮气支架 - 解锁1×5磅，2×2.5磅，1x6磅，3x2磅，2x3磅氮气；空气动力学套件 - 跟随在车辆后方将获得尾流，产生持续的氮气充能效果；赛道专精 (LV3解锁) - 在城市赛道，使用氮气时获得额外大招充能并在落后第一名超过一定距离时获得速度提升效果；RECU限制解除(LV8解锁) - 刀片跑法可以充能两次\n资料说明：扩展芯片类型：\"○\"为圆形、\"△\"为三角形、\"◇\"为菱形、\"◣\"为六边形、\"V\"为V形芯片",
+    "source": "https://www.gamekee.com/aceracer/662660.html",
+    "image": "./data/vehicle-images/vehicle-gamekee-662660-0-8bdae15865.png",
+    "images": [
+      "./data/vehicle-images/vehicle-gamekee-662660-0-8bdae15865.png",
+      "./data/vehicle-images/vehicle-gamekee-662660-1-08ef4ccdbf.png",
+      "./data/vehicle-images/vehicle-gamekee-662660-2-cb82fdf8fe.png"
+    ],
+    "details": {
+      "content_id": 662660,
+      "entry_id": 186945,
+      "attrs": {
+        "车辆类型": "幻想阵营",
+        "厂商": "创世纪",
+        "定位": "竞速位",
+        "赛道专精": "城市",
+        "能源类型": "汽油",
+        "驱动方式": "前置后驱",
+        "过弯倾角": "50°",
+        "扩展芯片类型": "○○△◇◣V"
+      },
+      "stats": {
+        "极速": "223.0+2km/h",
+        "动力": "7.4",
+        "耐久": "100",
+        "氮气充能": "27%",
+        "起步充能": "27%",
+        "氮气时长": "5.40秒",
+        "氮气极速": "24.0/36.0km/h",
+        "涡轮时长": "0.53/1.59秒",
+        "涡轮极速": "5.50/8.30km/h"
+      },
+      "skills": [
+        {
+          "name": "刀片跑法",
+          "desc": "加速前进，极速提升#desc[数值]，持续7.5秒，期间：保持·沿预设路线自动行驶·通过弯道时会失速·不会脱离预设路线#tips[自动巡航]每次超过其他车辆会延长2.5秒持续时间首次点击方向键时，会倾斜车身若转向方向与倾斜方向一致，过弯时不会减速。“排水渠过弯是极限吗？“",
+          "values": "极速提升：50/52/54/56/60km/h（LV1/LV5/LV7/LV9/LV10）持续时间：7.5秒超车延时：2.5秒（内置cd：2秒）",
+          "icon": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/759975/2025/4/22/583686.png",
+          "images": [
+            "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/759975/2025/4/22/583686.png"
+          ]
+        },
+        {
+          "name": "起步氮气",
+          "desc": "起步时，立即获得10000集气量",
+          "values": "",
+          "icon": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/759975/2025/4/22/242143.png",
+          "images": [
+            "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/759975/2025/4/22/242143.png"
+          ]
+        },
+        {
+          "name": "竞速级氮气支架",
+          "desc": "解锁1×5磅，2×2.5磅，1x6磅，3x2磅，2x3磅氮气",
+          "values": "LV2：解锁1x5磅氮气配置LV3：解锁2×2.5磅氮气配置LV4：解锁1x6磅氮气配置LV5：解锁3×2磅氮气配置LV6：解锁2x3磅氮气配置",
+          "icon": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/71178/2025/4/16/725575.png",
+          "images": [
+            "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/71178/2025/4/16/725575.png"
+          ]
+        },
+        {
+          "name": "空气动力学套件",
+          "desc": "跟随在车辆后方将获得尾流，产生持续的氮气充能效果",
+          "values": "",
+          "icon": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/71178/2025/4/16/521180.png",
+          "images": [
+            "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/71178/2025/4/16/521180.png"
+          ]
+        },
+        {
+          "name": "赛道专精 (LV3解锁)",
+          "desc": "在城市赛道，使用氮气时获得额外大招充能并在落后第一名超过一定距离时获得速度提升效果",
+          "values": "",
+          "icon": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/759975/2025/4/22/200707.png",
+          "images": [
+            "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/759975/2025/4/22/200707.png"
+          ]
+        },
+        {
+          "name": "RECU限制解除(LV8解锁)",
+          "desc": "刀片跑法可以充能两次",
+          "values": "",
+          "icon": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/759975/2025/4/22/242070.png",
+          "images": [
+            "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/759975/2025/4/22/242070.png"
+          ]
+        }
+      ],
+      "coreAbilityNames": [
+        "刀片跑法",
+        "起步氮气"
+      ],
+      "abilityLabels": {
+        "刀片跑法": "技能",
+        "起步氮气": "被动"
+      },
+      "coreAbilities": [
+        {
+          "name": "刀片跑法",
+          "category": "技能"
+        },
+        {
+          "name": "起步氮气",
+          "category": "被动"
+        }
+      ],
+      "carMeta": {
+        "rarity": "传说",
+        "category": "竞速",
+        "trackSpecialty": "城市",
+        "mainPosition": "",
+        "includedPositions": []
+      },
+      "updated_at": 1747903307,
+      "imageCandidates": 3,
+      "speedSheet": {
+        "出场赛季": "S1",
+        "位置": "竞速",
+        "场地适用": "城市",
+        "稀有度": "-",
+        "梯度排行": "T4",
+        "干扰距离": "-",
+        "辅助距离": "-",
+        "特殊备注": "-",
+        "特殊备注（被动对于自身增益）": "-",
+        "RECU": "-",
+        "技能简介": "-",
+        "技能对于自身": "-",
+        "推荐队友车辆": "-",
+        "推荐队友车辆原因": "-",
+        "推荐队友车辆原因（技能或者被动或者SP对于队友增益）": "-",
+        "不推荐队友车辆": "-",
+        "不推荐队友车辆原因": "-",
+        "克制对手车辆": "-",
+        "克制对手车辆原因": "-",
+        "被对手车辆克制": "-",
+        "被对手车辆克制原因": "-",
+        "推荐使用地图": "-",
+        "赋能推荐": "-",
+        "芯片推荐": "-",
+        "基础极速": "-",
+        "基础动力": "-",
+        "基础耐久": "-",
+        "基础氮气充能": "-",
+        "基础起步充能": "-",
+        "基础氮气时长": "-",
+        "基础蓝氮极速": "-",
+        "基础紫氮极速": "-",
+        "蓝喷涡轮时长": "-",
+        "紫喷涡轮时长": "-",
+        "蓝喷涡轮极速": "-",
+        "紫喷涡轮极速": "-",
+        "技能极速提升": "60km/h",
+        "大招持续时间": "7.5秒"
+      },
+      "speedSheetSourceName": "侧翼刀锋",
+      "supportCategories": [],
+      "vehicleRelations": {
+        "recommendedTeammates": [
+          {
+            "type": "car",
+            "id": "gamekee-662738",
+            "reason": "王牌永动机",
+            "syncKey": "gamekee-662660::relation-sync::gamekee-662738::recommendedTeammates::recommendedTeammates",
+            "detached": false
+          }
+        ],
+        "notRecommendedTeammates": [],
+        "counteredOpponents": [],
+        "countersByOpponents": [
+          {
+            "type": "car",
+            "id": "speed-sheet-超音速",
+            "reason": "直接限制刀锋的自动巡航时间",
+            "syncKey": "gamekee-662660::relation-sync::speed-sheet-超音速::countersByOpponents::counteredOpponents",
+            "detached": false
+          }
+        ],
+        "mixedBattleSp": [
+          {
+            "type": "car",
+            "id": "gamekee-661775",
+            "reason": "GTR提供无限氮气，刀锋自动巡航且速度飞快",
+            "syncKey": "",
+            "detached": false
+          },
+          {
+            "type": "car",
+            "id": "gamekee-661770",
+            "reason": "自动巡航不会撞，享受禅的高回报增益",
+            "syncKey": "",
+            "detached": false
+          }
+        ]
+      },
+      "speedSheetManual": true,
+      "driveAnchor": {
+        "x": 50,
+        "y": 50
+      }
+    }
+  }
+}

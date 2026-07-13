@@ -1,0 +1,244 @@
+{
+  "dataset": "library",
+  "action": "modify",
+  "key": "gamekee-661725",
+  "label": "闪灵",
+  "updatedAt": "2026-07-13T07:20:39.060Z",
+  "payload": {
+    "id": "gamekee-661725",
+    "name": "闪灵",
+    "type": "car",
+    "role": "竞速位",
+    "tags": [
+      "竞速位",
+      "幻想阵营",
+      "深渊",
+      "山路",
+      "汽油",
+      "幽灵闪烁",
+      "幽灵之躯",
+      "竞速级氮气支架",
+      "空气动力学套件",
+      "赛道专精 (LV3解锁)",
+      "RECU限制解除(LV8解锁)",
+      "极速",
+      "动力",
+      "耐久",
+      "氮气充能",
+      "氮气时长",
+      "氮气极速",
+      "涡轮时长",
+      "涡轮极速",
+      "竞速",
+      "传说盲盒",
+      "T3"
+    ],
+    "description": "何谓闪灵？“闪”意味着速度快，“灵”意味着操控灵活。在两字方针的指导下，深渊车厂日夜攻关，选择了短距离多次数的空间穿梭技术路线，将他们的第一台赛车——闪灵呈现在了速度节的赛场上。闪灵也没有辜负研发人员的期望，一出场就带来了惊艳的表现，观众们纷纷感叹深渊是今年的黑马。然而，深渊的野心不可估量，闪灵仅仅是个开始。\n基础信息：车辆类型=幻想阵营；厂商=深渊；定位=竞速位；赛道专精=山路；能源类型=汽油；驱动方式=前置后驱；车重=1240kg；扩展芯片类型=○○◇◇◣V\n性能：极速=218+2km/h；动力=7.7；耐久=223；氮气充能=27%；起步充能=25%；氮气时长=6.00秒；氮气极速=26.00/39.00km/h；涡轮时长=0.61/1.83秒；涡轮极速=6.90/10.35km/h\n技能：幽灵闪烁 - 进入幽灵状态，获得长达15秒的加速效果，期间：·极速提升#desc[数值]·每次发生碰撞时，向前#tips[·沿赛道预设路线向前快速位移闪现]38米并减少3秒大招持续时间。；幽灵之躯 - 每次碰撞，获得2.5%大招能量；竞速级氮气支架 - 解锁1×5磅，2×2.5磅，1x6磅，3x2磅，2x3磅氮气；空气动力学套件 - 跟随在车辆后方将获得尾流，产生持续的氮气充能效果；赛道专精 (LV3解锁) - 在山路赛道，使用氮气时获得额外大招充能并在落后第一名超过一定距离时获得速度提升效果；RECU限制解除(LV8解锁) - 幽灵闪烁可以充能两次。解锁大招被动：化身赛场幽灵，每次受到封禁效果时#tips[·解除持续性的负面效果净化]自身负面效果并自充能15%\n资料说明：扩展芯片类型：\"○\"为圆形、\"△\"为三角形、\"◇\"为菱形、\"◣\"为六边形、\"V\"为V形芯片",
+    "source": "https://www.gamekee.com/aceracer/661725.html",
+    "image": "./data/vehicle-images/vehicle-gamekee-661725-0-7c576e3a50.png",
+    "images": [
+      "./data/vehicle-images/vehicle-gamekee-661725-0-7c576e3a50.png",
+      "./data/vehicle-images/vehicle-gamekee-661725-1-22f4e029b5.png",
+      "./data/vehicle-images/vehicle-gamekee-661725-2-760383c6f0.png"
+    ],
+    "details": {
+      "content_id": 661725,
+      "entry_id": 186593,
+      "attrs": {
+        "车辆类型": "幻想阵营",
+        "厂商": "深渊",
+        "定位": "竞速位",
+        "赛道专精": "山路",
+        "能源类型": "汽油",
+        "驱动方式": "前置后驱",
+        "车重": "1240kg",
+        "扩展芯片类型": "○○◇◇◣V"
+      },
+      "stats": {
+        "极速": "218+2km/h",
+        "动力": "7.7",
+        "耐久": "223",
+        "氮气充能": "27%",
+        "起步充能": "25%",
+        "氮气时长": "6.00秒",
+        "氮气极速": "26.00/39.00km/h",
+        "涡轮时长": "0.61/1.83秒",
+        "涡轮极速": "6.90/10.35km/h"
+      },
+      "skills": [
+        {
+          "name": "幽灵闪烁",
+          "desc": "进入幽灵状态，获得长达15秒的加速效果，期间：·极速提升#desc[数值]·每次发生碰撞时，向前#tips[·沿赛道预设路线向前快速位移闪现]38米并减少3秒大招持续时间。",
+          "values": "幽灵极速提升：20/24/28/32/35km/h（LV1/LV5/LV7/LV9/LV10）最大持续时间：15秒碰撞闪现距离：38米碰撞减少时间：3秒连续闪现间隔：0.3秒",
+          "icon": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/759975/2025/4/17/504143.png",
+          "images": [
+            "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/759975/2025/4/17/504143.png"
+          ]
+        },
+        {
+          "name": "幽灵之躯",
+          "desc": "每次碰撞，获得2.5%大招能量",
+          "values": "",
+          "icon": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/759975/2025/4/17/532046.png",
+          "images": [
+            "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/759975/2025/4/17/532046.png"
+          ]
+        },
+        {
+          "name": "竞速级氮气支架",
+          "desc": "解锁1×5磅，2×2.5磅，1x6磅，3x2磅，2x3磅氮气",
+          "values": "LV2：解锁1x5磅氮气配置LV3：解锁2×2.5磅氮气配置LV4：解锁1x6磅氮气配置LV5：解锁3×2磅氮气配置LV6：解锁2x3磅氮气配置",
+          "icon": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/71178/2025/4/16/725575.png",
+          "images": [
+            "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/71178/2025/4/16/725575.png"
+          ]
+        },
+        {
+          "name": "空气动力学套件",
+          "desc": "跟随在车辆后方将获得尾流，产生持续的氮气充能效果",
+          "values": "",
+          "icon": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/71178/2025/4/16/521180.png",
+          "images": [
+            "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/71178/2025/4/16/521180.png"
+          ]
+        },
+        {
+          "name": "赛道专精 (LV3解锁)",
+          "desc": "在山路赛道，使用氮气时获得额外大招充能并在落后第一名超过一定距离时获得速度提升效果",
+          "values": "",
+          "icon": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/71178/2025/4/16/946572.png",
+          "images": [
+            "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/71178/2025/4/16/946572.png"
+          ]
+        },
+        {
+          "name": "RECU限制解除(LV8解锁)",
+          "desc": "幽灵闪烁可以充能两次。解锁大招被动：化身赛场幽灵，每次受到封禁效果时#tips[·解除持续性的负面效果净化]自身负面效果并自充能15%",
+          "values": "",
+          "icon": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/759975/2025/4/17/456422.png",
+          "images": [
+            "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/759975/2025/4/17/456422.png"
+          ]
+        }
+      ],
+      "coreAbilityNames": [
+        "幽灵闪烁",
+        "幽灵之躯"
+      ],
+      "abilityLabels": {
+        "幽灵闪烁": "技能",
+        "幽灵之躯": "被动"
+      },
+      "coreAbilities": [
+        {
+          "name": "幽灵闪烁",
+          "category": "技能"
+        },
+        {
+          "name": "幽灵之躯",
+          "category": "被动"
+        }
+      ],
+      "carMeta": {
+        "rarity": "传说",
+        "category": "竞速",
+        "trackSpecialty": "山路",
+        "mainPosition": "",
+        "includedPositions": []
+      },
+      "updated_at": 1762307082,
+      "imageCandidates": 3,
+      "speedSheet": {
+        "出场赛季": "S2",
+        "位置": "竞速",
+        "场地适用": "山路",
+        "稀有度": "传说盲盒",
+        "梯度排行": "T4",
+        "干扰距离": "-",
+        "辅助距离": "-",
+        "特殊备注": "-",
+        "特殊备注（被动对于自身增益）": "-",
+        "RECU": "-",
+        "技能简介": "-",
+        "技能对于自身": "-",
+        "推荐队友车辆": "-",
+        "推荐队友车辆原因": "-",
+        "推荐队友车辆原因（技能或者被动或者SP对于队友增益）": "-",
+        "不推荐队友车辆": "-",
+        "不推荐队友车辆原因": "-",
+        "克制对手车辆": "-",
+        "克制对手车辆原因": "-",
+        "被对手车辆克制": "-",
+        "被对手车辆克制原因": "-",
+        "推荐使用地图": "樱之峠",
+        "赋能推荐": "-",
+        "芯片推荐": "-",
+        "基础极速": "218",
+        "基础动力": "7.7",
+        "基础耐久": "223",
+        "基础氮气充能": "0.27",
+        "基础起步充能": "0.27",
+        "基础氮气时长": "6",
+        "基础蓝氮极速": "26",
+        "基础紫氮极速": "39",
+        "蓝喷涡轮时长": "0.61",
+        "紫喷涡轮时长": "1.83",
+        "蓝喷涡轮极速": "6.9",
+        "紫喷涡轮极速": "10.35",
+        "技能极速提升": "35km/h",
+        "大招持续时间": "15秒"
+      },
+      "speedSheetSourceName": "闪灵/失灵",
+      "speedSheetManual": true,
+      "supportCategories": [],
+      "vehicleRelations": {
+        "recommendedTeammates": [
+          {
+            "type": "supportCategory",
+            "id": "能量辅助",
+            "reason": "",
+            "syncKey": "",
+            "detached": false
+          }
+        ],
+        "notRecommendedTeammates": [],
+        "counteredOpponents": [],
+        "countersByOpponents": [
+          {
+            "type": "car",
+            "id": "gamekee-661820",
+            "reason": "撞墙掉能量",
+            "syncKey": "gamekee-661725::relation-sync::gamekee-661820::countersByOpponents::counteredOpponents",
+            "detached": false
+          },
+          {
+            "type": "car",
+            "id": "gamekee-663647",
+            "reason": "撞墙掉能量",
+            "syncKey": "gamekee-661725::relation-sync::gamekee-663647::countersByOpponents::counteredOpponents",
+            "detached": false
+          },
+          {
+            "type": "car",
+            "id": "gamekee-661798",
+            "reason": "无法闪现",
+            "syncKey": "gamekee-661725::relation-sync::gamekee-661798::countersByOpponents::counteredOpponents",
+            "detached": false
+          },
+          {
+            "type": "car",
+            "id": "gamekee-661646",
+            "reason": "无法闪现",
+            "syncKey": "gamekee-661646::relation-sync::gamekee-661725::countersByOpponents::counteredOpponents",
+            "detached": false
+          }
+        ],
+        "mixedBattleSp": []
+      },
+      "driveAnchor": {
+        "x": 50,
+        "y": 50
+      }
+    }
+  }
+}

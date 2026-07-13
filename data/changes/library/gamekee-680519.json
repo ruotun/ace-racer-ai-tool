@@ -1,0 +1,176 @@
+{
+  "dataset": "library",
+  "action": "modify",
+  "key": "gamekee-680519",
+  "label": "风行者",
+  "updatedAt": "2026-07-13T07:20:38.984Z",
+  "payload": {
+    "id": "gamekee-680519",
+    "name": "风行者",
+    "type": "car",
+    "role": "竞速位",
+    "tags": [
+      "车辆",
+      "竞速",
+      "山路",
+      "传说",
+      "S29",
+      "自动巡航",
+      "净化",
+      "长按大招",
+      "飞空",
+      "自动集气",
+      "自充能"
+    ],
+    "description": "乘风而起，自由起飞和降落\n乘风而起，自由起飞和降落\n加速推进并#tips[净化]自身负面效果，极速提升#desc[1547]，持续9秒。\n·加速期间长按大招0.3秒可进入飞行状态\n·飞行时#tips[自动巡航]，氮气按键消失且每秒额外消耗4%大招能量。",
+    "source": "https://reca.seimu.cn/ace-racer/vehicles/12071",
+    "image": "./data/vehicle-images/vehicle-gamekee-680519-0-b193275f85.png",
+    "images": [
+      "./data/vehicle-images/vehicle-gamekee-680519-0-b193275f85.png",
+      "./data/vehicle-images/vehicle-gamekee-680519-1-bbb66ee56c.png",
+      "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/760222/2025/9/20/822815.png?x-image-process=image/format",
+      "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/760222/2025/9/20/636016.png?x-image-process=image/format",
+      "./data/vehicle-images/vehicle-gamekee-680519-4-99a1c2f8c5.png"
+    ],
+    "details": {
+      "content_id": 680519,
+      "entry_id": 196585,
+      "attrs": {
+        "厂商": "元素",
+        "定位": "竞速位",
+        "赛道专精": "山路",
+        "稀有度": "传说",
+        "出场赛季": "S29",
+        "获取方式": {
+          "tag_img": "item_tag_icon_14",
+          "obtain_type_ids": [
+            54
+          ],
+          "obtain_types": [
+            {
+              "id": 54,
+              "label": "王牌补给",
+              "desc": "参与王牌补给获取",
+              "icon": "commonnew_acesupply"
+            }
+          ]
+        }
+      },
+      "stats": {
+        "极速": "231km/h",
+        "动力": "8.23",
+        "耐久": "110",
+        "氮气充能": "31%",
+        "起步充能": "31%",
+        "氮气时长": "6秒",
+        "氮气极速": "22.8km/h/34.2km/h",
+        "涡轮时长": "0.68秒/2.04秒",
+        "涡轮极速": "7.4km/h/11.1km/h",
+        "漂移充能系数": 600
+      },
+      "skills": [
+        {
+          "name": "御风而行",
+          "desc": "加速推进并#tips[净化]自身负面效果，极速提升#desc[1547]，持续9秒。\n·加速期间长按大招0.3秒可进入飞行状态\n·飞行时#tips[自动巡航]，氮气按键消失且每秒额外消耗4%大招能量。",
+          "values": "",
+          "icon": "https://reca.seimu.cn/ace-racer/rk-assets/ui_skill159_04.png",
+          "images": [
+            "https://reca.seimu.cn/ace-racer/rk-assets/ui_skill159_04.png"
+          ]
+        },
+        {
+          "name": "风行术",
+          "desc": "开局时获得3500集气量，每次使用氮气时额外获得7%大招能量",
+          "values": "",
+          "icon": "https://reca.seimu.cn/ace-racer/rk-assets/new_carport_icon_10344.png",
+          "images": [
+            "https://reca.seimu.cn/ace-racer/rk-assets/new_carport_icon_10344.png"
+          ]
+        }
+      ],
+      "coreAbilityNames": [
+        "御风而行",
+        "风行术"
+      ],
+      "abilityLabels": {
+        "御风而行": "技能",
+        "风行术": "被动"
+      },
+      "coreAbilities": [
+        {
+          "name": "御风而行",
+          "category": "技能"
+        },
+        {
+          "name": "风行术",
+          "category": "被动"
+        }
+      ],
+      "carMeta": {
+        "rarity": "传说",
+        "category": "竞速",
+        "trackSpecialty": "山路",
+        "mainPosition": "",
+        "includedPositions": []
+      },
+      "updated_at": "2026-06-24T13:56:15.650Z",
+      "imageCandidates": 1,
+      "speedSheet": {
+        "出场赛季": "S29",
+        "位置": "竞速位",
+        "场地适用": "山路",
+        "稀有度": "传说",
+        "梯度排行": "-",
+        "干扰距离": "-",
+        "辅助距离": "-",
+        "特殊备注": "-",
+        "特殊备注（被动对于自身增益）": "-",
+        "RECU": "-",
+        "技能简介": "-",
+        "技能对于自身": "-",
+        "推荐队友车辆": "-",
+        "推荐队友车辆原因": "-",
+        "推荐队友车辆原因（技能或者被动或者SP对于队友增益）": "-",
+        "不推荐队友车辆": "-",
+        "不推荐队友车辆原因": "-",
+        "克制对手车辆": "-",
+        "克制对手车辆原因": "-",
+        "被对手车辆克制": "-",
+        "被对手车辆克制原因": "-",
+        "推荐使用地图": "-",
+        "赋能推荐": "-",
+        "芯片推荐": "-",
+        "基础极速": "231km/h",
+        "基础动力": "8.23",
+        "基础耐久": "110",
+        "基础氮气充能": "31%",
+        "基础起步充能": "31%",
+        "基础氮气时长": "6秒",
+        "基础蓝氮极速": "22.8km/h",
+        "基础紫氮极速": "34.2km/h",
+        "蓝喷涡轮时长": "0.68秒",
+        "紫喷涡轮时长": "2.04秒",
+        "蓝喷涡轮极速": "7.4km/h",
+        "紫喷涡轮极速": "11.1km/h",
+        "技能极速提升": "-",
+        "大招持续时间": "-"
+      },
+      "speedSheetSourceName": "风行者/飞毛腿",
+      "speedSheetManual": true,
+      "supportCategories": [],
+      "vehicleRelations": {
+        "recommendedTeammates": [],
+        "notRecommendedTeammates": [],
+        "counteredOpponents": [],
+        "countersByOpponents": [],
+        "mixedBattleSp": []
+      },
+      "driveAnchor": {
+        "x": 50,
+        "y": 50
+      },
+      "reca_id": 12071,
+      "rawSource": "RECA"
+    }
+  }
+}

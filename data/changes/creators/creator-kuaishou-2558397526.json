@@ -1,0 +1,82 @@
+{
+  "dataset": "creators",
+  "action": "add",
+  "key": "creator-kuaishou-2558397526",
+  "label": "小熊🐻（小诗诗诗）",
+  "updatedAt": "2026-07-13T07:20:39.724Z",
+  "payload": {
+    "id": "creator-kuaishou-2558397526",
+    "name": "小熊🐻（小诗诗诗）",
+    "profileName": "小熊🐻（小诗诗诗）",
+    "platform": "快手",
+    "avatar": "https://p66-pro.a.yximgs.com/uhead/AB/2026/03/10/10/BMjAyNjAzMTAxMDUxMTBfMjU1ODM5NzUyNl8yX2hkMTU2Xzk1Ng==_s.jpg",
+    "followerText": "4844",
+    "followerCount": 4844,
+    "followerApproximate": false,
+    "followerManualNumber": "",
+    "followerManualUnit": "none",
+    "manualUserId": "",
+    "gender": "未知",
+    "displayNamePlatform": "",
+    "displayAvatarPlatform": "",
+    "forceProfileName": true,
+    "userId": "2558397526",
+    "handle": "zxvvbnm203344",
+    "source": "https://v.kuaishou.com/KsxxeEZZ",
+    "resolvedUrl": "https://c.kuaishou.com/fw/user/zxvvbnm203344?fid=2558397526&cc=share_copylink&followRefer=151&shareMethod=TOKEN&kpn=KUAISHOU&subBiz=PROFILE&shareId=19032201748113&shareToken=X8PsIbo66q2ZEck&shareResourceType=PROFILE_SELF&shareMode=APP&originShareId=19032201748113&appType=21&shareObjectId=2558397526&shareUrlOpened=0&timestamp=1783850233385",
+    "importedAt": "2026-07-12T15:36:57.040Z",
+    "raw": {
+      "userInfo": {},
+      "pageData": {
+        "name": "小熊🐻（小诗诗诗）",
+        "avatar": "https://p66-pro.a.yximgs.com/uhead/AB/2026/03/10/10/BMjAyNjAzMTAxMDUxMTBfMjU1ODM5NzUyNl8yX2hkMTU2Xzk1Ng==_s.jpg",
+        "userId": "2558397526",
+        "handle": "zxvvbnm203344",
+        "follower": {
+          "text": "4844",
+          "count": 4844
+        },
+        "gender": "女"
+      },
+      "rawPageData": {
+        "name": "小熊🐻（小诗诗诗）",
+        "avatar": "https://p66-pro.a.yximgs.com/uhead/AB/2026/03/10/10/BMjAyNjAzMTAxMDUxMTBfMjU1ODM5NzUyNl8yX2hkMTU2Xzk1Ng==_s.jpg",
+        "userId": "2558397526",
+        "handle": "zxvvbnm203344",
+        "follower": {
+          "text": "4844",
+          "count": 4844
+        },
+        "gender": "女"
+      },
+      "apiResult": 400002,
+      "targetIds": [
+        "2558397526"
+      ],
+      "targetHandles": [
+        "zxvvbnm203344"
+      ],
+      "sharerIds": [
+        "2558397526"
+      ],
+      "rejectedUsers": [],
+      "pageWasSharer": false,
+      "pageNeedsRetry": false,
+      "pageAttempts": [
+        {
+          "name": "小熊🐻（小诗诗诗）",
+          "userId": "2558397526",
+          "handle": "zxvvbnm203344",
+          "hasAvatar": true,
+          "followerCount": 4844,
+          "pageWasSharer": false,
+          "pageNeedsRetry": false
+        }
+      ],
+      "usedExistingCreator": null,
+      "sharedName": "小熊🐻（小诗诗诗）",
+      "sourceText": "https://v.kuaishou.com/KsxxeEZZ 看了这么多快手，还是「小熊🐻（小诗诗诗）」最好玩了！ 复制此消息，打开【快手】直接观看！",
+      "htmlTitle": ""
+    }
+  }
+}

@@ -1,0 +1,226 @@
+{
+  "dataset": "library",
+  "action": "modify",
+  "key": "gamekee-663642",
+  "label": "玉麒麟",
+  "updatedAt": "2026-07-13T07:20:39.255Z",
+  "payload": {
+    "id": "gamekee-663642",
+    "name": "玉麒麟",
+    "type": "car",
+    "role": "辅助位",
+    "tags": [
+      "辅助位",
+      "幻想阵营",
+      "进化",
+      "场地",
+      "汽油",
+      "麒麟献瑞",
+      "驱除邪祟",
+      "竞速级氮气支架",
+      "空气动力学套件",
+      "赛道专精 (LV3解锁)",
+      "RECU限制解除(LV8解锁)",
+      "极速",
+      "动力",
+      "耐久",
+      "氮气充能",
+      "氮气时长",
+      "氮气极速",
+      "涡轮时长",
+      "涡轮极速",
+      "辅助",
+      "传说",
+      "T1"
+    ],
+    "description": "麒麟，存在于CHN神话中，羊头、狼蹄、龙尾，身有五彩，乃是为人间带来福禄的瑞兽。如同传说中的麒麟驱除邪祟，进化车厂的玉麒麟，也有着保护队友，带来祥和的力量。身着彩衣的它，飞驰在赛道上，为身边的车辆展开一层电磁防护罩，能够避免它们受到任何形式的干扰与破坏。\n基础信息：车辆类型=幻想阵营；厂商=进化；定位=辅助位；赛道专精=场地；能源类型=汽油；驱动方式=前置四驱；祥瑞之兆=已降临；扩展芯片类型=○○△◇◣V\n性能：极速=218.0km/h；动力=7.6；耐久=90；氮气充能=36%；起步充能=46%；氮气时长=6.00秒；氮气极速=23.00/34.50km/h；涡轮时长=0.72/2.16秒；涡轮极速=1.00/10.50km/h\n技能：麒麟献瑞 - 加速推进并为1000米范围内非辅助位队友带来祥瑞，使其获得30%大招能量3秒内#tips[无法选中]且不受非实体放置物影响；驱除邪祟 - 对局中无法被干扰和辅助，队友不受侧移效果影响；竞速级氮气支架 - 解锁1×5磅，2×2.5磅，1x6磅，3x2磅，2x3磅氮气；空气动力学套件 - 跟随在车辆后方将获得尾流，产生持续的氮气充能效果；赛道专精 (LV3解锁) - 在场地赛道，使用氮气时获得额外大招充能并在落后第一名超过一定距离时获得速度提升效果；RECU限制解除(LV8解锁) - 麒麟献瑞可以充能两次\n资料说明：扩展芯片类型：\"○\"为圆形、\"△\"为三角形、\"◇\"为菱形、\"◣\"为六边形、\"V\"为V形芯片",
+    "source": "https://www.gamekee.com/aceracer/663642.html",
+    "image": "./data/vehicle-images/vehicle-gamekee-663642-0-dc2dbaf5f2.png",
+    "images": [
+      "./data/vehicle-images/vehicle-gamekee-663642-0-dc2dbaf5f2.png",
+      "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_200/h_89/50553/762004/2025/4/28/15540.png?x-image-process=image/format",
+      "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/71178/2025/4/29/966154.png?x-image-process=image/format",
+      "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/762004/2025/4/28/555501.png?x-image-process=image/format",
+      "./data/vehicle-images/vehicle-gamekee-663642-4-12d7b030f9.png"
+    ],
+    "details": {
+      "content_id": 663642,
+      "entry_id": 186974,
+      "attrs": {
+        "车辆类型": "幻想阵营",
+        "厂商": "进化",
+        "定位": "辅助位",
+        "赛道专精": "场地",
+        "能源类型": "汽油",
+        "驱动方式": "前置四驱",
+        "祥瑞之兆": "已降临",
+        "扩展芯片类型": "○○△◇◣V"
+      },
+      "stats": {
+        "极速": "218.0km/h",
+        "动力": "7.6",
+        "耐久": "90",
+        "氮气充能": "36%",
+        "起步充能": "46%",
+        "氮气时长": "6.00秒",
+        "氮气极速": "23.00/34.50km/h",
+        "涡轮时长": "0.72/2.16秒",
+        "涡轮极速": "1.00/10.50km/h"
+      },
+      "skills": [
+        {
+          "name": "麒麟献瑞",
+          "desc": "加速推进并为1000米范围内非辅助位队友带来祥瑞，使其获得30%大招能量3秒内#tips[无法选中]且不受非实体放置物影响",
+          "values": "极速提升：20/23/26/30/35km/h（LV1/LV5/LV7/LV9/LV10）加速时长：6秒祥瑞辅助范围：1000米友方充能：30%无敌时长：3秒",
+          "icon": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/71178/2025/4/29/966154.png",
+          "images": [
+            "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/71178/2025/4/29/966154.png"
+          ]
+        },
+        {
+          "name": "驱除邪祟",
+          "desc": "对局中无法被干扰和辅助，队友不受侧移效果影响",
+          "values": "",
+          "icon": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/762004/2025/4/28/555501.png",
+          "images": [
+            "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/762004/2025/4/28/555501.png"
+          ]
+        },
+        {
+          "name": "竞速级氮气支架",
+          "desc": "解锁1×5磅，2×2.5磅，1x6磅，3x2磅，2x3磅氮气",
+          "values": "LV2：解锁1x5磅氮气配置LV3：解锁2×2.5磅氮气配置LV4：解锁1x6磅氮气配置LV5：解锁3×2磅氮气配置LV6：解锁2x3磅氮气配置",
+          "icon": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/71178/2025/4/16/725575.png",
+          "images": [
+            "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/71178/2025/4/16/725575.png"
+          ]
+        },
+        {
+          "name": "空气动力学套件",
+          "desc": "跟随在车辆后方将获得尾流，产生持续的氮气充能效果",
+          "values": "",
+          "icon": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/71178/2025/4/16/521180.png",
+          "images": [
+            "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/71178/2025/4/16/521180.png"
+          ]
+        },
+        {
+          "name": "赛道专精 (LV3解锁)",
+          "desc": "在场地赛道，使用氮气时获得额外大招充能并在落后第一名超过一定距离时获得速度提升效果",
+          "values": "",
+          "icon": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/762004/2025/4/28/266547.png",
+          "images": [
+            "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/762004/2025/4/28/266547.png"
+          ]
+        },
+        {
+          "name": "RECU限制解除(LV8解锁)",
+          "desc": "麒麟献瑞可以充能两次",
+          "values": "",
+          "icon": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/71178/2025/4/29/232944.png",
+          "images": [
+            "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/71178/2025/4/29/232944.png"
+          ]
+        }
+      ],
+      "coreAbilityNames": [
+        "麒麟献瑞",
+        "驱除邪祟"
+      ],
+      "abilityLabels": {
+        "麒麟献瑞": "技能",
+        "驱除邪祟": "被动"
+      },
+      "coreAbilities": [
+        {
+          "name": "麒麟献瑞",
+          "category": "技能"
+        },
+        {
+          "name": "驱除邪祟",
+          "category": "被动"
+        }
+      ],
+      "carMeta": {
+        "rarity": "传说",
+        "category": "辅助",
+        "trackSpecialty": "场地",
+        "mainPosition": "",
+        "includedPositions": []
+      },
+      "updated_at": 1779075470,
+      "imageCandidates": 5,
+      "speedSheet": {
+        "出场赛季": "S14",
+        "位置": "辅助",
+        "场地适用": "场地",
+        "稀有度": "传说",
+        "梯度排行": "T1",
+        "干扰距离": "-",
+        "辅助距离": "800",
+        "特殊备注": "-",
+        "特殊备注（被动对于自身增益）": "自身无法被干扰和辅助",
+        "RECU": "-",
+        "技能简介": "-",
+        "技能对于自身": "-",
+        "推荐队友车辆": "女武神",
+        "推荐队友车辆原因": "-",
+        "推荐队友车辆原因（技能或者被动或者SP对于队友增益）": "自身无法被辅助，女武神链条会直接连接对内第二名队友获得超强加成（技能：队友能量+30%，3秒内无法选中，不受实体放置物影响）（被动：队友不受侧移效果影响）",
+        "不推荐队友车辆": "洞洞奔",
+        "不推荐队友车辆原因": "洞洞奔会吃不到自己的洞",
+        "克制对手车辆": "保时捷帕拉梅拉Turbo S",
+        "克制对手车辆原因": "-",
+        "被对手车辆克制": "-",
+        "被对手车辆克制原因": "-",
+        "推荐使用地图": "-",
+        "赋能推荐": "-",
+        "芯片推荐": "-",
+        "基础极速": "-",
+        "基础动力": "-",
+        "基础耐久": "-",
+        "基础氮气充能": "-",
+        "基础起步充能": "-",
+        "基础氮气时长": "-",
+        "基础蓝氮极速": "-",
+        "基础紫氮极速": "-",
+        "蓝喷涡轮时长": "-",
+        "紫喷涡轮时长": "-",
+        "蓝喷涡轮极速": "-",
+        "紫喷涡轮极速": "-",
+        "技能极速提升": "-",
+        "大招持续时间": "-"
+      },
+      "speedSheetSourceName": "玉麒麟",
+      "supportCategories": [
+        "长图辅助"
+      ],
+      "vehicleRelations": {
+        "recommendedTeammates": [
+          {
+            "type": "car",
+            "id": "gamekee-661660",
+            "reason": "",
+            "syncKey": "gamekee-661660::recommended-teammate::gamekee-663642",
+            "detached": true
+          }
+        ],
+        "notRecommendedTeammates": [
+          {
+            "type": "car",
+            "id": "speed-sheet-梅赛德斯amggtblackseries",
+            "reason": "洞洞奔会吃不到自己的洞",
+            "syncKey": "gamekee-663642::relation-sync::speed-sheet-梅赛德斯amggtblackseries::notRecommendedTeammates::notRecommendedTeammates",
+            "detached": false
+          }
+        ],
+        "counteredOpponents": [],
+        "countersByOpponents": [],
+        "mixedBattleSp": []
+      },
+      "driveAnchor": {
+        "x": 50,
+        "y": 50
+      }
+    }
+  }
+}

@@ -1,0 +1,337 @@
+{
+  "dataset": "creators",
+  "action": "add",
+  "key": "creator-douyin-MS4wLjABAAAAM0kWk7QEmBv9XSy6rG6U5aHGGL9bUHf8Cxfzlvz_Bz8ZFufpp6MSBcfkTCRyyV1P",
+  "label": "王牌竞速微凉(世一红牛)",
+  "updatedAt": "2026-07-13T07:20:39.706Z",
+  "payload": {
+    "id": "creator-douyin-MS4wLjABAAAAM0kWk7QEmBv9XSy6rG6U5aHGGL9bUHf8Cxfzlvz_Bz8ZFufpp6MSBcfkTCRyyV1P",
+    "name": "王牌竞速微凉(世一红牛)",
+    "profileName": "王牌竞速微凉(世一红牛)",
+    "platform": "抖音",
+    "avatar": "https://p3-pc.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-i-0813c001_ooEsvA9AEAAfJIDaApAggilKCCFSed2DnYLb69.jpeg?from=2956013662",
+    "followerText": "185",
+    "followerCount": 185,
+    "followerApproximate": false,
+    "followerManualNumber": "",
+    "followerManualUnit": "none",
+    "manualUserId": "",
+    "gender": "未知",
+    "displayNamePlatform": "",
+    "displayAvatarPlatform": "",
+    "forceProfileName": false,
+    "userId": "59624512861",
+    "handle": "MS4wLjABAAAAM0kWk7QEmBv9XSy6rG6U5aHGGL9bUHf8Cxfzlvz_Bz8ZFufpp6MSBcfkTCRyyV1P",
+    "source": "https://v.douyin.com/sCpH-PSG-LI/",
+    "resolvedUrl": "https://www.iesdouyin.com/share/user/MS4wLjABAAAAM0kWk7QEmBv9XSy6rG6U5aHGGL9bUHf8Cxfzlvz_Bz8ZFufpp6MSBcfkTCRyyV1P?iid=MS4wLjABAAAAPZ1WTV22ntl57nO43QmKZ2QJbJpAekOGD0GQ0RpbFbccf2gaaS6hinzAMBb15rRc&with_sec_did=1&sec_uid=MS4wLjABAAAAM0kWk7QEmBv9XSy6rG6U5aHGGL9bUHf8Cxfzlvz_Bz8ZFufpp6MSBcfkTCRyyV1P&from_ssr=1&from_aid=1128&u_code=333a7lf1lci5&did=MS4wLjABAAAAy2HWHxI6jQ3GeXZJ08ExI18pnyoZ1Cm4Nsbc1iAlpM_A74vEmKDhWAgCVPZl9L0g&timestamp=1783850731&utm_source=copy&utm_campaign=client_share&utm_medium=android&app=aweme&ug_share_id=38e6663e84f0a_1783850732729&activity_info=%7B%22social_author_id%22%3A%222988922414838985%22%2C%22social_share_id%22%3A%222988922414838985_1783850727277%22%2C%22social_share_time%22%3A%221783850731%22%2C%22social_share_user_id%22%3A%222988922414838985%22%7D",
+    "importedAt": "2026-07-12T15:34:35.911Z",
+    "raw": {
+      "title": "王牌竞速微凉(世一红牛)",
+      "description": "恩师：@竹孙（王牌竞速） \n徒弟：@.幽灵鲨 \n🏆兰博基尼埃文塔多代言人\n🏆火车宗门的祖师爷\n🏆国服马丁 记录官\n🏆实战t10086选手\n不定时直播带粉丝 接一切",
+      "apiUserInfo": {
+        "account_cert_info": "{}",
+        "apple_account": 0,
+        "avatar_168x168": {
+          "height": 720,
+          "uri": "aweme-avatar/tos-cn-i-0813c001_ooEsvA9AEAAfJIDaApAggilKCCFSed2DnYLb69",
+          "url_list": [
+            "https://p3-pc.douyinpic.com/img/aweme-avatar/tos-cn-i-0813c001_ooEsvA9AEAAfJIDaApAggilKCCFSed2DnYLb69~c5_168x168.jpeg?from=2956013662"
+          ],
+          "width": 720
+        },
+        "avatar_300x300": {
+          "height": 720,
+          "uri": "aweme-avatar/tos-cn-i-0813c001_ooEsvA9AEAAfJIDaApAggilKCCFSed2DnYLb69",
+          "url_list": [
+            "https://p3-pc.douyinpic.com/img/aweme-avatar/tos-cn-i-0813c001_ooEsvA9AEAAfJIDaApAggilKCCFSed2DnYLb69~c5_300x300.jpeg?from=2956013662"
+          ],
+          "width": 720
+        },
+        "avatar_larger": {
+          "height": 720,
+          "uri": "aweme-avatar/tos-cn-i-0813c001_ooEsvA9AEAAfJIDaApAggilKCCFSed2DnYLb69",
+          "url_list": [
+            "https://p3-pc.douyinpic.com/aweme/1080x1080/aweme-avatar/tos-cn-i-0813c001_ooEsvA9AEAAfJIDaApAggilKCCFSed2DnYLb69.jpeg?from=2956013662"
+          ],
+          "width": 720
+        },
+        "avatar_medium": {
+          "height": 720,
+          "uri": "aweme-avatar/tos-cn-i-0813c001_ooEsvA9AEAAfJIDaApAggilKCCFSed2DnYLb69",
+          "url_list": [
+            "https://p3-pc.douyinpic.com/aweme/720x720/aweme-avatar/tos-cn-i-0813c001_ooEsvA9AEAAfJIDaApAggilKCCFSed2DnYLb69.jpeg?from=2956013662"
+          ],
+          "width": 720
+        },
+        "avatar_thumb": {
+          "height": 720,
+          "uri": "aweme-avatar/tos-cn-i-0813c001_ooEsvA9AEAAfJIDaApAggilKCCFSed2DnYLb69",
+          "url_list": [
+            "https://p3-pc.douyinpic.com/aweme/100x100/aweme-avatar/tos-cn-i-0813c001_ooEsvA9AEAAfJIDaApAggilKCCFSed2DnYLb69.jpeg?from=2956013662"
+          ],
+          "width": 720
+        },
+        "aweme_count": 27,
+        "aweme_count_correction_threshold": -1,
+        "birthday_hide_level": 0,
+        "can_set_item_cover": false,
+        "can_show_group_card": 0,
+        "city": "",
+        "close_friend_type": 0,
+        "commerce_user_info": {
+          "ad_revenue_rits": null,
+          "has_ads_entry": true
+        },
+        "commerce_user_level": 0,
+        "country": "",
+        "cover_and_head_image_info": {
+          "cover_list": null,
+          "profile_cover_list": [
+            {
+              "cover_url": {
+                "uri": "tos-cn-i-0813/oAFe1A4QBA65BVvAEkupA7nEEfGfQQNABVqAID",
+                "url_list": [
+                  "https://p9-pc-sign.douyinpic.com/obj/tos-cn-i-0813/oAFe1A4QBA65BVvAEkupA7nEEfGfQQNABVqAID?lk3s=93de098e&x-expires=1784041200&x-signature=fnh48LBvsFEftEgsfH8BLWsWVfQ%3D&from=2480802190",
+                  "https://p3-pc-sign.douyinpic.com/obj/tos-cn-i-0813/oAFe1A4QBA65BVvAEkupA7nEEfGfQQNABVqAID?lk3s=93de098e&x-expires=1784041200&x-signature=MiKeAOx2jsLDwES9wg%2BC4zamGPA%3D&from=2480802190"
+                ]
+              },
+              "dark_cover_color": "#FF555555",
+              "light_cover_color": "#FF555555"
+            }
+          ]
+        },
+        "cover_colour": "#03997706",
+        "cover_url": [
+          {
+            "uri": "tos-cn-i-0813/oAFe1A4QBA65BVvAEkupA7nEEfGfQQNABVqAID",
+            "url_list": [
+              "https://p9-pc-sign.douyinpic.com/obj/tos-cn-i-0813/oAFe1A4QBA65BVvAEkupA7nEEfGfQQNABVqAID?lk3s=93de098e&x-expires=1784041200&x-signature=fnh48LBvsFEftEgsfH8BLWsWVfQ%3D&from=2480802190",
+              "https://p3-pc-sign.douyinpic.com/obj/tos-cn-i-0813/oAFe1A4QBA65BVvAEkupA7nEEfGfQQNABVqAID?lk3s=93de098e&x-expires=1784041200&x-signature=MiKeAOx2jsLDwES9wg%2BC4zamGPA%3D&from=2480802190"
+            ]
+          },
+          {
+            "uri": "c8510002be9a3a61aad2",
+            "url_list": [
+              "https://p3-pc-sign.douyinpic.com/obj/c8510002be9a3a61aad2?lk3s=93de098e&x-expires=1784041200&x-signature=qJGsp46ps%2Be5dOTL2sPNhTUgBy0%3D&from=2480802190",
+              "https://p9-pc-sign.douyinpic.com/obj/c8510002be9a3a61aad2?lk3s=93de098e&x-expires=1784041200&x-signature=CT6NR7uYX7W%2B3p%2FxXuyuW9Z0bXg%3D&from=2480802190"
+            ]
+          }
+        ],
+        "custom_verify": "",
+        "disable_manual_refresh": 0,
+        "district": "",
+        "dongtai_count": 0,
+        "dynamic_cover": {},
+        "elfemoji_status": -1,
+        "enable_ai_double": 0,
+        "enable_wish": false,
+        "enterprise_user_info": "",
+        "enterprise_verify_reason": "",
+        "evaluation_count": 0,
+        "familiar_confidence": 0,
+        "favorite_permission": 1,
+        "favoriting_count": 2583,
+        "follow_guide": true,
+        "follow_status": 0,
+        "follower_count": 185,
+        "follower_request_status": 0,
+        "follower_status": 0,
+        "following_count": 176,
+        "forward_count": 0,
+        "gender": 0,
+        "general_permission": {
+          "fans_page_toast": 0,
+          "following_follower_list_toast": 1,
+          "is_hit_active_fans_grayed": false
+        },
+        "has_e_account_role": false,
+        "has_subscription": false,
+        "hide_request_update": 0,
+        "im_primary_role_id": 9,
+        "im_role_ids": [
+          9
+        ],
+        "image_send_exempt": false,
+        "ins_id": "",
+        "is_activity_user": false,
+        "is_ban": false,
+        "is_block": false,
+        "is_blocked": false,
+        "is_effect_artist": false,
+        "is_gov_media_vip": false,
+        "is_im_oversea_user": 0,
+        "is_mix_user": false,
+        "is_not_show": false,
+        "is_series_user": false,
+        "is_sharing_profile_user": 0,
+        "is_star": false,
+        "life_story_block": {
+          "life_story_block": false
+        },
+        "live_commerce": false,
+        "live_status": 0,
+        "mate_add_permission": 0,
+        "mate_relation": {
+          "mate_apply_forward": 0,
+          "mate_apply_reverse": 0,
+          "mate_status": 0
+        },
+        "max_follower_count": 185,
+        "message_chat_entry": true,
+        "mix_count": 0,
+        "mplatform_followers_count": 185,
+        "nickname": "王牌竞速微凉(世一红牛)",
+        "original_musician": {
+          "digg_count": 0,
+          "music_count": 0,
+          "music_used_count": 0
+        },
+        "pigeon_daren_status": "",
+        "pigeon_daren_warn_tag": "",
+        "profile_component_disabled": [
+          "banner_vs"
+        ],
+        "profile_mob_params": [
+          {
+            "event_key": "enter_personal_tab",
+            "mob_params": "{\"landing_reason\":\"Landing_Default_Post\"}"
+          }
+        ],
+        "profile_show": {
+          "identify_auth_infos": null
+        },
+        "profile_tab_info": {
+          "profile_landing_tab": 0,
+          "profile_tab_list": null,
+          "profile_tab_list_v2": null
+        },
+        "profile_tab_type": 0,
+        "province": "",
+        "public_collects_count": 0,
+        "publish_landing_tab": 1,
+        "r_fans_group_info": {},
+        "recommend_reason_relation": "",
+        "recommend_user_reason_source": 0,
+        "risk_notice_text": "",
+        "room_id": 0,
+        "room_id_str": "0",
+        "school_name": null,
+        "sec_uid": "MS4wLjABAAAAM0kWk7QEmBv9XSy6rG6U5aHGGL9bUHf8Cxfzlvz_Bz8ZFufpp6MSBcfkTCRyyV1P",
+        "secret": 0,
+        "series_count": 0,
+        "share_info": {
+          "bool_persist": 1,
+          "life_share_ext": "{\"life_share_id\":\"63a4c8abc87c45cbaa0afac753c8b35b\"}",
+          "share_desc": "长按复制此条消息，打开抖音搜索，查看TA的更多作品。",
+          "share_image_url": {
+            "uri": "tos-cn-p-0015c000-ce/o0EfQOhfBlcQNcB7eDlUrDFsWZKD8pgJA654KD",
+            "url_list": [
+              "https://p3-pc-sign.douyinpic.com/obj/tos-cn-p-0015c000-ce/o0EfQOhfBlcQNcB7eDlUrDFsWZKD8pgJA654KD?lk3s=93de098e&x-expires=1784041200&x-signature=wV5Bh9vXfMDN2HwkkztvVXXqWhs%3D&from=2480802190",
+              "https://p9-pc-sign.douyinpic.com/obj/tos-cn-p-0015c000-ce/o0EfQOhfBlcQNcB7eDlUrDFsWZKD8pgJA654KD?lk3s=93de098e&x-expires=1784041200&x-signature=LJqTPwfzjm%2FuHv6uBR%2FluCZ1Zgs%3D&from=2480802190"
+            ]
+          },
+          "share_qrcode_url": {
+            "uri": "",
+            "url_list": []
+          },
+          "share_title": "快来加入抖音，让你发现最有趣的我！",
+          "share_url": "www.iesdouyin.com/share/user/MS4wLjABAAAAM0kWk7QEmBv9XSy6rG6U5aHGGL9bUHf8Cxfzlvz_Bz8ZFufpp6MSBcfkTCRyyV1P?did=MS4wLjABAAAAh5ofHrEg37OJvQxEkPQ9ywfLtZX0t64jPNpLG0Cx_3HJYZdlXbPa-0bJxAexTEm0&iid=MS4wLjABAAAANwkJuWIRFOzg5uCpDRpMj4OX-QryoDgn-yYlXQnRwQQ&with_sec_did=1&sec_uid=MS4wLjABAAAAM0kWk7QEmBv9XSy6rG6U5aHGGL9bUHf8Cxfzlvz_Bz8ZFufpp6MSBcfkTCRyyV1P&from_ssr=1&from_aid=6383",
+          "share_weibo_desc": "长按复制此条消息，打开抖音搜索，查看TA的更多作品。"
+        },
+        "short_id": "0",
+        "show_favorite_list": false,
+        "show_subscription": false,
+        "signature": "恩师：@竹孙（王牌竞速） \n徒弟：@.幽灵鲨 \n🏆兰博基尼埃文塔多代言人\n🏆火车宗门的祖师爷\n🏆国服马丁 记录官\n🏆实战t10086选手\n不定时直播带粉丝 接一切",
+        "signature_display_lines": 0,
+        "signature_extra": [
+          {
+            "end": 12,
+            "hashtag_id": "",
+            "hashtag_name": "",
+            "is_commerce": false,
+            "sec_uid": "MS4wLjABAAAAK28c4Tlt7wtiolueHNsGJnFah1MUbwQhCapu5IJ3SiE",
+            "start": 3,
+            "type": 0,
+            "user_id": "268758162876688"
+          },
+          {
+            "end": 22,
+            "hashtag_id": "",
+            "hashtag_name": "",
+            "is_commerce": false,
+            "sec_uid": "MS4wLjABAAAAnJY_Y6j7vRnOqgU6r_AyJOpxWO7d50fW5SayivNjoQlUobqfZwr_xjkkpTs7PHjK",
+            "start": 17,
+            "type": 0,
+            "user_id": "1943547987629255"
+          }
+        ],
+        "signature_language": "un",
+        "social_real_relation_type": 0,
+        "special_follow_status": 0,
+        "store_region": "cn-gd",
+        "story_tab_empty": false,
+        "sync_to_toutiao": 0,
+        "tab_settings": {
+          "private_tab": {
+            "private_tab_style": 1,
+            "show_private_tab": false
+          }
+        },
+        "total_favorited": 1612,
+        "total_favorited_correction_threshold": -1,
+        "twitter_id": "",
+        "twitter_name": "",
+        "uid": "2988922414838985",
+        "unique_id": "59624512861",
+        "urge_detail": {
+          "ctl_map": "{\"toast\":\"✅作者已收到“求更新”提醒～\",\"button_background_url\":\"https://p11-webcast.douyinpic.com/img/webcast/urge_update.png~tplv-obj.image\",\"urge_type\":\"\",\"dispose_to_moment\":\"0\",\"next_urge_type\":\"default\",\"button_text\":\"求更新\"}",
+          "user_urged": 0
+        },
+        "use_diverse_digg_style": false,
+        "user_age": 19,
+        "user_not_see": 0,
+        "user_not_show": 1,
+        "verification_type": 0,
+        "video_cover": {},
+        "video_icon": {
+          "height": 720,
+          "uri": "",
+          "url_list": [],
+          "width": 720
+        },
+        "watch_status": false,
+        "white_cover_url": [
+          {
+            "uri": "tos-cn-i-0813/oAFe1A4QBA65BVvAEkupA7nEEfGfQQNABVqAID",
+            "url_list": [
+              "https://p9-pc-sign.douyinpic.com/obj/tos-cn-i-0813/oAFe1A4QBA65BVvAEkupA7nEEfGfQQNABVqAID?lk3s=93de098e&x-expires=1784041200&x-signature=fnh48LBvsFEftEgsfH8BLWsWVfQ%3D&from=2480802190",
+              "https://p3-pc-sign.douyinpic.com/obj/tos-cn-i-0813/oAFe1A4QBA65BVvAEkupA7nEEfGfQQNABVqAID?lk3s=93de098e&x-expires=1784041200&x-signature=MiKeAOx2jsLDwES9wg%2BC4zamGPA%3D&from=2480802190"
+            ]
+          },
+          {
+            "uri": "318f1000413827e122102",
+            "url_list": [
+              "https://p3-pc-sign.douyinpic.com/obj/318f1000413827e122102?lk3s=93de098e&x-expires=1784041200&x-signature=qghwoOyBleS3Js0TkKNd8QaHmcY%3D&from=2480802190",
+              "https://p9-pc-sign.douyinpic.com/obj/318f1000413827e122102?lk3s=93de098e&x-expires=1784041200&x-signature=DG0HdAnzjPNg8v8wQD4jyKi%2BS%2B8%3D&from=2480802190"
+            ]
+          }
+        ],
+        "with_commerce_enterprise_tab_entry": false,
+        "with_commerce_entry": false,
+        "with_fusion_shop_entry": false,
+        "with_new_goods": false,
+        "youtube_channel_id": "",
+        "youtube_channel_title": "",
+        "followers_detail": null,
+        "platform_sync_info": null,
+        "geofencing": null,
+        "policy_version": null,
+        "type_label": null,
+        "card_entries": [],
+        "mix_info": null
+      },
+      "apiSource": "profile-other",
+      "followerApproximate": false
+    }
+  }
+}

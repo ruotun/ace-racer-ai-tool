@@ -1,0 +1,245 @@
+{
+  "dataset": "library",
+  "action": "modify",
+  "key": "gamekee-663696",
+  "label": "道奇 Challenger SRT 392",
+  "updatedAt": "2026-07-13T07:20:39.233Z",
+  "payload": {
+    "id": "gamekee-663696",
+    "name": "道奇 Challenger SRT 392",
+    "type": "car",
+    "role": "干扰位",
+    "tags": [
+      "干扰",
+      "山路",
+      "传说补给",
+      "T2",
+      "干扰位",
+      "真实阵营",
+      "道奇",
+      "汽油",
+      "硬汉模式",
+      "强硬",
+      "竞速级氮气支架",
+      "空气动力学套件",
+      "赛道专精 (LV3解锁)",
+      "RECU限制解除(LV8解锁)",
+      "极速",
+      "动力",
+      "耐久",
+      "氮气充能",
+      "氮气时长",
+      "氮气极速",
+      "涡轮时长",
+      "涡轮极速"
+    ],
+    "description": "道奇挑战者，与福特野马和雪佛兰科迈罗一样，作为肌肉车的代表在美国汽车历史上留下了厚重的一笔。从1969年初代挑战者诞生，到我们所看到的这台SRT392，那种流淌在血液中的硬朗与力量感从未改变。踩下一脚油门，感受大排量V8引擎的轰鸣与它卓越的推力吧。\n基础信息：车辆类型=真实阵营；厂商=道奇；定位=干扰位；赛道专精=山路；能源类型=汽油；驱动方式=前置后驱；车重=1944kg；扩展芯片类型=○○△◇◣V\n性能：极速=230+2km/h；动力=7.4；耐久=100；氮气充能=32%；起步充能=32%；氮气时长=6.00秒；氮气极速=30.0/45.0km/h；涡轮时长=0.60/1.80秒；涡轮极速=7.50/11.25km/h\n技能：硬汉模式 - ·获得沿车头方向的加速效果·有助于退出漂移状态#tips[加速推进]并进入持续#desc[数值]的硬汉模式：极速提升70km/h每次与敌方车辆发生碰撞时，会使其损失耐久并被·车辆失控旋转，并且短时间内剧烈失速#tips[震击]每次前方出现可见的放置物时，可以将其撞毁并永久提升极速。；强硬 - 使敌方辅助车的辅助范围变更为500米；竞速级氮气支架 - 解锁1×5磅，2×2.5磅，1x6磅，3x2磅，2x3磅氮气；空气动力学套件 - 跟随在车辆后方将获得尾流，产生持续的氮气充能效果；赛道专精 (LV3解锁) - 在山路赛道，使用氮气时获得额外大招充能并在落后第一名超过一定距离时获得速度提升效果；RECU限制解除(LV8解锁) - 硬汉模式可以充能两次。解锁大招被动：撞击敌方车辆或撞毁放置物将延长30%的大招时间\n资料说明：扩展芯片类型：\"○\"为圆形、\"△\"为三角形、\"◇\"为菱形、\"◣\"为六边形、\"V\"为V形芯片",
+    "source": "https://www.gamekee.com/aceracer/663696.html",
+    "image": "./data/vehicle-images/vehicle-gamekee-663696-0-958fabd104.png",
+    "images": [
+      "./data/vehicle-images/vehicle-gamekee-663696-0-958fabd104.png",
+      "./data/vehicle-images/vehicle-gamekee-663696-1-413024e579.png",
+      "./data/vehicle-images/vehicle-gamekee-663696-2-a3239fb19d.png",
+      "./data/vehicle-images/vehicle-gamekee-663696-3-cc6635664b.png"
+    ],
+    "details": {
+      "speedSheet": {
+        "出场赛季": "S8",
+        "位置": "干扰",
+        "场地适用": "山路",
+        "稀有度": "传说补给",
+        "梯度排行": "T2",
+        "干扰距离": "-",
+        "辅助距离": "-",
+        "特殊备注": "-",
+        "特殊备注（被动对于自身增益）": "-",
+        "RECU": "-",
+        "技能简介": "-",
+        "技能对于自身": "-",
+        "推荐队友车辆": "山路催化剂/蛋仔出击+道奇392+任意单刷竞速（清障无限循环大招）\n场地比亚迪/玛莎拉蒂Levente+道奇392+任意竞速偏单刷城市mini+道奇392+仰望U8",
+        "推荐队友车辆原因": "-",
+        "推荐队友车辆原因（技能或者被动或者SP对于队友增益）": "-",
+        "不推荐队友车辆": "-",
+        "不推荐队友车辆原因": "-",
+        "克制对手车辆": "-",
+        "克制对手车辆原因": "-",
+        "被对手车辆克制": "机械咆哮虎/莱肯",
+        "被对手车辆克制原因": "-",
+        "推荐使用地图": "-",
+        "赋能推荐": "汇丰聚气/自适应+不甘落后/花信",
+        "芯片推荐": "32快出团魂，V型：超频硬汉模式",
+        "基础极速": "-",
+        "基础动力": "-",
+        "基础耐久": "-",
+        "基础氮气充能": "-",
+        "基础起步充能": "-",
+        "基础氮气时长": "-",
+        "基础蓝氮极速": "-",
+        "基础紫氮极速": "-",
+        "蓝喷涡轮时长": "-",
+        "紫喷涡轮时长": "-",
+        "蓝喷涡轮极速": "-",
+        "紫喷涡轮极速": "-",
+        "技能极速提升": "-",
+        "大招持续时间": "-"
+      },
+      "speedSheetSourceName": "道奇挑战者392",
+      "skills": [
+        {
+          "name": "硬汉模式",
+          "desc": "·获得沿车头方向的加速效果·有助于退出漂移状态#tips[加速推进]并进入持续#desc[数值]的硬汉模式：极速提升70km/h每次与敌方车辆发生碰撞时，会使其损失耐久并被·车辆失控旋转，并且短时间内剧烈失速#tips[震击]每次前方出现可见的放置物时，可以将其撞毁并永久提升极速。",
+          "values": "极速提升：70km/h加速时长：6/6.3/6.6/6.9/7.5km/h（LV1/LV5/LV7/LV9/LV10）清障叠速：+1.5km/h（上限：15km/h）撞击命中类型：·目标触碰到放置物时命中·不受*混乱*、*反弹*、*闪避*、*隐身*效果影响·无法命中具有*无法选择*的敌方触碰类撞击损失耐久：10点剧烈失速时长：1秒",
+          "icon": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/759975/2025/4/28/312888.png",
+          "images": [
+            "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/759975/2025/4/28/312888.png"
+          ]
+        },
+        {
+          "name": "强硬",
+          "desc": "使敌方辅助车的辅助范围变更为500米",
+          "values": "辅助范围变更：500米命中类型：·直接命中目标 ，除非目标处于*无法选中*状态直接命中（开局时施加状态）可否净化：不可净化",
+          "icon": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/759975/2025/4/28/173524.png",
+          "images": [
+            "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/759975/2025/4/28/173524.png"
+          ]
+        },
+        {
+          "name": "竞速级氮气支架",
+          "desc": "解锁1×5磅，2×2.5磅，1x6磅，3x2磅，2x3磅氮气",
+          "values": "LV2：解锁1x5磅氮气配置LV3：解锁2×2.5磅氮气配置LV4：解锁1x6磅氮气配置LV5：解锁3×2磅氮气配置LV6：解锁2x3磅氮气配置",
+          "icon": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/71178/2025/4/16/725575.png",
+          "images": [
+            "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/71178/2025/4/16/725575.png"
+          ]
+        },
+        {
+          "name": "空气动力学套件",
+          "desc": "跟随在车辆后方将获得尾流，产生持续的氮气充能效果",
+          "values": "",
+          "icon": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/71178/2025/4/16/521180.png",
+          "images": [
+            "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/71178/2025/4/16/521180.png"
+          ]
+        },
+        {
+          "name": "赛道专精 (LV3解锁)",
+          "desc": "在山路赛道，使用氮气时获得额外大招充能并在落后第一名超过一定距离时获得速度提升效果",
+          "values": "",
+          "icon": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/71178/2025/4/16/946572.png",
+          "images": [
+            "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/71178/2025/4/16/946572.png"
+          ]
+        },
+        {
+          "name": "RECU限制解除(LV8解锁)",
+          "desc": "硬汉模式可以充能两次。解锁大招被动：撞击敌方车辆或撞毁放置物将延长30%的大招时间",
+          "values": "",
+          "icon": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/759975/2025/4/28/349441.png",
+          "images": [
+            "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/759975/2025/4/28/349441.png"
+          ]
+        }
+      ],
+      "attrs": {
+        "车辆类型": "真实阵营",
+        "厂商": "道奇",
+        "定位": "干扰位",
+        "赛道专精": "山路",
+        "能源类型": "汽油",
+        "驱动方式": "前置后驱",
+        "车重": "1944kg",
+        "扩展芯片类型": "○○△◇◣V"
+      },
+      "stats": {
+        "极速": "230+2km/h",
+        "动力": "7.4",
+        "耐久": "100",
+        "氮气充能": "32%",
+        "起步充能": "32%",
+        "氮气时长": "6.00秒",
+        "氮气极速": "30.0/45.0km/h",
+        "涡轮时长": "0.60/1.80秒",
+        "涡轮极速": "7.50/11.25km/h"
+      },
+      "coreAbilityNames": [
+        "硬汉模式",
+        "强硬"
+      ],
+      "abilityLabels": {
+        "硬汉模式": "技能",
+        "强硬": "被动"
+      },
+      "carMeta": {
+        "rarity": "传说",
+        "category": "干扰",
+        "trackSpecialty": "山路",
+        "mainPosition": "",
+        "includedPositions": []
+      },
+      "coreAbilities": [
+        {
+          "name": "硬汉模式",
+          "category": "技能"
+        },
+        {
+          "name": "强硬",
+          "category": "被动"
+        }
+      ],
+      "content_id": 663696,
+      "entry_id": 188072,
+      "updated_at": 1769915154,
+      "imageCandidates": 4,
+      "speedSheetManual": false,
+      "supportCategories": [],
+      "vehicleRelations": {
+        "recommendedTeammates": [
+          {
+            "type": "car",
+            "id": "gamekee-663495",
+            "reason": "清理放置物获得增益",
+            "syncKey": "gamekee-663495::relation-sync::gamekee-663696::recommendedTeammates::recommendedTeammates",
+            "detached": false
+          },
+          {
+            "type": "car",
+            "id": "gamekee-662638",
+            "reason": "清理放置物获得增益",
+            "syncKey": "gamekee-662638::relation-sync::gamekee-663696::recommendedTeammates::recommendedTeammates",
+            "detached": false
+          },
+          {
+            "type": "car",
+            "id": "gamekee-661789",
+            "reason": "清理放置物获得增益",
+            "syncKey": "gamekee-661789::relation-sync::gamekee-663696::recommendedTeammates::recommendedTeammates",
+            "detached": false
+          }
+        ],
+        "notRecommendedTeammates": [
+          {
+            "type": "car",
+            "id": "gamekee-662845",
+            "reason": "强制更改队友辅助距离到500米",
+            "syncKey": "",
+            "detached": false
+          },
+          {
+            "type": "car",
+            "id": "gamekee-661797",
+            "reason": "强制更改队友辅助距离到500米",
+            "syncKey": "",
+            "detached": false
+          }
+        ],
+        "counteredOpponents": [],
+        "countersByOpponents": [],
+        "mixedBattleSp": []
+      },
+      "driveAnchor": {
+        "x": 50,
+        "y": 50
+      }
+    }
+  }
+}

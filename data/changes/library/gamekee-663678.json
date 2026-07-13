@@ -1,0 +1,232 @@
+{
+  "dataset": "library",
+  "action": "modify",
+  "key": "gamekee-663678",
+  "label": "保时捷 Panamera Turbo S",
+  "updatedAt": "2026-07-13T07:20:39.482Z",
+  "payload": {
+    "id": "gamekee-663678",
+    "name": "保时捷 Panamera Turbo S",
+    "type": "car",
+    "role": "干扰位",
+    "tags": [
+      "干扰",
+      "城市",
+      "传说黑金",
+      "T2",
+      "干扰位",
+      "真实阵营",
+      "保时捷",
+      "汽油",
+      "障碍重重",
+      "卷土重来",
+      "竞速级氮气支架",
+      "空气动力学套件",
+      "赛道专精 (LV3解锁)",
+      "RECU限制解除(LV8解锁)",
+      "极速",
+      "动力",
+      "耐久",
+      "氮气充能",
+      "氮气时长",
+      "氮气极速",
+      "涡轮时长",
+      "涡轮极速"
+    ],
+    "description": "保时捷Panamera Turbo S展现了保时捷品牌的旗舰级性能和奢华。作为Panamera系列的顶级车型，Panamera Turbo S结合了卓越的性能、出色的操控感和豪华的内饰，为驾驶者带来了无与伦比的驾驶体验。\n基础信息：车辆类型=真实阵营；厂商=保时捷；定位=干扰位；赛道专精=城市；能源类型=汽油；驱动方式=前置四驱；车重=2085kg；扩展芯片类型=○○△◇◣V\n性能：极速=217+2km/h；动力=7.9；耐久=110；氮气充能=30%；起步充能=27%；氮气时长=5.80秒；氮气极速=20.00/30.00km/h；涡轮时长=0.72/2.16秒；涡轮极速=8.00/12.00km/h\n技能：障碍重重 - 加速推进，极速提升#desc[数值]，持续7秒。开始大招时在800米范围内排名最前的敌方车辆前方放置墙体阻挡：墙体类型随机（1.遮挡赛道中·央10米；2.遮挡赛道左侧；3.遮挡赛道右侧）墙体持续存在7秒，可以被清障效果清除撞击到墙体的敌方车辆将在0.2秒后清除周围15米范围内的放置物。；卷土重来 - 当大招生成的墙体消失或被清除后，若3秒内使用氮气则可使该墙体复原；竞速级氮气支架 - 解锁1×5磅，2×2.5磅，1x6磅，3x2磅，2x3磅氮气；空气动力学套件 - 跟随在车辆后方将获得尾流，产生持续的氮气充能效果；赛道专精 (LV3解锁) - 在城市赛道，使用氮气时获得额外大招充能并在落后第一名超过一定距离时获得速度提升效果；RECU限制解除(LV8解锁) - 障碍重重可以充能两次并在开局时获得20%大招能量\n资料说明：扩展芯片类型：\"○\"为圆形、\"△\"为三角形、\"◇\"为菱形、\"◣\"为六边形、\"V\"为V形芯片",
+    "source": "https://www.gamekee.com/aceracer/663678.html",
+    "image": "./data/vehicle-images/vehicle-gamekee-663678-0-184b6a54c9.png",
+    "images": [
+      "./data/vehicle-images/vehicle-gamekee-663678-0-184b6a54c9.png",
+      "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_660/h_298/50553/759975/2025/4/28/882466.png?x-image-process=image/format",
+      "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/759975/2025/4/28/991007.png?x-image-process=image/format",
+      "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/759975/2025/4/28/181755.png?x-image-process=image/format",
+      "./data/vehicle-images/vehicle-gamekee-663678-4-cc6635664b.png"
+    ],
+    "details": {
+      "speedSheet": {
+        "出场赛季": "S23",
+        "位置": "干扰",
+        "场地适用": "城市",
+        "稀有度": "传说黑金",
+        "梯度排行": "T2",
+        "干扰距离": "800米范围内排名最前的敌方车辆前方",
+        "辅助距离": "-",
+        "特殊备注": "-",
+        "特殊备注（被动对于自身增益）": "-",
+        "RECU": "-",
+        "技能简介": "-",
+        "技能对于自身": "-",
+        "推荐队友车辆": "城市游龙+帕梅+任意竞速\n场地比亚迪+帕梅+奔驰biome\n山路茶船+帕梅+月宫圣使",
+        "推荐队友车辆原因": "-",
+        "推荐队友车辆原因（技能或者被动或者SP对于队友增益）": "-",
+        "不推荐队友车辆": "-",
+        "不推荐队友车辆原因": "-",
+        "克制对手车辆": "-",
+        "克制对手车辆原因": "-",
+        "被对手车辆克制": "毒药/gtr/紫路虎",
+        "被对手车辆克制原因": "-",
+        "推荐使用地图": "-",
+        "赋能推荐": "汇丰聚气/自适应/扭曲转换+缺一不可",
+        "芯片推荐": "32快出核心团魂，V型：效率/累积均可",
+        "基础极速": "-",
+        "基础动力": "-",
+        "基础耐久": "-",
+        "基础氮气充能": "-",
+        "基础起步充能": "-",
+        "基础氮气时长": "-",
+        "基础蓝氮极速": "-",
+        "基础紫氮极速": "-",
+        "蓝喷涡轮时长": "-",
+        "紫喷涡轮时长": "-",
+        "蓝喷涡轮极速": "-",
+        "紫喷涡轮极速": "-",
+        "技能极速提升": "-",
+        "大招持续时间": "-"
+      },
+      "speedSheetSourceName": "保时捷帕拉梅拉TS/帕梅/Panamera",
+      "skills": [
+        {
+          "name": "障碍重重",
+          "desc": "加速推进，极速提升#desc[数值]，持续7秒。开始大招时在800米范围内排名最前的敌方车辆前方放置墙体阻挡：墙体类型随机（1.遮挡赛道中·央10米；2.遮挡赛道左侧；3.遮挡赛道右侧）墙体持续存在7秒，可以被清障效果清除撞击到墙体的敌方车辆将在0.2秒后清除周围15米范围内的放置物。",
+          "values": "极速提升：30/35/40/45/50km/h（LV1/LV5/LV7/LV9/LV10）加速时长：7秒障碍墙体作用范围：800米生成位置：目标前方100米命中类型：·实体放置物会阻碍前进路线·不受*混乱*、*反弹*、*闪避*、*隐身*、*无法选中*效果影响·可以被清障效果清除实体放置类存在时长：7秒自动清障延时：0.2秒自动清障范围：15米",
+          "icon": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/759975/2025/4/28/991007.png",
+          "images": [
+            "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/759975/2025/4/28/991007.png"
+          ]
+        },
+        {
+          "name": "卷土重来",
+          "desc": "当大招生成的墙体消失或被清除后，若3秒内使用氮气则可使该墙体复原",
+          "values": "",
+          "icon": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/759975/2025/4/28/181755.png",
+          "images": [
+            "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/759975/2025/4/28/181755.png"
+          ]
+        },
+        {
+          "name": "竞速级氮气支架",
+          "desc": "解锁1×5磅，2×2.5磅，1x6磅，3x2磅，2x3磅氮气",
+          "values": "LV2：解锁1x5磅氮气配置LV3：解锁2×2.5磅氮气配置LV4：解锁1x6磅氮气配置LV5：解锁3×2磅氮气配置LV6：解锁2x3磅氮气配置",
+          "icon": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/71178/2025/4/16/725575.png",
+          "images": [
+            "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/71178/2025/4/16/725575.png"
+          ]
+        },
+        {
+          "name": "空气动力学套件",
+          "desc": "跟随在车辆后方将获得尾流，产生持续的氮气充能效果",
+          "values": "",
+          "icon": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/71178/2025/4/16/521180.png",
+          "images": [
+            "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/71178/2025/4/16/521180.png"
+          ]
+        },
+        {
+          "name": "赛道专精 (LV3解锁)",
+          "desc": "在城市赛道，使用氮气时获得额外大招充能并在落后第一名超过一定距离时获得速度提升效果",
+          "values": "",
+          "icon": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/759975/2025/4/28/343260.png",
+          "images": [
+            "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/759975/2025/4/28/343260.png"
+          ]
+        },
+        {
+          "name": "RECU限制解除(LV8解锁)",
+          "desc": "障碍重重可以充能两次并在开局时获得20%大招能量",
+          "values": "",
+          "icon": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/759975/2025/4/28/217935.png",
+          "images": [
+            "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/759975/2025/4/28/217935.png"
+          ]
+        }
+      ],
+      "attrs": {
+        "车辆类型": "真实阵营",
+        "厂商": "保时捷",
+        "定位": "干扰位",
+        "赛道专精": "城市",
+        "能源类型": "汽油",
+        "驱动方式": "前置四驱",
+        "车重": "2085kg",
+        "扩展芯片类型": "○○△◇◣V"
+      },
+      "stats": {
+        "极速": "217+2km/h",
+        "动力": "7.9",
+        "耐久": "110",
+        "氮气充能": "30%",
+        "起步充能": "27%",
+        "氮气时长": "5.80秒",
+        "氮气极速": "20.00/30.00km/h",
+        "涡轮时长": "0.72/2.16秒",
+        "涡轮极速": "8.00/12.00km/h"
+      },
+      "coreAbilityNames": [
+        "障碍重重",
+        "卷土重来"
+      ],
+      "abilityLabels": {
+        "障碍重重": "技能",
+        "卷土重来": "被动"
+      },
+      "carMeta": {
+        "rarity": "传说",
+        "category": "干扰",
+        "trackSpecialty": "城市",
+        "mainPosition": "",
+        "includedPositions": []
+      },
+      "coreAbilities": [
+        {
+          "name": "障碍重重",
+          "category": "技能"
+        },
+        {
+          "name": "卷土重来",
+          "category": "被动"
+        }
+      ],
+      "content_id": 663678,
+      "entry_id": 186993,
+      "updated_at": 1765879224,
+      "imageCandidates": 5,
+      "speedSheetManual": true,
+      "supportCategories": [],
+      "vehicleRelations": {
+        "recommendedTeammates": [],
+        "notRecommendedTeammates": [],
+        "counteredOpponents": [
+          {
+            "type": "car",
+            "id": "gamekee-661770",
+            "reason": "放墙干扰禅撞击导致断大打乱游戏节奏",
+            "syncKey": "gamekee-661770::relation-sync::gamekee-663678::countersByOpponents::counteredOpponents",
+            "detached": false
+          }
+        ],
+        "countersByOpponents": [
+          {
+            "type": "car",
+            "id": "gamekee-661653",
+            "reason": "",
+            "syncKey": "",
+            "detached": false
+          },
+          {
+            "type": "car",
+            "id": "gamekee-661775",
+            "reason": "",
+            "syncKey": "",
+            "detached": false
+          }
+        ],
+        "mixedBattleSp": []
+      },
+      "driveAnchor": {
+        "x": 50,
+        "y": 50
+      }
+    }
+  }
+}

@@ -1,0 +1,231 @@
+{
+  "dataset": "library",
+  "action": "modify",
+  "key": "gamekee-661656",
+  "label": "法拉利812 Competizione",
+  "updatedAt": "2026-07-13T07:20:39.127Z",
+  "payload": {
+    "id": "gamekee-661656",
+    "name": "法拉利812 Competizione",
+    "type": "car",
+    "role": "竞速位",
+    "tags": [
+      "竞速",
+      "城市",
+      "稀世珍宝",
+      "T1",
+      "竞速位",
+      "真实阵营",
+      "法拉利",
+      "汽油",
+      "竞速精神",
+      "传奇再进化",
+      "竞速级氮气支架",
+      "空气动力学套件",
+      "赛道专精 (LV3解锁)",
+      "RECU限制解除(LV8解锁)",
+      "极速",
+      "动力",
+      "耐久",
+      "氮气充能",
+      "氮气时长",
+      "氮气极速",
+      "涡轮时长",
+      "涡轮极速"
+    ],
+    "description": "法拉利 812 Competizione汲取了跃马品牌70多年来在全球赛事中所取得的经验，融入纯正的赛道基因，铸就性能、造型与功能性的完美结合。为满足法拉利收藏家和鉴赏家的热情需求，该车型搭载诸多卓越的工程解决方案，创造无与伦比的驾控乐趣。\n基础信息：车辆类型=真实阵营；厂商=法拉利；定位=竞速位；赛道专精=城市；能源类型=汽油；驱动方式=前置后驱；车重=1621kg；扩展芯片类型=○○△◣◣V\n性能：极速=221km/h；动力=7.9；耐久=125；氮气充能=27%；起步充能=27%；氮气时长=5.8秒；氮气极速=20.00/30.00km/h；涡轮时长=0.70/2.10秒；涡轮极速=8.00/12.00km/h\n技能：竞速精神 - 获得长时间的加速，极速提升#desc[数值]，持续12秒。加速期间#tips[无法选中]大招开始时刷新氮气和涡轮中最近使用的那一个。被动：大招能量达到30%时即可使用。；传奇再进化 - 氮气持续期间可再次使用氮气，涡轮和氮气速度均可叠加（上限叠加至3倍速度）；竞速级氮气支架 - 解锁1×5磅，2×2.5磅，1x6磅，3x2磅，2x3磅氮气；空气动力学套件 - 跟随在车辆后方将获得尾流，产生持续的氮气充能效果；赛道专精 (LV3解锁) - 在城市赛道，使用氮气时获得额外大招充能并在落后第一名超过一定距离时获得速度提升效果；RECU限制解除(LV8解锁) - 竞速精神可以充能两次\n资料说明：扩展芯片类型：\"○\"为圆形、\"△\"为三角形、\"◇\"为菱形、\"◣\"为六边形、\"V\"为V形芯片",
+    "source": "https://www.gamekee.com/aceracer/661656.html",
+    "image": "./data/vehicle-images/vehicle-gamekee-661656-0-5de10c2015.png",
+    "images": [
+      "./data/vehicle-images/vehicle-gamekee-661656-0-5de10c2015.png",
+      "./data/vehicle-images/vehicle-gamekee-661656-1-306ad046d3.png",
+      "./data/vehicle-images/vehicle-gamekee-661656-2-3c9ddd7fd8.png"
+    ],
+    "details": {
+      "speedSheet": {
+        "出场赛季": "S21",
+        "位置": "竞速",
+        "场地适用": "城市",
+        "稀有度": "稀世珍宝",
+        "梯度排行": "T1",
+        "干扰距离": "-",
+        "辅助距离": "-",
+        "特殊备注": "-",
+        "特殊备注（被动对于自身增益）": "-",
+        "RECU": "-",
+        "技能简介": "-",
+        "技能对于自身": "-",
+        "推荐队友车辆": "问界",
+        "推荐队友车辆原因": "获得集气无阈值效果",
+        "推荐队友车辆原因（技能或者被动或者SP对于队友增益）": "-",
+        "不推荐队友车辆": "-",
+        "不推荐队友车辆原因": "-",
+        "克制对手车辆": "-",
+        "克制对手车辆原因": "-",
+        "被对手车辆克制": "紫路虎，扰流三兄弟",
+        "被对手车辆克制原因": "会影响出弯氮气使用，开局氮气刷新",
+        "推荐使用地图": "-",
+        "赋能推荐": "-",
+        "芯片推荐": "-",
+        "基础极速": "221",
+        "基础动力": "7.9",
+        "基础耐久": "125",
+        "基础氮气充能": "0.27",
+        "基础起步充能": "27%",
+        "基础氮气时长": "5.8",
+        "基础蓝氮极速": "20",
+        "基础紫氮极速": "30",
+        "蓝喷涡轮时长": "0.7",
+        "紫喷涡轮时长": "2.1",
+        "蓝喷涡轮极速": "8",
+        "紫喷涡轮极速": "12",
+        "技能极速提升": "40km/h",
+        "大招持续时间": "12秒"
+      },
+      "speedSheetSourceName": "法拉利812",
+      "skills": [
+        {
+          "name": "竞速精神",
+          "desc": "获得长时间的加速，极速提升#desc[数值]，持续12秒。加速期间#tips[无法选中]大招开始时刷新氮气和涡轮中最近使用的那一个。被动：大招能量达到30%时即可使用。",
+          "values": "极速提升：30/32/34/37/40km/h（LV1/LV5/LV7/LV9/LV10）持续时间：12秒释放所需能量：30%",
+          "icon": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/759975/2025/4/16/358654.png",
+          "images": [
+            "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/759975/2025/4/16/358654.png"
+          ]
+        },
+        {
+          "name": "传奇再进化",
+          "desc": "氮气持续期间可再次使用氮气，涡轮和氮气速度均可叠加（上限叠加至3倍速度）",
+          "values": "",
+          "icon": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/759975/2025/4/16/954005.png",
+          "images": [
+            "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/759975/2025/4/16/954005.png"
+          ]
+        },
+        {
+          "name": "竞速级氮气支架",
+          "desc": "解锁1×5磅，2×2.5磅，1x6磅，3x2磅，2x3磅氮气",
+          "values": "LV2：解锁1x5磅氮气配置LV3：解锁2×2.5磅氮气配置LV4：解锁1x6磅氮气配置LV5：解锁3×2磅氮气配置LV6：解锁2x3磅氮气配置",
+          "icon": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/71178/2025/4/16/725575.png",
+          "images": [
+            "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/71178/2025/4/16/725575.png"
+          ]
+        },
+        {
+          "name": "空气动力学套件",
+          "desc": "跟随在车辆后方将获得尾流，产生持续的氮气充能效果",
+          "values": "",
+          "icon": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/71178/2025/4/16/521180.png",
+          "images": [
+            "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/71178/2025/4/16/521180.png"
+          ]
+        },
+        {
+          "name": "赛道专精 (LV3解锁)",
+          "desc": "在城市赛道，使用氮气时获得额外大招充能并在落后第一名超过一定距离时获得速度提升效果",
+          "values": "",
+          "icon": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/759975/2025/4/16/495467.png",
+          "images": [
+            "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/759975/2025/4/16/495467.png"
+          ]
+        },
+        {
+          "name": "RECU限制解除(LV8解锁)",
+          "desc": "竞速精神可以充能两次",
+          "values": "",
+          "icon": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/759975/2025/4/16/742228.png",
+          "images": [
+            "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/759975/2025/4/16/742228.png"
+          ]
+        }
+      ],
+      "attrs": {
+        "车辆类型": "真实阵营",
+        "厂商": "法拉利",
+        "定位": "竞速位",
+        "赛道专精": "城市",
+        "能源类型": "汽油",
+        "驱动方式": "前置后驱",
+        "车重": "1621kg",
+        "扩展芯片类型": "○○△◣◣V"
+      },
+      "stats": {
+        "极速": "221km/h",
+        "动力": "7.9",
+        "耐久": "125",
+        "氮气充能": "27%",
+        "起步充能": "27%",
+        "氮气时长": "5.8秒",
+        "氮气极速": "20.00/30.00km/h",
+        "涡轮时长": "0.70/2.10秒",
+        "涡轮极速": "8.00/12.00km/h"
+      },
+      "coreAbilityNames": [
+        "竞速精神",
+        "传奇再进化"
+      ],
+      "abilityLabels": {
+        "竞速精神": "技能",
+        "传奇再进化": "被动"
+      },
+      "carMeta": {
+        "rarity": "传说",
+        "category": "竞速",
+        "trackSpecialty": "城市",
+        "mainPosition": "",
+        "includedPositions": []
+      },
+      "coreAbilities": [
+        {
+          "name": "竞速精神",
+          "category": "技能"
+        },
+        {
+          "name": "传奇再进化",
+          "category": "被动"
+        }
+      ],
+      "content_id": 661656,
+      "entry_id": 186527,
+      "updated_at": 1747821988,
+      "imageCandidates": 3,
+      "speedSheetManual": true,
+      "supportCategories": [],
+      "vehicleRelations": {
+        "recommendedTeammates": [
+          {
+            "type": "car",
+            "id": "gamekee-661739",
+            "reason": "获得集气无阈值效果",
+            "syncKey": "gamekee-661656::recommended-teammate::gamekee-661739",
+            "detached": false
+          }
+        ],
+        "notRecommendedTeammates": [
+          {
+            "type": "car",
+            "id": "gamekee-662845",
+            "reason": "容易打乱节奏",
+            "syncKey": "gamekee-661656::relation-sync::gamekee-662845::notRecommendedTeammates::notRecommendedTeammates",
+            "detached": false
+          }
+        ],
+        "counteredOpponents": [],
+        "countersByOpponents": [],
+        "mixedBattleSp": [
+          {
+            "type": "car",
+            "id": "gamekee-663027",
+            "reason": "携带3×2氮气和“汇丰聚气”赋能无限氮气无限辅助队友",
+            "syncKey": "",
+            "detached": false
+          }
+        ]
+      },
+      "driveAnchor": {
+        "x": 50,
+        "y": 50
+      }
+    }
+  }
+}

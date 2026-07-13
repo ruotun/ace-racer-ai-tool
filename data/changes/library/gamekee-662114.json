@@ -1,0 +1,222 @@
+{
+  "dataset": "library",
+  "action": "modify",
+  "key": "gamekee-662114",
+  "label": "柯尼塞格 Jesko",
+  "updatedAt": "2026-07-13T07:20:39.057Z",
+  "payload": {
+    "id": "gamekee-662114",
+    "name": "柯尼塞格 Jesko",
+    "type": "car",
+    "role": "竞速位",
+    "tags": [
+      "竞速",
+      "城市",
+      "T1",
+      "竞速位",
+      "真实阵营",
+      "柯尼塞格",
+      "汽油",
+      "极限氮气",
+      "恒净之躯",
+      "竞速级氮气支架",
+      "空气动力学套件",
+      "赛道专精 (LV3解锁)",
+      "RECU限制解除(LV8解锁)",
+      "极速",
+      "动力",
+      "耐久",
+      "氮气充能",
+      "氮气时长",
+      "氮气极速",
+      "涡轮时长",
+      "涡轮极速"
+    ],
+    "description": "柯尼塞格Jesko是来自瑞典超级跑车制造商柯尼塞格的杰作，Jesko这个名字是为了向柯尼塞格创始人的父亲Jesko致敬。Jesko是一台可以合法上路的赛车，它的一切设计——巨大的下压力、精准的操控性以及令人胆寒的动力与直线速度——都是为了更快的赛道极限成绩。\n基础信息：车辆类型=真实阵营；厂商=柯尼塞格；定位=竞速位；赛道专精=城市；能源类型=汽油；驱动方式=中置后驱；亮相时间=2019年；扩展芯片类型=○○△◇◣V\n性能：极速=220+2km/h；动力=7.6；耐久=105；氮气充能=26%；起步充能=26%；氮气时长=5.40秒；氮气极速=29.00/52.20km/h；涡轮时长=0.62/1.86秒；涡轮极速=6.40/9.60km/h\n技能：极限氮气 - #tips[·获得沿车头方向的加速效果·有助于退出漂移状态加速推进]，极速提升36km/h，持续#desc[数值]。加速期间每秒获得#desc[数值]#tips[·立即生效的集气、大招充能，会优先转化为生效时间而非储存起来。立即生效]的集气，每次漂移会额外获得#desc[数值]立即生效的集气。被动：紫色氮气速度提升50%，氮气期间进入漂移时获得一个涡轮，使用涡轮时立即结束漂移状态。；恒净之躯 - 每7秒自充能4%并#tips[·解除持续性的负面效果净化]全队负面效果；竞速级氮气支架 - 解锁1×5磅，2×2.5磅，1x6磅，3x2磅，2x3磅氮气；空气动力学套件 - 跟随在车辆后方将获得尾流，产生持续的氮气充能效果；赛道专精 (LV3解锁) - 在城市赛道，使用氮气时获得额外大招充能并在落后第一名超过一定距离时获得速度提升效果；RECU限制解除(LV8解锁) - 极限氮气每秒获得集气量提升且可以充能两次\n资料说明：扩展芯片类型：\"○\"为圆形、\"△\"为三角形、\"◇\"为菱形、\"◣\"为六边形、\"V\"为V形芯片",
+    "source": "https://www.gamekee.com/aceracer/662114.html",
+    "image": "./data/vehicle-images/vehicle-gamekee-662114-0-45aa831961.png",
+    "images": [
+      "./data/vehicle-images/vehicle-gamekee-662114-0-45aa831961.png",
+      "./data/vehicle-images/vehicle-gamekee-662114-1-137eb44723.png",
+      "./data/vehicle-images/vehicle-gamekee-662114-2-ef69a720f0.png"
+    ],
+    "details": {
+      "speedSheet": {
+        "出场赛季": "S4",
+        "位置": "竞速",
+        "场地适用": "城市",
+        "稀有度": "-",
+        "梯度排行": "T1",
+        "干扰距离": "-",
+        "辅助距离": "-",
+        "特殊备注": "-",
+        "特殊备注（被动对于自身增益）": "-",
+        "RECU": "-",
+        "技能简介": "-",
+        "技能对于自身": "-",
+        "推荐队友车辆": "-",
+        "推荐队友车辆原因": "-",
+        "推荐队友车辆原因（技能或者被动或者SP对于队友增益）": "-",
+        "不推荐队友车辆": "-",
+        "不推荐队友车辆原因": "-",
+        "克制对手车辆": "-",
+        "克制对手车辆原因": "-",
+        "被对手车辆克制": "-",
+        "被对手车辆克制原因": "-",
+        "推荐使用地图": "-",
+        "赋能推荐": "-",
+        "芯片推荐": "-",
+        "基础极速": "-",
+        "基础动力": "-",
+        "基础耐久": "-",
+        "基础氮气充能": "-",
+        "基础起步充能": "-",
+        "基础氮气时长": "-",
+        "基础蓝氮极速": "-",
+        "基础紫氮极速": "-",
+        "蓝喷涡轮时长": "-",
+        "紫喷涡轮时长": "-",
+        "蓝喷涡轮极速": "-",
+        "紫喷涡轮极速": "-",
+        "技能极速提升": "36km/h",
+        "大招持续时间": "10秒"
+      },
+      "speedSheetSourceName": "柯尼塞格Jesko/柯尼塞格杰哥/杰哥",
+      "skills": [
+        {
+          "name": "极限氮气",
+          "desc": "#tips[·获得沿车头方向的加速效果·有助于退出漂移状态加速推进]，极速提升36km/h，持续#desc[数值]。加速期间每秒获得#desc[数值]#tips[·立即生效的集气、大招充能，会优先转化为生效时间而非储存起来。立即生效]的集气，每次漂移会额外获得#desc[数值]立即生效的集气。被动：紫色氮气速度提升50%，氮气期间进入漂移时获得一个涡轮，使用涡轮时立即结束漂移状态。",
+          "values": "极限氮气极速提升：36km/h极限持续持续时间：8/9/10秒（LV1 /LV5 /LV7）极限氮气自动集气：2000/2200点（LV1 /LV8）极限氮气漂移集气：500/600/800点（LV1 /LV9 /LV10）紫色氮气额外极速：50%",
+          "icon": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/759975/2025/4/20/362388.png",
+          "images": [
+            "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/759975/2025/4/20/362388.png"
+          ]
+        },
+        {
+          "name": "恒净之躯",
+          "desc": "每7秒自充能4%并#tips[·解除持续性的负面效果净化]全队负面效果",
+          "values": "释放间隔：7秒大招自充：4%",
+          "icon": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/759975/2025/4/20/598000.png",
+          "images": [
+            "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/759975/2025/4/20/598000.png"
+          ]
+        },
+        {
+          "name": "竞速级氮气支架",
+          "desc": "解锁1×5磅，2×2.5磅，1x6磅，3x2磅，2x3磅氮气",
+          "values": "LV2：解锁1x5磅氮气配置LV3：解锁2×2.5磅氮气配置LV4：解锁1x6磅氮气配置LV5：解锁3×2磅氮气配置LV6：解锁2x3磅氮气配置",
+          "icon": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/71178/2025/4/16/725575.png",
+          "images": [
+            "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/71178/2025/4/16/725575.png"
+          ]
+        },
+        {
+          "name": "空气动力学套件",
+          "desc": "跟随在车辆后方将获得尾流，产生持续的氮气充能效果",
+          "values": "",
+          "icon": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/71178/2025/4/16/521180.png",
+          "images": [
+            "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/71178/2025/4/16/521180.png"
+          ]
+        },
+        {
+          "name": "赛道专精 (LV3解锁)",
+          "desc": "在城市赛道，使用氮气时获得额外大招充能并在落后第一名超过一定距离时获得速度提升效果",
+          "values": "",
+          "icon": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/759975/2025/4/20/227571.png",
+          "images": [
+            "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/759975/2025/4/20/227571.png"
+          ]
+        },
+        {
+          "name": "RECU限制解除(LV8解锁)",
+          "desc": "极限氮气每秒获得集气量提升且可以充能两次",
+          "values": "",
+          "icon": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/759975/2025/4/20/551618.png",
+          "images": [
+            "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/759975/2025/4/20/551618.png"
+          ]
+        }
+      ],
+      "attrs": {
+        "车辆类型": "真实阵营",
+        "厂商": "柯尼塞格",
+        "定位": "竞速位",
+        "赛道专精": "城市",
+        "能源类型": "汽油",
+        "驱动方式": "中置后驱",
+        "亮相时间": "2019年",
+        "扩展芯片类型": "○○△◇◣V"
+      },
+      "stats": {
+        "极速": "220+2km/h",
+        "动力": "7.6",
+        "耐久": "105",
+        "氮气充能": "26%",
+        "起步充能": "26%",
+        "氮气时长": "5.40秒",
+        "氮气极速": "29.00/52.20km/h",
+        "涡轮时长": "0.62/1.86秒",
+        "涡轮极速": "6.40/9.60km/h"
+      },
+      "coreAbilityNames": [
+        "极限氮气",
+        "恒净之躯"
+      ],
+      "abilityLabels": {
+        "极限氮气": "技能",
+        "恒净之躯": "被动"
+      },
+      "carMeta": {
+        "rarity": "传说",
+        "category": "竞速",
+        "trackSpecialty": "城市",
+        "mainPosition": "",
+        "includedPositions": []
+      },
+      "coreAbilities": [
+        {
+          "name": "极限氮气",
+          "category": "技能"
+        },
+        {
+          "name": "恒净之躯",
+          "category": "被动"
+        }
+      ],
+      "content_id": 662114,
+      "entry_id": 186869,
+      "updated_at": 1747824558,
+      "imageCandidates": 3,
+      "speedSheetManual": false,
+      "supportCategories": [],
+      "vehicleRelations": {
+        "recommendedTeammates": [
+          {
+            "type": "car",
+            "id": "gamekee-662849",
+            "reason": "自身每7秒解控可以解掉布加迪的虚弱状态",
+            "syncKey": "gamekee-662114::relation-sync::gamekee-662849::recommendedTeammates::recommendedTeammates",
+            "detached": false
+          }
+        ],
+        "notRecommendedTeammates": [],
+        "counteredOpponents": [
+          {
+            "type": "car",
+            "id": "gamekee-662307",
+            "reason": "杰哥被动提供全队解控",
+            "syncKey": "gamekee-662114::relation-sync::gamekee-662307::countersByOpponents::counteredOpponents",
+            "detached": false
+          }
+        ],
+        "countersByOpponents": [],
+        "mixedBattleSp": []
+      },
+      "driveAnchor": {
+        "x": 50,
+        "y": 50
+      }
+    }
+  }
+}

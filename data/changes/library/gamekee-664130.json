@@ -1,0 +1,229 @@
+{
+  "dataset": "library",
+  "action": "modify",
+  "key": "gamekee-664130",
+  "label": "泡泡旅行者",
+  "updatedAt": "2026-07-13T07:20:39.581Z",
+  "payload": {
+    "id": "gamekee-664130",
+    "name": "泡泡旅行者",
+    "type": "car",
+    "role": "干扰位",
+    "tags": [
+      "干扰位",
+      "幻想阵营",
+      "开拓者",
+      "场地",
+      "水动力",
+      "泡泡冲击",
+      "泡泡禁锢",
+      "竞速级氮气支架",
+      "空气动力学套件",
+      "赛道专精 (LV3解锁)",
+      "RECU限制解除(LV8解锁)",
+      "极速",
+      "动力",
+      "耐久",
+      "氮气充能",
+      "氮气时长",
+      "氮气极速",
+      "涡轮时长",
+      "涡轮极速",
+      "干扰",
+      "史诗",
+      "T3"
+    ],
+    "description": "泡泡旅行者，是开拓者车厂特别打造的一款别具一格的赛车。其外形酷似一个巨大的浴缸，让人欲罢不能。泡泡旅行者不仅是一款车，更是一种独特的生活态度。它的出现如同一股清流，给繁忙的生活注入一丝清新与惊喜。驾驶泡泡旅行者，就像是在泡泡中航行，自由自在，尽情享受旅行的乐趣\n基础信息：车辆类型=幻想阵营；厂商=开拓者；定位=干扰位；赛道专精=场地；能源类型=水动力；驱动方式=后置后驱；车重=120kg；扩展芯片类型=○○△◇◣V\n性能：极速=211+2km/h；动力=7.8；耐久=90；氮气充能=26%；起步充能=26%；氮气时长=5.2秒；氮气极速=22.0/33.0km/h；涡轮时长=0.82/2.46秒；涡轮极速=5.80/8.70km/h\n技能：泡泡冲击 - 加速推进，极速提升#desc[数值]，持续7秒。开启大招时发射泡泡攻击40米范围内距离最近的敌方车辆目标速度清零并原地腾空5秒达到最高点时会额外滞空0.2秒；泡泡禁锢 - 每35秒使距离最近的敌方车辆原地腾空5米并滞空0.2秒；竞速级氮气支架 - 解锁1×5磅，2×2.5磅，1x6磅，3x2磅，2x3磅氮气；空气动力学套件 - 跟随在车辆后方将获得尾流，产生持续的氮气充能效果；赛道专精 (LV3解锁) - 在场地赛道，使用氮气时获得额外大招充能并在落后第一名超过一定距离时获得速度提升效果；RECU限制解除(LV8解锁) - 泡泡冲击可以充能两次\n资料说明：扩展芯片类型：\"○\"为圆形、\"△\"为三角形、\"◇\"为菱形、\"◣\"为六边形、\"V\"为V形芯片",
+    "source": "https://www.gamekee.com/aceracer/664130.html",
+    "image": "./data/user-images/vehicle-1295e83dce3f57ce.webp",
+    "images": [
+      "./data/user-images/vehicle-1295e83dce3f57ce.webp",
+      "./data/vehicle-images/vehicle-gamekee-664130-1-37917d1c67.png",
+      "./data/vehicle-images/vehicle-gamekee-664130-2-75e42f8504.png"
+    ],
+    "details": {
+      "content_id": 664130,
+      "entry_id": 186925,
+      "attrs": {
+        "车辆类型": "幻想阵营",
+        "厂商": "开拓者",
+        "定位": "干扰位",
+        "赛道专精": "场地",
+        "能源类型": "水动力",
+        "驱动方式": "后置后驱",
+        "车重": "120kg",
+        "扩展芯片类型": "○○△◇◣V"
+      },
+      "stats": {
+        "极速": "211+2km/h",
+        "动力": "7.8",
+        "耐久": "90",
+        "氮气充能": "26%",
+        "起步充能": "26%",
+        "氮气时长": "5.2秒",
+        "氮气极速": "22.0/33.0km/h",
+        "涡轮时长": "0.82/2.46秒",
+        "涡轮极速": "5.80/8.70km/h"
+      },
+      "skills": [
+        {
+          "name": "泡泡冲击",
+          "desc": "加速推进，极速提升#desc[数值]，持续7秒。开启大招时发射泡泡攻击40米范围内距离最近的敌方车辆目标速度清零并原地腾空5秒达到最高点时会额外滞空0.2秒",
+          "values": "极速提升20/23/26/30/33（LV1/LV5/LV7/LV9/LV10）加速时长：7秒泡泡冲击作用范围：40米（最近敌方）击飞高度：5米额外滞空：0.2秒命中类型：锁定类可否净化：不可净化",
+          "icon": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/71178/2025/4/16/807012.png",
+          "images": [
+            "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/71178/2025/4/16/807012.png"
+          ]
+        },
+        {
+          "name": "泡泡禁锢",
+          "desc": "每35秒使距离最近的敌方车辆原地腾空5米并滞空0.2秒",
+          "values": "",
+          "icon": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/71178/2025/4/16/995103.png",
+          "images": [
+            "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/71178/2025/4/16/995103.png"
+          ]
+        },
+        {
+          "name": "竞速级氮气支架",
+          "desc": "解锁1×5磅，2×2.5磅，1x6磅，3x2磅，2x3磅氮气",
+          "values": "LV2：解锁1x5磅氮气配置LV3：解锁2×2.5磅氮气配置LV4：解锁1x6磅氮气配置LV5：解锁3×2磅氮气配置LV6：解锁2x3磅氮气配置",
+          "icon": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/71178/2025/4/16/725575.png",
+          "images": [
+            "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/71178/2025/4/16/725575.png"
+          ]
+        },
+        {
+          "name": "空气动力学套件",
+          "desc": "跟随在车辆后方将获得尾流，产生持续的氮气充能效果",
+          "values": "",
+          "icon": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/71178/2025/4/16/521180.png",
+          "images": [
+            "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/71178/2025/4/16/521180.png"
+          ]
+        },
+        {
+          "name": "赛道专精 (LV3解锁)",
+          "desc": "在场地赛道，使用氮气时获得额外大招充能并在落后第一名超过一定距离时获得速度提升效果",
+          "values": "",
+          "icon": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/71178/2025/4/16/946572.png",
+          "images": [
+            "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/71178/2025/4/16/946572.png"
+          ]
+        },
+        {
+          "name": "RECU限制解除(LV8解锁)",
+          "desc": "泡泡冲击可以充能两次",
+          "values": "",
+          "icon": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/71178/2025/4/16/575465.png",
+          "images": [
+            "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/71178/2025/4/16/575465.png"
+          ]
+        }
+      ],
+      "coreAbilityNames": [
+        "泡泡冲击",
+        "泡泡禁锢"
+      ],
+      "abilityLabels": {
+        "泡泡冲击": "技能",
+        "泡泡禁锢": "被动"
+      },
+      "coreAbilities": [
+        {
+          "name": "泡泡冲击",
+          "category": "技能"
+        },
+        {
+          "name": "泡泡禁锢",
+          "category": "被动"
+        }
+      ],
+      "carMeta": {
+        "rarity": "史诗",
+        "category": "干扰",
+        "trackSpecialty": "场地",
+        "mainPosition": "",
+        "includedPositions": []
+      },
+      "updated_at": 1748502411,
+      "imageCandidates": 3,
+      "speedSheet": {
+        "出场赛季": "S23",
+        "位置": "干扰",
+        "场地适用": "场地",
+        "稀有度": "史诗",
+        "梯度排行": "T3",
+        "干扰距离": "-",
+        "辅助距离": "-",
+        "特殊备注": "-",
+        "特殊备注（被动对于自身增益）": "-",
+        "RECU": "-",
+        "技能简介": "-",
+        "技能对于自身": "-",
+        "推荐队友车辆": "-",
+        "推荐队友车辆原因": "-",
+        "推荐队友车辆原因（技能或者被动或者SP对于队友增益）": "-",
+        "不推荐队友车辆": "-",
+        "不推荐队友车辆原因": "-",
+        "克制对手车辆": "-",
+        "克制对手车辆原因": "-",
+        "被对手车辆克制": "-",
+        "被对手车辆克制原因": "-",
+        "推荐使用地图": "-",
+        "赋能推荐": "-",
+        "芯片推荐": "-",
+        "基础极速": "-",
+        "基础动力": "-",
+        "基础耐久": "-",
+        "基础氮气充能": "-",
+        "基础起步充能": "-",
+        "基础氮气时长": "-",
+        "基础蓝氮极速": "-",
+        "基础紫氮极速": "-",
+        "蓝喷涡轮时长": "-",
+        "紫喷涡轮时长": "-",
+        "蓝喷涡轮极速": "-",
+        "紫喷涡轮极速": "-",
+        "技能极速提升": "-",
+        "大招持续时间": "-"
+      },
+      "speedSheetSourceName": "泡泡旅行者",
+      "supportCategories": [],
+      "vehicleRelations": {
+        "recommendedTeammates": [],
+        "notRecommendedTeammates": [],
+        "counteredOpponents": [
+          {
+            "type": "car",
+            "id": "gamekee-661699",
+            "reason": "解不掉直接控死",
+            "syncKey": "gamekee-661699::relation-sync::gamekee-664130::counteredOpponents::countersByOpponents",
+            "detached": false
+          },
+          {
+            "type": "car",
+            "id": "gamekee-661850",
+            "reason": "没解控直接控死",
+            "syncKey": "gamekee-661850::relation-sync::gamekee-664130::counteredOpponents::countersByOpponents",
+            "detached": false
+          },
+          {
+            "type": "car",
+            "id": "gamekee-661787",
+            "reason": "没解控直接控死",
+            "syncKey": "gamekee-661787::relation-sync::gamekee-664130::counteredOpponents::countersByOpponents",
+            "detached": false
+          }
+        ],
+        "countersByOpponents": [],
+        "mixedBattleSp": []
+      },
+      "speedSheetManual": true,
+      "driveAnchor": {
+        "x": 50,
+        "y": 50
+      }
+    }
+  }
+}

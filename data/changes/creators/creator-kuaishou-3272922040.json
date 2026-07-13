@@ -1,0 +1,85 @@
+{
+  "dataset": "creators",
+  "action": "add",
+  "key": "creator-kuaishou-3272922040",
+  "label": "清忧王牌竞速",
+  "updatedAt": "2026-07-13T07:20:39.735Z",
+  "payload": {
+    "id": "creator-kuaishou-3272922040",
+    "name": "清忧王牌竞速",
+    "profileName": "清忧王牌竞速",
+    "platform": "快手",
+    "avatar": "https://p66-pro.a.yximgs.com/uhead/AB/2026/06/23/10/BMjAyNjA2MjMxMDI4MzZfMzI3MjkyMjA0MF8yX2hkNTI2XzgzOQ==_s.jpg",
+    "followerText": "2777",
+    "followerCount": 2777,
+    "followerApproximate": false,
+    "followerManualNumber": "",
+    "followerManualUnit": "none",
+    "manualUserId": "",
+    "gender": "女",
+    "displayNamePlatform": "",
+    "displayAvatarPlatform": "",
+    "forceProfileName": false,
+    "userId": "3272922040",
+    "handle": "qy76402032",
+    "source": "https://v.kuaishou.com/KtF1b1g3",
+    "resolvedUrl": "https://kpfshanghai.m.chenzhongtech.com/fw/user/qy76402032?cc=share_copylink&followRefer=151&shareMethod=TOKEN&kpn=NEBULA&subBiz=PROFILE&shareId=19032321816248&shareToken=X2DOq1RyFQGUwsp&shareResourceType=PROFILE_SELF&shareMode=APP&efid=3xtiybs9cw49cvq&originShareId=19032321816248&appType=21&shareObjectId=3272922040&shareUrlOpened=0&timestamp=1783850075617",
+    "importedAt": "2026-07-12T15:38:21.377Z",
+    "raw": {
+      "userInfo": {},
+      "pageData": {
+        "name": "清忧王牌竞速",
+        "avatar": "https://p66-pro.a.yximgs.com/uhead/AB/2026/06/23/10/BMjAyNjA2MjMxMDI4MzZfMzI3MjkyMjA0MF8yX2hkNTI2XzgzOQ==_s.jpg",
+        "userId": "3272922040",
+        "handle": "qy76402032",
+        "follower": {
+          "text": "2777",
+          "count": 2777
+        },
+        "gender": "女"
+      },
+      "rawPageData": {
+        "name": "清忧王牌竞速",
+        "avatar": "https://p66-pro.a.yximgs.com/uhead/AB/2026/06/23/10/BMjAyNjA2MjMxMDI4MzZfMzI3MjkyMjA0MF8yX2hkNTI2XzgzOQ==_s.jpg",
+        "userId": "3272922040",
+        "handle": "qy76402032",
+        "follower": {
+          "text": "2777",
+          "count": 2777
+        },
+        "gender": "女"
+      },
+      "apiResult": 400002,
+      "targetIds": [
+        "3272922040"
+      ],
+      "targetHandles": [
+        "qy76402032"
+      ],
+      "sharerIds": [],
+      "rejectedUsers": [],
+      "pageWasSharer": false,
+      "pageNeedsRetry": false,
+      "pageAttempts": [
+        {
+          "name": "清忧王牌竞速",
+          "userId": "3272922040",
+          "handle": "qy76402032",
+          "hasAvatar": true,
+          "followerCount": 2777,
+          "pageWasSharer": false,
+          "pageNeedsRetry": false
+        }
+      ],
+      "usedExistingCreator": {
+        "id": "creator-kuaishou-3272922040",
+        "name": "清忧王牌竞速",
+        "userId": "3272922040",
+        "handle": "qy76402032"
+      },
+      "sharedName": "",
+      "sourceText": "https://v.kuaishou.com/KtF1b1g3",
+      "htmlTitle": "快手主页@清忧王牌竞速"
+    }
+  }
+}

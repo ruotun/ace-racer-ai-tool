@@ -1,0 +1,87 @@
+{
+  "dataset": "creators",
+  "action": "modify",
+  "key": "creator-kuaishou-2345821144",
+  "label": "神剑大帝",
+  "updatedAt": "2026-07-13T07:20:39.684Z",
+  "payload": {
+    "id": "creator-kuaishou-2345821144",
+    "name": "神剑大帝",
+    "profileName": "神剑大帝（shenjiandadi）",
+    "platform": "快手",
+    "avatar": "https://p66-pro.a.yximgs.com/uhead/AB/2026/06/10/10/BMjAyNjA2MTAxMDU2MzNfMjM0NTgyMTE0NF8yX2hkMTY3XzU1OA==_s.jpg",
+    "followerText": "1.4万",
+    "followerCount": 14000,
+    "followerApproximate": false,
+    "followerManualNumber": "",
+    "followerManualUnit": "none",
+    "manualUserId": "",
+    "gender": "男",
+    "displayNamePlatform": "",
+    "displayAvatarPlatform": "",
+    "forceProfileName": false,
+    "userId": "2345821144",
+    "handle": "shenjiandadi",
+    "source": "https://v.kuaishou.com/JZU4x5Mc",
+    "resolvedUrl": "https://c.kuaishou.com/fw/user/shenjiandadi?fid=2345821144&cc=share_copylink&followRefer=151&shareMethod=TOKEN&kpn=KUAISHOU&subBiz=PROFILE&shareId=19014920841844&shareToken=X-aC7iH7UyRca1PJ&shareResourceType=PROFILE_SELF&shareMode=APP&originShareId=19014920841844&appType=21&shareObjectId=2345821144&shareUrlOpened=0&timestamp=1782655299853",
+    "importedAt": "2026-07-12T15:38:23.576Z",
+    "raw": {
+      "userInfo": {},
+      "pageData": {
+        "name": "神剑大帝",
+        "avatar": "https://p66-pro.a.yximgs.com/uhead/AB/2026/06/10/10/BMjAyNjA2MTAxMDU2MzNfMjM0NTgyMTE0NF8yX2hkMTY3XzU1OA==_s.jpg",
+        "userId": "2345821144",
+        "handle": "shenjiandadi",
+        "follower": {
+          "text": "1.4万",
+          "count": 14000
+        },
+        "gender": "男"
+      },
+      "rawPageData": {
+        "name": "神剑大帝",
+        "avatar": "https://p66-pro.a.yximgs.com/uhead/AB/2026/06/10/10/BMjAyNjA2MTAxMDU2MzNfMjM0NTgyMTE0NF8yX2hkMTY3XzU1OA==_s.jpg",
+        "userId": "2345821144",
+        "handle": "shenjiandadi",
+        "follower": {
+          "text": "1.4万",
+          "count": 14000
+        },
+        "gender": "男"
+      },
+      "apiResult": 400002,
+      "targetIds": [
+        "2345821144"
+      ],
+      "targetHandles": [
+        "shenjiandadi"
+      ],
+      "sharerIds": [
+        "2345821144"
+      ],
+      "rejectedUsers": [],
+      "pageWasSharer": false,
+      "pageNeedsRetry": false,
+      "pageAttempts": [
+        {
+          "name": "神剑大帝",
+          "userId": "2345821144",
+          "handle": "shenjiandadi",
+          "hasAvatar": true,
+          "followerCount": 14000,
+          "pageWasSharer": false,
+          "pageNeedsRetry": false
+        }
+      ],
+      "usedExistingCreator": {
+        "id": "creator-kuaishou-2345821144",
+        "name": "神剑大帝",
+        "userId": "2345821144",
+        "handle": "shenjiandadi"
+      },
+      "sharedName": "",
+      "sourceText": "https://v.kuaishou.com/JZU4x5Mc",
+      "htmlTitle": "快手主页@神剑大帝"
+    }
+  }
+}

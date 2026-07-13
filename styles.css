@@ -18,6 +18,11 @@ label{color:var(--muted);font-size:13px;display:grid;gap:8px}
 .nav-button{justify-content:flex-start;background:transparent;color:#cbd5e1;border-color:rgba(255,255,255,.08)}
 .nav-button.active,.nav-button:hover{background:rgba(255,255,255,.1);color:#fff;border-color:rgba(255,255,255,.18)}
 .main{min-width:0;padding:28px}
+.local-project-actions{position:sticky;top:0;z-index:35;display:flex;justify-content:flex-end;align-items:center;gap:10px;margin:-6px 0 16px;padding:8px 0;background:linear-gradient(180deg,var(--bg) 70%,rgba(245,247,251,0))}
+.local-project-actions button{font-weight:800}
+.local-project-actions #projectActionStatus{margin:0;max-width:420px;text-align:right}
+.project-sync-progress{width:180px;height:8px;border-radius:999px;background:#dbe7f6;overflow:hidden;box-shadow:inset 0 0 0 1px rgba(39,78,125,.08)}
+.project-sync-progress span{display:block;width:0;height:100%;border-radius:inherit;background:linear-gradient(90deg,#33d6a6,#1677ff);transition:width .2s ease}
 .view{display:none;gap:18px}
 .view.active{display:grid}
 .toolbar,.filter-bar{display:flex;align-items:center;justify-content:space-between;gap:14px;flex-wrap:wrap}
@@ -41,6 +46,9 @@ label{color:var(--muted);font-size:13px;display:grid;gap:8px}
 .status-text{margin:10px 0 0;color:var(--muted);font-size:13px;line-height:1.6}
 .status-text.success{color:var(--green)}
 .status-text.error{color:var(--red)}
+.detail-import-panel{display:grid;gap:10px;margin:0 0 12px;border-left:5px solid var(--accent)}
+.detail-import-row{display:grid;grid-template-columns:minmax(260px,1fr) auto;gap:10px;align-items:center}
+.detail-import-row button{min-width:130px}
 .import-grid{display:grid;grid-template-columns:minmax(0,1fr) minmax(320px,.8fr);gap:18px}
 .form-grid,.builder-grid,.ai-panel{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:14px}
 .wide{grid-column:1/-1}
@@ -639,6 +647,7 @@ body.read-only-mode .import-missing-creator,
 body.read-only-mode .import-existing-creator,
 body.read-only-mode .reload-creator-account,
 body.read-only-mode .delete-creator-account,
+body.read-only-mode .local-only,
 body.read-only-mode .nav-button[data-view="desktop-pet"],
 body.read-only-mode .nav-button[data-view="ai"],
 body.read-only-mode #view-desktop-pet,

@@ -1,0 +1,83 @@
+{
+  "dataset": "creators",
+  "action": "add",
+  "key": "creator-kuaishou-3569613264",
+  "label": "栖逐",
+  "updatedAt": "2026-07-13T07:20:39.710Z",
+  "payload": {
+    "id": "creator-kuaishou-3569613264",
+    "name": "栖逐",
+    "profileName": "栖逐",
+    "platform": "快手",
+    "avatar": "https://p66-pro.a.yximgs.com/uhead/AB/2026/05/10/21/BMjAyNjA1MTAyMTEyMTZfMzU2OTYxMzI2NF8yX2hkMzc3XzY3OQ==_s.jpg",
+    "followerText": "2374",
+    "followerCount": 2374,
+    "followerApproximate": false,
+    "followerManualNumber": "",
+    "followerManualUnit": "none",
+    "manualUserId": "",
+    "gender": "女",
+    "displayNamePlatform": "",
+    "displayAvatarPlatform": "",
+    "forceProfileName": false,
+    "userId": "3569613264",
+    "handle": "cqc090108",
+    "source": "https://v.kuaishou.com/K2AJgL3b",
+    "resolvedUrl": "https://c.kuaishou.com/fw/user/3x5vuwf2xtc5tui?fid=3569613264&cc=share_copylink&followRefer=151&shareMethod=TOKEN&kpn=KUAISHOU&subBiz=PROFILE&shareId=19032247135411&shareToken=X-6mdcavkwAjMDkN&shareResourceType=PROFILE_SELF&shareMode=APP&originShareId=19032247135411&appType=21&shareObjectId=3569613264&shareUrlOpened=0&timestamp=1783850193534",
+    "importedAt": "2026-07-12T15:35:34.037Z",
+    "raw": {
+      "userInfo": {},
+      "pageData": {
+        "name": "栖逐",
+        "avatar": "https://p66-pro.a.yximgs.com/uhead/AB/2026/05/10/21/BMjAyNjA1MTAyMTEyMTZfMzU2OTYxMzI2NF8yX2hkMzc3XzY3OQ==_s.jpg",
+        "userId": "3569613264",
+        "handle": "cqc090108",
+        "follower": {
+          "text": "2374",
+          "count": 2374
+        },
+        "gender": "女"
+      },
+      "rawPageData": {
+        "name": "栖逐",
+        "avatar": "https://p66-pro.a.yximgs.com/uhead/AB/2026/05/10/21/BMjAyNjA1MTAyMTEyMTZfMzU2OTYxMzI2NF8yX2hkMzc3XzY3OQ==_s.jpg",
+        "userId": "3569613264",
+        "handle": "cqc090108",
+        "follower": {
+          "text": "2374",
+          "count": 2374
+        },
+        "gender": "女"
+      },
+      "apiResult": 400002,
+      "targetIds": [
+        "3569613264"
+      ],
+      "targetHandles": [
+        "cqc090108",
+        "3x5vuwf2xtc5tui"
+      ],
+      "sharerIds": [
+        "3569613264"
+      ],
+      "rejectedUsers": [],
+      "pageWasSharer": false,
+      "pageNeedsRetry": false,
+      "pageAttempts": [
+        {
+          "name": "栖逐",
+          "userId": "3569613264",
+          "handle": "cqc090108",
+          "hasAvatar": true,
+          "followerCount": 2374,
+          "pageWasSharer": false,
+          "pageNeedsRetry": false
+        }
+      ],
+      "usedExistingCreator": null,
+      "sharedName": "栖逐",
+      "sourceText": "https://v.kuaishou.com/K2AJgL3b 看了这么多快手，还是「栖逐」最好玩了！ 复制此消息，打开【快手】直接观看！",
+      "htmlTitle": "快手主页@栖逐"
+    }
+  }
+}

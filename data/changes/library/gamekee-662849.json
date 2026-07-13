@@ -1,0 +1,215 @@
+{
+  "dataset": "library",
+  "action": "modify",
+  "key": "gamekee-662849",
+  "label": "布加迪 Divo",
+  "updatedAt": "2026-07-13T07:20:39.213Z",
+  "payload": {
+    "id": "gamekee-662849",
+    "name": "布加迪 Divo",
+    "type": "car",
+    "role": "竞速位",
+    "tags": [
+      "竞速",
+      "城市",
+      "T2",
+      "竞速位",
+      "真实阵营",
+      "布加迪",
+      "汽油",
+      "能量透支",
+      "伺机待发",
+      "竞速级氮气支架",
+      "空气动力学套件",
+      "赛道专精 (LV3解锁)",
+      "RECU限制解除(LV8解锁)",
+      "极速",
+      "动力",
+      "耐久",
+      "氮气充能",
+      "氮气时长",
+      "氮气极速",
+      "涡轮时长",
+      "涡轮极速"
+    ],
+    "description": "布加迪 Divo发布于2018年，是布加迪 Chiron的继任者。正如布加迪一贯的传统，Divo这一名字来自布加迪车手Albert Divo。相比于Chiron，Divo在外观上更加激进和个性，新的空气动力学部件给予了它更加强大的下压力，让它在赛道中的表现更加出色。动力方面，Divo也采用了布加迪“祖传”的8.0升W16四涡轮增压引擎，可以轻松输出超过千匹的马力。\n基础信息：车辆类型=真实阵营；厂商=布加迪；定位=竞速位；赛道专精=城市；能源类型=汽油；驱动方式=中置四驱；车重=1961kg；扩展芯片类型=○○△◣◣V\n性能：极速=220.0+2km/h；动力=7.6；耐久=200；氮气充能=30%；起步充能=30%；氮气时长=5.80秒；氮气极速=27.1/40.65km/h；涡轮时长=0.66/1.98秒；涡轮极速=7.00/10.50km/h\n技能：能量透支 - 获得持续#desc[数值]的长时间爆发加速，极速提升#desc[数值]。爆发结束后进入4.5秒透支状态，处于透支状态时无法使用大招；伺机待发 - 首次使用大招前，每秒使本局内极速+3km/h（上限叠加至30km/h）并进入隐身状态；竞速级氮气支架 - 解锁1×5磅，2×2.5磅，1x6磅，3x2磅，2x3磅氮气；空气动力学套件 - 跟随在车辆后方将获得尾流，产生持续的氮气充能效果；赛道专精 (LV3解锁) - 在城市赛道，使用氮气时获得额外大招充能并在落后第一名超过一定距离时获得速度提升效果；RECU限制解除(LV8解锁) - 能量透支可以充能两次\n资料说明：扩展芯片类型：\"○\"为圆形、\"△\"为三角形、\"◇\"为菱形、\"◣\"为六边形、\"V\"为V形芯片",
+    "source": "https://www.gamekee.com/aceracer/662849.html",
+    "image": "./data/vehicle-images/vehicle-gamekee-662849-0-d381933ebf.png",
+    "images": [
+      "./data/vehicle-images/vehicle-gamekee-662849-0-d381933ebf.png",
+      "./data/vehicle-images/vehicle-gamekee-662849-1-50d88fc713.png",
+      "./data/vehicle-images/vehicle-gamekee-662849-2-30b796aa43.png",
+      "./data/vehicle-images/vehicle-gamekee-662849-3-cc6635664b.png"
+    ],
+    "details": {
+      "speedSheet": {
+        "出场赛季": "S9",
+        "位置": "竞速",
+        "场地适用": "城市",
+        "稀有度": "-",
+        "梯度排行": "T2",
+        "干扰距离": "-",
+        "辅助距离": "-",
+        "特殊备注": "-",
+        "特殊备注（被动对于自身增益）": "-",
+        "RECU": "-",
+        "技能简介": "-",
+        "技能对于自身": "-",
+        "推荐队友车辆": "-",
+        "推荐队友车辆原因": "-",
+        "推荐队友车辆原因（技能或者被动或者SP对于队友增益）": "-",
+        "不推荐队友车辆": "-",
+        "不推荐队友车辆原因": "-",
+        "克制对手车辆": "-",
+        "克制对手车辆原因": "-",
+        "被对手车辆克制": "-",
+        "被对手车辆克制原因": "-",
+        "推荐使用地图": "-",
+        "赋能推荐": "-",
+        "芯片推荐": "-",
+        "基础极速": "-",
+        "基础动力": "-",
+        "基础耐久": "-",
+        "基础氮气充能": "-",
+        "基础起步充能": "-",
+        "基础氮气时长": "-",
+        "基础蓝氮极速": "-",
+        "基础紫氮极速": "-",
+        "蓝喷涡轮时长": "-",
+        "紫喷涡轮时长": "-",
+        "蓝喷涡轮极速": "-",
+        "紫喷涡轮极速": "-",
+        "技能极速提升": "95km/h",
+        "大招持续时间": "12秒"
+      },
+      "speedSheetSourceName": "布加迪Divo",
+      "skills": [
+        {
+          "name": "能量透支",
+          "desc": "获得持续#desc[数值]的长时间爆发加速，极速提升#desc[数值]。爆发结束后进入4.5秒透支状态，处于透支状态时无法使用大招",
+          "values": "极速提升：60/75/95km/h（LV1/LV7/LV10）加速时间：8/10/12秒（LV1/LV5/LV9）透支时间：4.5秒",
+          "icon": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/759975/2025/4/23/216820.png",
+          "images": [
+            "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/759975/2025/4/23/216820.png"
+          ]
+        },
+        {
+          "name": "伺机待发",
+          "desc": "首次使用大招前，每秒使本局内极速+3km/h（上限叠加至30km/h）并进入隐身状态",
+          "values": "最大加速所需时长：9秒伺机待发每秒叠速：3km/h（上限：30km/h）",
+          "icon": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/759975/2025/4/23/468569.png",
+          "images": [
+            "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/759975/2025/4/23/468569.png"
+          ]
+        },
+        {
+          "name": "竞速级氮气支架",
+          "desc": "解锁1×5磅，2×2.5磅，1x6磅，3x2磅，2x3磅氮气",
+          "values": "LV2：解锁1x5磅氮气配置LV3：解锁2×2.5磅氮气配置LV4：解锁1x6磅氮气配置LV5：解锁3×2磅氮气配置LV6：解锁2x3磅氮气配置",
+          "icon": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/71178/2025/4/16/725575.png",
+          "images": [
+            "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/71178/2025/4/16/725575.png"
+          ]
+        },
+        {
+          "name": "空气动力学套件",
+          "desc": "跟随在车辆后方将获得尾流，产生持续的氮气充能效果",
+          "values": "",
+          "icon": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/71178/2025/4/16/521180.png",
+          "images": [
+            "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/71178/2025/4/16/521180.png"
+          ]
+        },
+        {
+          "name": "赛道专精 (LV3解锁)",
+          "desc": "在城市赛道，使用氮气时获得额外大招充能并在落后第一名超过一定距离时获得速度提升效果",
+          "values": "",
+          "icon": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/759975/2025/4/23/465667.png",
+          "images": [
+            "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/759975/2025/4/23/465667.png"
+          ]
+        },
+        {
+          "name": "RECU限制解除(LV8解锁)",
+          "desc": "能量透支可以充能两次",
+          "values": "",
+          "icon": "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/759975/2025/4/23/23514.png",
+          "images": [
+            "https://cdnimg-v2.gamekee.com/wiki2.0/images/w_64/h_64/50553/759975/2025/4/23/23514.png"
+          ]
+        }
+      ],
+      "attrs": {
+        "车辆类型": "真实阵营",
+        "厂商": "布加迪",
+        "定位": "竞速位",
+        "赛道专精": "城市",
+        "能源类型": "汽油",
+        "驱动方式": "中置四驱",
+        "车重": "1961kg",
+        "扩展芯片类型": "○○△◣◣V"
+      },
+      "stats": {
+        "极速": "220.0+2km/h",
+        "动力": "7.6",
+        "耐久": "200",
+        "氮气充能": "30%",
+        "起步充能": "30%",
+        "氮气时长": "5.80秒",
+        "氮气极速": "27.1/40.65km/h",
+        "涡轮时长": "0.66/1.98秒",
+        "涡轮极速": "7.00/10.50km/h"
+      },
+      "coreAbilityNames": [
+        "能量透支",
+        "伺机待发"
+      ],
+      "abilityLabels": {
+        "能量透支": "技能",
+        "伺机待发": "被动"
+      },
+      "carMeta": {
+        "rarity": "传说",
+        "category": "竞速",
+        "trackSpecialty": "城市",
+        "mainPosition": "",
+        "includedPositions": []
+      },
+      "coreAbilities": [
+        {
+          "name": "能量透支",
+          "category": "技能"
+        },
+        {
+          "name": "伺机待发",
+          "category": "被动"
+        }
+      ],
+      "content_id": 662849,
+      "entry_id": 186959,
+      "updated_at": 1747989565,
+      "imageCandidates": 4,
+      "speedSheetManual": false,
+      "supportCategories": [],
+      "vehicleRelations": {
+        "recommendedTeammates": [
+          {
+            "type": "car",
+            "id": "gamekee-662114",
+            "reason": "杰哥每7秒解控可以解掉自己的虚弱状态",
+            "syncKey": "gamekee-662114::relation-sync::gamekee-662849::recommendedTeammates::recommendedTeammates",
+            "detached": false
+          }
+        ],
+        "notRecommendedTeammates": [],
+        "counteredOpponents": [],
+        "countersByOpponents": [],
+        "mixedBattleSp": []
+      },
+      "driveAnchor": {
+        "x": 50,
+        "y": 50
+      }
+    }
+  }
+}
